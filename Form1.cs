@@ -13,7 +13,7 @@ namespace TMoSRandomizerTracker
         private void Tracker_Load(object sender, EventArgs e) // Set default values
         {
             string tmos_r_t_version = System.Windows.Forms.Application.ProductVersion;
-            this.Text = String.Format("TMoS-R Tracker v.{0}", tmos_r_t_version);
+            this.Text = String.Format("TMoS-R Tracker v{0}", tmos_r_t_version);
             //bool got_faruk = false;
             //bool got_kebabu = false;
             //bool got_gunmeca = false;
@@ -40,7 +40,6 @@ namespace TMoSRandomizerTracker
                 faruk_box.Image = Properties.Resources.char_faruk;
             }
             Properties.Settings.Default.got_faruk = !Properties.Settings.Default.got_faruk;
-            faruk_box.Refresh();
         }
 
         private void kebabu_box_Click(object sender, EventArgs e)
@@ -54,7 +53,6 @@ namespace TMoSRandomizerTracker
                 kebabu_box.Image = Properties.Resources.char_kebabu;
             }
             Properties.Settings.Default.got_kebabu = !Properties.Settings.Default.got_kebabu;
-            kebabu_box.Refresh();
         }
 
         private void gunmeca_box_Click(object sender, EventArgs e)
@@ -68,7 +66,6 @@ namespace TMoSRandomizerTracker
                 gunmeca_box.Image = Properties.Resources.char_gunmeca;
             }
             Properties.Settings.Default.got_gunmeca = !Properties.Settings.Default.got_gunmeca;
-            gunmeca_box.Refresh();
         }
 
         private void supica_box_Click(object sender, EventArgs e)
@@ -82,7 +79,6 @@ namespace TMoSRandomizerTracker
                 supica_box.Image = Properties.Resources.char_supica;
             }
             Properties.Settings.Default.got_supica = !Properties.Settings.Default.got_supica;
-            supica_box.Refresh();
         }
 
         private void epin_box_Click(object sender, EventArgs e)
@@ -96,21 +92,19 @@ namespace TMoSRandomizerTracker
                 epin_box.Image = Properties.Resources.char_epin;
             }
             Properties.Settings.Default.got_epin = !Properties.Settings.Default.got_epin;
-            epin_box.Refresh();
         }
 
         private void pukin_box_Click(object sender, EventArgs e)
         {
             if (Properties.Settings.Default.got_pukin == true)
             {
-                pukin_box.Image = Properties.Resources.char_pukin_bw;
+
             }
             else
             {
                 pukin_box.Image = Properties.Resources.char_pukin;
             }
             Properties.Settings.Default.got_pukin = !Properties.Settings.Default.got_pukin;
-            pukin_box.Refresh();
         }
 
         private void mustafa_box_Click(object sender, EventArgs e)
@@ -124,7 +118,6 @@ namespace TMoSRandomizerTracker
                 mustafa_box.Image = Properties.Resources.char_mustafa;
             }
             Properties.Settings.Default.got_mustafa = !Properties.Settings.Default.got_mustafa;
-            mustafa_box.Refresh();
         }
 
         private void gubibi_box_Click(object sender, EventArgs e)
@@ -138,7 +131,6 @@ namespace TMoSRandomizerTracker
                 gubibi_box.Image = Properties.Resources.char_gubibi;
             }
             Properties.Settings.Default.got_gubibi = !Properties.Settings.Default.got_gubibi;
-            gubibi_box.Refresh();
         }
 
         private void rainy_box_Click(object sender, EventArgs e)
@@ -152,7 +144,6 @@ namespace TMoSRandomizerTracker
                 rainy_box.Image = Properties.Resources.char_rainy;
             }
             Properties.Settings.Default.got_rainy = !Properties.Settings.Default.got_rainy;
-            rainy_box.Refresh();
         }
 
         private void hassan_box_Click(object sender, EventArgs e)
@@ -166,7 +157,6 @@ namespace TMoSRandomizerTracker
                 hassan_box.Image = Properties.Resources.char_hassan;
             }
             Properties.Settings.Default.got_hassan = !Properties.Settings.Default.got_hassan;
-            hassan_box.Refresh();
         }
 
         private void armor_box_Click(object sender, EventArgs e)
@@ -254,6 +244,45 @@ namespace TMoSRandomizerTracker
                 Properties.Settings.Default.sword_level = 1;
                 sword_box.Image = Properties.Resources.sword_sword;
             }
+        }
+
+        private void reset_button_Click(object sender, EventArgs e)
+        {
+            hassan_box.Image = Properties.Resources.char_hassan_bw;
+            rainy_box.Image = Properties.Resources.char_rainy_bw;
+            gubibi_box.Image = Properties.Resources.char_gubibi_bw;
+            mustafa_box.Image = Properties.Resources.char_mustafa_bw;
+            pukin_box.Image = Properties.Resources.char_pukin_bw;
+            epin_box.Image = Properties.Resources.char_epin_bw;
+            supica_box.Image = Properties.Resources.char_supica_bw;
+            gunmeca_box.Image = Properties.Resources.char_gunmeca_bw;
+            kebabu_box.Image = Properties.Resources.char_kebabu_bw;
+            faruk_box.Image = Properties.Resources.char_faruk_bw;
+            Properties.Settings.Default.got_faruk = false;
+            Properties.Settings.Default.got_kebabu = false;
+            Properties.Settings.Default.got_gunmeca = false;
+            Properties.Settings.Default.got_supica = false;
+            Properties.Settings.Default.got_epin = false;
+            Properties.Settings.Default.got_pukin = false;
+            Properties.Settings.Default.got_mustafa = false;
+            Properties.Settings.Default.got_gubibi = false;
+            Properties.Settings.Default.got_rainy = false;
+            Properties.Settings.Default.got_hassan = false;
+
+            Properties.Settings.Default.armor_level = 0;
+            armor_box.Image = Properties.Resources.armor_base;
+
+            Properties.Settings.Default.rod_level = 1;
+            rod_box.Image = Properties.Resources.rod_rod;
+
+            Properties.Settings.Default.sword_level = 1;
+            sword_box.Image = Properties.Resources.sword_sword;
+        }
+
+        private void about_button_Click(object sender, EventArgs e)
+        {
+            Form2 about_dialog = new Form2();
+            about_dialog.ShowDialog();
         }
     }
 }

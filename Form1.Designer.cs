@@ -56,6 +56,8 @@
             this.sword_box = new System.Windows.Forms.PictureBox();
             this.rod_box = new System.Windows.Forms.PictureBox();
             this.armor_box = new System.Windows.Forms.PictureBox();
+            this.reset_button = new System.Windows.Forms.Button();
+            this.about_button = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.ch1tab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_map_picture_box)).BeginInit();
@@ -223,6 +225,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.reset_button);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Controls.Add(this.pukin_box);
             this.splitContainer1.Panel1.Controls.Add(this.gubibi_box);
@@ -237,6 +240,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.about_button);
             this.splitContainer1.Panel2.Controls.Add(this.label3);
             this.splitContainer1.Panel2.Controls.Add(this.sword_box);
             this.splitContainer1.Panel2.Controls.Add(this.rod_box);
@@ -248,9 +252,10 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Press Start 2P", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(116, 13);
+            this.label1.Location = new System.Drawing.Point(132, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 21);
             this.label1.TabIndex = 10;
@@ -368,6 +373,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Press Start 2P", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(128, 10);
@@ -408,6 +414,31 @@
             this.armor_box.TabIndex = 9;
             this.armor_box.TabStop = false;
             this.armor_box.Click += new System.EventHandler(this.armor_box_Click);
+            // 
+            // reset_button
+            // 
+            this.reset_button.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.reset_button.Location = new System.Drawing.Point(368, 11);
+            this.reset_button.Name = "reset_button";
+            this.reset_button.Size = new System.Drawing.Size(75, 23);
+            this.reset_button.TabIndex = 11;
+            this.reset_button.TabStop = false;
+            this.reset_button.Text = "RESET";
+            this.reset_button.UseVisualStyleBackColor = true;
+            this.reset_button.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // about_button
+            // 
+            this.about_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.about_button.AutoSize = true;
+            this.about_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.about_button.Location = new System.Drawing.Point(420, 172);
+            this.about_button.Name = "about_button";
+            this.about_button.Size = new System.Drawing.Size(23, 23);
+            this.about_button.TabIndex = 12;
+            this.about_button.Text = "?";
+            this.about_button.UseVisualStyleBackColor = true;
+            this.about_button.Click += new System.EventHandler(this.about_button_Click);
             // 
             // Form1
             // 
@@ -486,6 +517,8 @@
         private System.Windows.Forms.PictureBox armor_box;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button reset_button;
+        private System.Windows.Forms.Button about_button;
     }
 }
 
