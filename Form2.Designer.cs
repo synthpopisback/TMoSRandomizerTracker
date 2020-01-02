@@ -35,7 +35,6 @@
             this.copyright_label = new System.Windows.Forms.Label();
             this.maps_label = new System.Windows.Forms.Label();
             this.rando_label = new System.Windows.Forms.Label();
-            this.website_link_label = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // title_label
@@ -51,7 +50,7 @@
             // version_label
             // 
             this.version_label.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.version_label.Location = new System.Drawing.Point(0, 78);
+            this.version_label.Location = new System.Drawing.Point(0, 69);
             this.version_label.Name = "version_label";
             this.version_label.Size = new System.Drawing.Size(270, 13);
             this.version_label.TabIndex = 1;
@@ -71,7 +70,7 @@
             // copyright_label
             // 
             this.copyright_label.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.copyright_label.Location = new System.Drawing.Point(0, 91);
+            this.copyright_label.Location = new System.Drawing.Point(0, 82);
             this.copyright_label.Name = "copyright_label";
             this.copyright_label.Size = new System.Drawing.Size(270, 13);
             this.copyright_label.TabIndex = 3;
@@ -98,24 +97,11 @@
             this.rando_label.TabIndex = 5;
             this.rando_label.Text = "Randomizer: ct187";
             // 
-            // website_link_label
-            // 
-            this.website_link_label.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.website_link_label.Location = new System.Drawing.Point(0, 55);
-            this.website_link_label.Name = "website_link_label";
-            this.website_link_label.Size = new System.Drawing.Size(270, 23);
-            this.website_link_label.TabIndex = 6;
-            this.website_link_label.TabStop = true;
-            this.website_link_label.Text = "https://bit.ly/tmosrt";
-            this.website_link_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.website_link_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.website_link_label_LinkClicked);
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(270, 104);
-            this.Controls.Add(this.website_link_label);
+            this.ClientSize = new System.Drawing.Size(270, 95);
             this.Controls.Add(this.rando_label);
             this.Controls.Add(this.version_label);
             this.Controls.Add(this.maps_label);
@@ -144,6 +130,5 @@
         private System.Windows.Forms.Label copyright_label;
         private System.Windows.Forms.Label maps_label;
         private System.Windows.Forms.Label rando_label;
-        private System.Windows.Forms.LinkLabel website_link_label;
     }
 }

@@ -22,10 +22,5 @@ namespace TMoSRandomizerTracker
             string tmos_r_t_version = System.Windows.Forms.Application.ProductVersion;
             version_label.Text = String.Format("Version: {0}", tmos_r_t_version);
         }
-
-        private void website_link_label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://www.github.com/synthpopisback/TMoSRandomizerTracker/releases");
-        }
     }
 }
