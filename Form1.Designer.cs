@@ -216,6 +216,7 @@
             // 
             this.splitContainer1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -416,6 +417,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";

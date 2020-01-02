@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TMoSRandomizerTracker
@@ -16,7 +9,7 @@ namespace TMoSRandomizerTracker
         {
             InitializeComponent();
         }
-        
+
         private void Tracker_Load(object sender, EventArgs e) // Set default values
         {
             string tmos_r_t_version = System.Windows.Forms.Application.ProductVersion;
@@ -178,7 +171,7 @@ namespace TMoSRandomizerTracker
 
         private void armor_box_Click(object sender, EventArgs e)
         {
-            if(Properties.Settings.Default.armor_level == 0)
+            if (Properties.Settings.Default.armor_level == 0)
             {
                 Properties.Settings.Default.armor_level++;
                 armor_box.Image = Properties.Resources.armor_rarmor;
@@ -228,7 +221,7 @@ namespace TMoSRandomizerTracker
                 rod_box.Image = Properties.Resources.rod_rod;
             }
         }
-        
+
         private void sword_box_Click(object sender, EventArgs e)
         {
             if (Properties.Settings.Default.sword_level == 1)

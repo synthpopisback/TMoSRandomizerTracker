@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -49,6 +49,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>TMoSRandomizerTracker.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Icon1.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -111,36 +117,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\char_epin_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_faruk_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_gubibi_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_gunmeca_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_hassan_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_kebabu_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_mustafa_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_pukin_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_rainy_big.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\char_supica_big.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\map_ch1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -154,9 +130,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\map_ch5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hero_big.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\rod_stardust.png" />
@@ -262,6 +235,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\char_supica_bw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
