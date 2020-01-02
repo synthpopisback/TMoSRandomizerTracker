@@ -190,5 +190,17 @@ namespace TMoSRandomizerTracker.Properties {
                 this["commentary_mode"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int location_tracker1_state {
+            get {
+                return ((int)(this["location_tracker1_state"]));
+            }
+            set {
+                this["location_tracker1_state"] = value;
+            }
+        }
     }
 }

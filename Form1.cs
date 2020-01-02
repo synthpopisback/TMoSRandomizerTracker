@@ -98,7 +98,7 @@ namespace TMoSRandomizerTracker
         {
             if (Properties.Settings.Default.got_pukin == true)
             {
-
+                epin_box.Image = Properties.Resources.char_epin_bw;
             }
             else
             {
@@ -285,6 +285,27 @@ namespace TMoSRandomizerTracker
         {
             Form2 about_dialog = new Form2();
             about_dialog.ShowDialog();
+        }
+
+        private void ch1_marker1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Properties.Settings.Default.location_tracker1_state = (Properties.Settings.Default.location_tracker1_state + 1) % 4;
+            if (Properties.Settings.Default.location_tracker1_state == 1)
+            {
+                ch1_marker1.Image = Properties.Resources.icon_coronya;
+            }
+            else if (Properties.Settings.Default.location_tracker1_state == 2)
+            {
+                ch1_marker1.Image = Properties.Resources.icon_faruk;
+            }
+            else if (Properties.Settings.Default.location_tracker1_state == 3)
+            {
+                ch1_marker1.Image = Properties.Resources.icon_kebabu;
+            }
+            else if (Properties.Settings.Default.location_tracker1_state == 0)
+            {
+                ch1_marker1.Image = Properties.Resources.icon_transparent;
+            }
         }
     }
 }

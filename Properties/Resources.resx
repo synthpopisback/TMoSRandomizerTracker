@@ -118,137 +118,134 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="armor_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\armor_base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="armor_lightarmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\armor_lightarmor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="armor_rarmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\armor_rarmor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_epin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_epin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="char_hassan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_hassan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="char_faruk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_faruk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="char_gubibi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_gubibi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_gunmeca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_gunmeca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_hassan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_hassan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_kebabu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_kebabu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_mustafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_mustafa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_pukin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_pukin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rod_isfa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rod_isfa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="char_rainy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_rainy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="char_supica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_supica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rod_cimaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rod_cimaron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rod_crystal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rod_crystal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rod_flame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rod_flame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rod_isfa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rod_isfa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rod_rod" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rod_rod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rod_stardust" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rod_stardust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sword_dragoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sword_dragoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sword_kashim" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sword_kashim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sword_legend" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sword_legend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sword_rostam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sword_rostam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sword_simitar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sword_simitar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sword_sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sword_sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_epin_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_epin_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_faruk_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_faruk_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_gubibi_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_gubibi_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_gunmeca_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_gunmeca_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="char_mustafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_mustafa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="char_hassan_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_hassan_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="char_kebabu_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_kebabu_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_mustafa_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_mustafa_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="char_pukin_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_pukin_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_rainy_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_rainy_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="char_supica_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\char_supica_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="map_ch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch1map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="map_ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch2map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="map_ch3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ch3map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map_ch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch4map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_hassan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_hassan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map_ch5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch5map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rod_flame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rod_flame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_cimaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_cimaron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sword_kashim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword_kashim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_kebabu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_kebabu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_mustafa_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_mustafa_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rod_rod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rod_rod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rod_crystal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rod_crystal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_pukin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_pukin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_gubibi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_gubibi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword_sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword_sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_trooper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_trooper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_pukin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_pukin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_supica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_supica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword_legend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword_legend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_epin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_epin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="map_ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch2map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rod_cimaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rod_cimaron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch4map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_gubibi_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_gubibi_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_mustafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_mustafa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_gunmeca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_gunmeca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_epin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_epin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_coronya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_coronya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_faruk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_faruk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword_simitar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword_simitar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_rarmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armor_rarmor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_supica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_supica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_kebabu_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_kebabu_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_rainy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_rainy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword_dragoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword_dragoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_gunmeca_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_gunmeca_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword_rostam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword_rostam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armor_base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch1map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_gubibi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_gubibi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,25 +253,34 @@
   <data name="icon_gunmeca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_gunmeca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_hassan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_hassan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="char_supica_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_supica_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rod_stardust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rod_stardust.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_epin_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_epin_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_lightarmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armor_lightarmor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_faruk_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_faruk_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch5map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_cimaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_cimaron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_kebabu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_kebabu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_mustafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_mustafa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="char_rainy_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_rainy_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_pukin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_pukin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_rainy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_rainy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_supica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_supica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_trooper" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_trooper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

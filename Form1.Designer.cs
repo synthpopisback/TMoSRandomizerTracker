@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainwindow));
             this.map_tabs = new System.Windows.Forms.TabControl();
             this.ch1tab = new System.Windows.Forms.TabPage();
+            this.ch1_marker1 = new System.Windows.Forms.PictureBox();
             this.ch1_map_picture_box = new System.Windows.Forms.PictureBox();
             this.ch2tab = new System.Windows.Forms.TabPage();
             this.ch2_map_picture_box = new System.Windows.Forms.PictureBox();
@@ -58,8 +59,16 @@
             this.sword_box = new System.Windows.Forms.PictureBox();
             this.rod_box = new System.Windows.Forms.PictureBox();
             this.armor_box = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.map_tabs.SuspendLayout();
             this.ch1tab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_map_picture_box)).BeginInit();
             this.ch2tab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ch2_map_picture_box)).BeginInit();
@@ -86,6 +95,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.sword_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rod_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.armor_box)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // map_tabs
@@ -106,6 +122,10 @@
             // ch1tab
             // 
             this.ch1tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch1tab.Controls.Add(this.pictureBox4);
+            this.ch1tab.Controls.Add(this.pictureBox2);
+            this.ch1tab.Controls.Add(this.pictureBox1);
+            this.ch1tab.Controls.Add(this.ch1_marker1);
             this.ch1tab.Controls.Add(this.ch1_map_picture_box);
             this.ch1tab.Location = new System.Drawing.Point(4, 22);
             this.ch1tab.Name = "ch1tab";
@@ -113,6 +133,18 @@
             this.ch1tab.Size = new System.Drawing.Size(813, 736);
             this.ch1tab.TabIndex = 0;
             this.ch1tab.Text = "Chapter 1";
+            // 
+            // ch1_marker1
+            // 
+            this.ch1_marker1.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker1.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_transparent;
+            this.ch1_marker1.Location = new System.Drawing.Point(184, 506);
+            this.ch1_marker1.Name = "ch1_marker1";
+            this.ch1_marker1.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker1.TabIndex = 4;
+            this.ch1_marker1.TabStop = false;
+            this.ch1_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker1_MouseClick);
             // 
             // ch1_map_picture_box
             // 
@@ -130,6 +162,7 @@
             // ch2tab
             // 
             this.ch2tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch2tab.Controls.Add(this.pictureBox3);
             this.ch2tab.Controls.Add(this.ch2_map_picture_box);
             this.ch2tab.Location = new System.Drawing.Point(4, 22);
             this.ch2tab.Name = "ch2tab";
@@ -154,6 +187,7 @@
             // ch3tab
             // 
             this.ch3tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch3tab.Controls.Add(this.pictureBox5);
             this.ch3tab.Controls.Add(this.ch3_map_picture_box);
             this.ch3tab.Location = new System.Drawing.Point(4, 22);
             this.ch3tab.Name = "ch3tab";
@@ -177,6 +211,7 @@
             // ch4tab
             // 
             this.ch4tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch4tab.Controls.Add(this.pictureBox6);
             this.ch4tab.Controls.Add(this.ch4_map_picture_box);
             this.ch4tab.Location = new System.Drawing.Point(4, 22);
             this.ch4tab.Name = "ch4tab";
@@ -200,6 +235,7 @@
             // ch5tab
             // 
             this.ch5tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch5tab.Controls.Add(this.pictureBox7);
             this.ch5tab.Controls.Add(this.ch5_map_picture_box);
             this.ch5tab.Location = new System.Drawing.Point(4, 22);
             this.ch5tab.Name = "ch5tab";
@@ -447,6 +483,83 @@
             this.armor_box.TabStop = false;
             this.armor_box.Click += new System.EventHandler(this.armor_box_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_faruk;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 30);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_kebabu;
+            this.pictureBox4.Location = new System.Drawing.Point(6, 54);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox3.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox5.TabIndex = 6;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox6.TabIndex = 6;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox7.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox7.TabIndex = 6;
+            this.pictureBox7.TabStop = false;
+            // 
             // mainwindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -462,14 +575,20 @@
             this.Load += new System.EventHandler(this.Tracker_Load);
             this.map_tabs.ResumeLayout(false);
             this.ch1tab.ResumeLayout(false);
+            this.ch1tab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_map_picture_box)).EndInit();
             this.ch2tab.ResumeLayout(false);
+            this.ch2tab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ch2_map_picture_box)).EndInit();
             this.ch3tab.ResumeLayout(false);
+            this.ch3tab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_map_picture_box)).EndInit();
             this.ch4tab.ResumeLayout(false);
+            this.ch4tab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ch4_map_picture_box)).EndInit();
             this.ch5tab.ResumeLayout(false);
+            this.ch5tab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ch5_map_picture_box)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -490,6 +609,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.sword_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rod_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.armor_box)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -525,6 +651,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button reset_button;
         private System.Windows.Forms.Button about_button;
+        private System.Windows.Forms.PictureBox ch1_marker1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 

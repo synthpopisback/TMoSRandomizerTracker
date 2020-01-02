@@ -303,6 +303,16 @@ namespace TMoSRandomizerTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_coronya {
+            get {
+                object obj = ResourceManager.GetObject("icon_coronya", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_epin {
             get {
                 object obj = ResourceManager.GetObject("icon_epin", resourceCulture);
@@ -396,6 +406,16 @@ namespace TMoSRandomizerTracker.Properties {
         internal static System.Drawing.Bitmap icon_supica {
             get {
                 object obj = ResourceManager.GetObject("icon_supica", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_transparent {
+            get {
+                object obj = ResourceManager.GetObject("icon_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
