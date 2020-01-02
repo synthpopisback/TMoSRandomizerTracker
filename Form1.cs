@@ -246,7 +246,7 @@ namespace TMoSRandomizerTracker
             }
         }
 
-        private void reset_button_Click(object sender, EventArgs e)
+        private void reset_button_MouseClick(object sender, MouseEventArgs e)
         {
             hassan_box.Image = Properties.Resources.char_hassan_bw;
             rainy_box.Image = Properties.Resources.char_rainy_bw;
@@ -277,6 +277,8 @@ namespace TMoSRandomizerTracker
 
             Properties.Settings.Default.sword_level = 1;
             sword_box.Image = Properties.Resources.sword_sword;
+
+            map_tabs.SelectedTab = ch1tab;
         }
 
         private void about_button_Click(object sender, EventArgs e)

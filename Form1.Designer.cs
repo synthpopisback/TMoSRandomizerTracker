@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.map_tabs = new System.Windows.Forms.TabControl();
             this.ch1tab = new System.Windows.Forms.TabPage();
             this.ch1_map_picture_box = new System.Windows.Forms.PictureBox();
             this.ch2tab = new System.Windows.Forms.TabPage();
@@ -41,6 +41,7 @@
             this.ch5tab = new System.Windows.Forms.TabPage();
             this.ch5_map_picture_box = new System.Windows.Forms.PictureBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.reset_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pukin_box = new System.Windows.Forms.PictureBox();
             this.gubibi_box = new System.Windows.Forms.PictureBox();
@@ -52,13 +53,12 @@
             this.mustafa_box = new System.Windows.Forms.PictureBox();
             this.kebabu_box = new System.Windows.Forms.PictureBox();
             this.faruk_box = new System.Windows.Forms.PictureBox();
+            this.about_button = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.sword_box = new System.Windows.Forms.PictureBox();
             this.rod_box = new System.Windows.Forms.PictureBox();
             this.armor_box = new System.Windows.Forms.PictureBox();
-            this.reset_button = new System.Windows.Forms.Button();
-            this.about_button = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
+            this.map_tabs.SuspendLayout();
             this.ch1tab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_map_picture_box)).BeginInit();
             this.ch2tab.SuspendLayout();
@@ -88,19 +88,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.armor_box)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // map_tabs
             // 
-            this.tabControl1.Controls.Add(this.ch1tab);
-            this.tabControl1.Controls.Add(this.ch2tab);
-            this.tabControl1.Controls.Add(this.ch3tab);
-            this.tabControl1.Controls.Add(this.ch4tab);
-            this.tabControl1.Controls.Add(this.ch5tab);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.tabControl1.Location = new System.Drawing.Point(460, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(821, 762);
-            this.tabControl1.TabIndex = 0;
+            this.map_tabs.Controls.Add(this.ch1tab);
+            this.map_tabs.Controls.Add(this.ch2tab);
+            this.map_tabs.Controls.Add(this.ch3tab);
+            this.map_tabs.Controls.Add(this.ch4tab);
+            this.map_tabs.Controls.Add(this.ch5tab);
+            this.map_tabs.Dock = System.Windows.Forms.DockStyle.Right;
+            this.map_tabs.Location = new System.Drawing.Point(460, 0);
+            this.map_tabs.Name = "map_tabs";
+            this.map_tabs.SelectedIndex = 0;
+            this.map_tabs.Size = new System.Drawing.Size(821, 762);
+            this.map_tabs.TabIndex = 0;
+            this.map_tabs.TabStop = false;
             // 
             // ch1tab
             // 
@@ -250,6 +251,18 @@
             this.splitContainer1.TabIndex = 3;
             this.splitContainer1.TabStop = false;
             // 
+            // reset_button
+            // 
+            this.reset_button.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.reset_button.Location = new System.Drawing.Point(368, 11);
+            this.reset_button.Name = "reset_button";
+            this.reset_button.Size = new System.Drawing.Size(75, 23);
+            this.reset_button.TabIndex = 11;
+            this.reset_button.TabStop = false;
+            this.reset_button.Text = "RESET";
+            this.reset_button.UseVisualStyleBackColor = true;
+            this.reset_button.MouseClick += new System.Windows.Forms.MouseEventHandler(this.reset_button_MouseClick);
+            // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -371,6 +384,20 @@
             this.faruk_box.TabStop = false;
             this.faruk_box.Click += new System.EventHandler(this.faruk_box_Click);
             // 
+            // about_button
+            // 
+            this.about_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.about_button.AutoSize = true;
+            this.about_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.about_button.Location = new System.Drawing.Point(420, 172);
+            this.about_button.Name = "about_button";
+            this.about_button.Size = new System.Drawing.Size(23, 23);
+            this.about_button.TabIndex = 12;
+            this.about_button.TabStop = false;
+            this.about_button.Text = "?";
+            this.about_button.UseVisualStyleBackColor = true;
+            this.about_button.Click += new System.EventHandler(this.about_button_Click);
+            // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -415,46 +442,20 @@
             this.armor_box.TabStop = false;
             this.armor_box.Click += new System.EventHandler(this.armor_box_Click);
             // 
-            // reset_button
-            // 
-            this.reset_button.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.reset_button.Location = new System.Drawing.Point(368, 11);
-            this.reset_button.Name = "reset_button";
-            this.reset_button.Size = new System.Drawing.Size(75, 23);
-            this.reset_button.TabIndex = 11;
-            this.reset_button.TabStop = false;
-            this.reset_button.Text = "RESET";
-            this.reset_button.UseVisualStyleBackColor = true;
-            this.reset_button.Click += new System.EventHandler(this.reset_button_Click);
-            // 
-            // about_button
-            // 
-            this.about_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.about_button.AutoSize = true;
-            this.about_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.about_button.Location = new System.Drawing.Point(420, 172);
-            this.about_button.Name = "about_button";
-            this.about_button.Size = new System.Drawing.Size(23, 23);
-            this.about_button.TabIndex = 12;
-            this.about_button.Text = "?";
-            this.about_button.UseVisualStyleBackColor = true;
-            this.about_button.Click += new System.EventHandler(this.about_button_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1281, 762);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.map_tabs);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "TMoS-R Tracker";
             this.Load += new System.EventHandler(this.Tracker_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.map_tabs.ResumeLayout(false);
             this.ch1tab.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ch1_map_picture_box)).EndInit();
             this.ch2tab.ResumeLayout(false);
@@ -490,7 +491,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl map_tabs;
         private System.Windows.Forms.TabPage ch1tab;
         private System.Windows.Forms.TabPage ch2tab;
         private System.Windows.Forms.TabPage ch3tab;
