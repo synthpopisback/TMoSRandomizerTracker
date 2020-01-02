@@ -248,5 +248,20 @@
   <ItemGroup>
     <None Include="Resources\Icon1.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ch1map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ch2map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ch3map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ch4map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ch5map.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

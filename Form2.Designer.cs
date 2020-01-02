@@ -83,9 +83,9 @@
             this.maps_label.Dock = System.Windows.Forms.DockStyle.Top;
             this.maps_label.Location = new System.Drawing.Point(0, 26);
             this.maps_label.Name = "maps_label";
-            this.maps_label.Size = new System.Drawing.Size(84, 13);
+            this.maps_label.Size = new System.Drawing.Size(87, 13);
             this.maps_label.TabIndex = 4;
-            this.maps_label.Text = "Maps: aaron2u2";
+            this.maps_label.Text = "Maps: rBarbaloot";
             // 
             // rando_label
             // 

@@ -1,6 +1,6 @@
 ﻿namespace TMoSRandomizerTracker
 {
-    partial class Form1
+    partial class mainwindow
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainwindow));
             this.map_tabs = new System.Windows.Forms.TabControl();
             this.ch1tab = new System.Windows.Forms.TabPage();
             this.ch1_map_picture_box = new System.Windows.Forms.PictureBox();
@@ -116,6 +116,7 @@
             // 
             // ch1_map_picture_box
             // 
+            this.ch1_map_picture_box.BackColor = System.Drawing.SystemColors.Control;
             this.ch1_map_picture_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_map_picture_box.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ch1_map_picture_box.Image = ((System.Drawing.Image)(resources.GetObject("ch1_map_picture_box.Image")));
@@ -139,9 +140,10 @@
             // 
             // ch2_map_picture_box
             // 
+            this.ch2_map_picture_box.BackColor = System.Drawing.SystemColors.Control;
             this.ch2_map_picture_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_map_picture_box.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ch2_map_picture_box.Image = ((System.Drawing.Image)(resources.GetObject("ch2_map_picture_box.Image")));
+            this.ch2_map_picture_box.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch2;
             this.ch2_map_picture_box.Location = new System.Drawing.Point(3, 3);
             this.ch2_map_picture_box.Name = "ch2_map_picture_box";
             this.ch2_map_picture_box.Size = new System.Drawing.Size(807, 730);
@@ -161,9 +163,10 @@
             // 
             // ch3_map_picture_box
             // 
+            this.ch3_map_picture_box.BackColor = System.Drawing.SystemColors.Control;
             this.ch3_map_picture_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_map_picture_box.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ch3_map_picture_box.Image = ((System.Drawing.Image)(resources.GetObject("ch3_map_picture_box.Image")));
+            this.ch3_map_picture_box.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch3;
             this.ch3_map_picture_box.Location = new System.Drawing.Point(0, 0);
             this.ch3_map_picture_box.Name = "ch3_map_picture_box";
             this.ch3_map_picture_box.Size = new System.Drawing.Size(813, 736);
@@ -183,9 +186,10 @@
             // 
             // ch4_map_picture_box
             // 
+            this.ch4_map_picture_box.BackColor = System.Drawing.SystemColors.Control;
             this.ch4_map_picture_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_map_picture_box.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ch4_map_picture_box.Image = ((System.Drawing.Image)(resources.GetObject("ch4_map_picture_box.Image")));
+            this.ch4_map_picture_box.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch4;
             this.ch4_map_picture_box.Location = new System.Drawing.Point(0, 0);
             this.ch4_map_picture_box.Name = "ch4_map_picture_box";
             this.ch4_map_picture_box.Size = new System.Drawing.Size(813, 736);
@@ -205,9 +209,10 @@
             // 
             // ch5_map_picture_box
             // 
+            this.ch5_map_picture_box.BackColor = System.Drawing.SystemColors.Control;
             this.ch5_map_picture_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_map_picture_box.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ch5_map_picture_box.Image = ((System.Drawing.Image)(resources.GetObject("ch5_map_picture_box.Image")));
+            this.ch5_map_picture_box.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch5;
             this.ch5_map_picture_box.Location = new System.Drawing.Point(0, 0);
             this.ch5_map_picture_box.Name = "ch5_map_picture_box";
             this.ch5_map_picture_box.Size = new System.Drawing.Size(813, 736);
@@ -442,7 +447,7 @@
             this.armor_box.TabStop = false;
             this.armor_box.Click += new System.EventHandler(this.armor_box_Click);
             // 
-            // Form1
+            // mainwindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -452,7 +457,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "mainwindow";
             this.Text = "TMoS-R Tracker";
             this.Load += new System.EventHandler(this.Tracker_Load);
             this.map_tabs.ResumeLayout(false);
