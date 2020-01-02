@@ -418,7 +418,7 @@
             this.sword_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.sword_box.TabIndex = 11;
             this.sword_box.TabStop = false;
-            this.sword_box.Click += new System.EventHandler(this.sword_box_Click);
+            this.sword_box.MouseClick += new System.Windows.Forms.MouseEventHandler(this.sword_box_MouseClick);
             // 
             // rod_box
             // 
@@ -429,7 +429,7 @@
             this.rod_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rod_box.TabIndex = 10;
             this.rod_box.TabStop = false;
-            this.rod_box.Click += new System.EventHandler(this.rod_box_Click);
+            this.rod_box.MouseClick += new System.Windows.Forms.MouseEventHandler(this.rod_box_MouseClick);
             // 
             // armor_box
             // 
@@ -440,7 +440,7 @@
             this.armor_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.armor_box.TabIndex = 9;
             this.armor_box.TabStop = false;
-            this.armor_box.Click += new System.EventHandler(this.armor_box_Click);
+            this.armor_box.MouseClick += new System.Windows.Forms.MouseEventHandler(this.armor_box_MouseClick);
             // 
             // Form1
             // 

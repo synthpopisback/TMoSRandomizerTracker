@@ -159,93 +159,6 @@ namespace TMoSRandomizerTracker
             Properties.Settings.Default.got_hassan = !Properties.Settings.Default.got_hassan;
         }
 
-        private void armor_box_Click(object sender, EventArgs e)
-        {
-            if (Properties.Settings.Default.armor_level == 0)
-            {
-                Properties.Settings.Default.armor_level++;
-                armor_box.Image = Properties.Resources.armor_rarmor;
-            }
-            else if (Properties.Settings.Default.armor_level == 1)
-            {
-                Properties.Settings.Default.armor_level++;
-                armor_box.Image = Properties.Resources.armor_lightarmor;
-            }
-            else if (Properties.Settings.Default.armor_level == 2)
-            {
-                Properties.Settings.Default.armor_level = 0;
-                armor_box.Image = Properties.Resources.armor_base;
-            }
-        }
-
-        private void rod_box_Click(object sender, EventArgs e)
-        {
-            if (Properties.Settings.Default.rod_level == 1)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_flame;
-            }
-            else if (Properties.Settings.Default.rod_level == 2)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_stardust;
-            }
-            else if (Properties.Settings.Default.rod_level == 3)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_cimaron;
-            }
-            else if (Properties.Settings.Default.rod_level == 4)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_crystal;
-            }
-            else if (Properties.Settings.Default.rod_level == 5)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_isfa;
-            }
-            else if (Properties.Settings.Default.rod_level == 6)
-            {
-                Properties.Settings.Default.rod_level = 1;
-                rod_box.Image = Properties.Resources.rod_rod;
-            }
-        }
-
-        private void sword_box_Click(object sender, EventArgs e)
-        {
-            if (Properties.Settings.Default.sword_level == 1)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_simitar;
-            }
-            else if (Properties.Settings.Default.sword_level == 2)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_dragoon;
-            }
-            else if (Properties.Settings.Default.sword_level == 3)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_kashim;
-            }
-            else if (Properties.Settings.Default.sword_level == 4)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_rostam;
-            }
-            else if (Properties.Settings.Default.sword_level == 5)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_legend;
-            }
-            else if (Properties.Settings.Default.sword_level == 6)
-            {
-                Properties.Settings.Default.sword_level = 1;
-                sword_box.Image = Properties.Resources.sword_sword;
-            }
-        }
-
         private void reset_button_MouseClick(object sender, MouseEventArgs e)
         {
             hassan_box.Image = Properties.Resources.char_hassan_bw;
@@ -285,6 +198,117 @@ namespace TMoSRandomizerTracker
         {
             Form2 about_dialog = new Form2();
             about_dialog.ShowDialog();
+        }
+
+        private void armor_box_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (Properties.Settings.Default.armor_level == 0)
+                {
+                    Properties.Settings.Default.armor_level++;
+                    armor_box.Image = Properties.Resources.armor_rarmor;
+                }
+                else if (Properties.Settings.Default.armor_level == 1)
+                {
+                    Properties.Settings.Default.armor_level++;
+                    armor_box.Image = Properties.Resources.armor_lightarmor;
+                }
+                else if (Properties.Settings.Default.armor_level == 2)
+                {
+                    Properties.Settings.Default.armor_level = 0;
+                    armor_box.Image = Properties.Resources.armor_base;
+                }
+            }
+            else
+            {
+                Properties.Settings.Default.armor_level = 0;
+                armor_box.Image = Properties.Resources.armor_base;
+            }
+        }
+
+        private void rod_box_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (Properties.Settings.Default.rod_level == 1)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_flame;
+                }
+                else if (Properties.Settings.Default.rod_level == 2)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_stardust;
+                }
+                else if (Properties.Settings.Default.rod_level == 3)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_cimaron;
+                }
+                else if (Properties.Settings.Default.rod_level == 4)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_crystal;
+                }
+                else if (Properties.Settings.Default.rod_level == 5)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_isfa;
+                }
+                else if (Properties.Settings.Default.rod_level == 6)
+                {
+                    Properties.Settings.Default.rod_level = 1;
+                    rod_box.Image = Properties.Resources.rod_rod;
+                }
+            }
+            else
+            {
+                Properties.Settings.Default.rod_level = 1;
+                rod_box.Image = Properties.Resources.rod_rod;
+            }
+        }
+
+        private void sword_box_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (Properties.Settings.Default.sword_level == 1)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_simitar;
+                }
+                else if (Properties.Settings.Default.sword_level == 2)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_dragoon;
+                }
+                else if (Properties.Settings.Default.sword_level == 3)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_kashim;
+                }
+                else if (Properties.Settings.Default.sword_level == 4)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_rostam;
+                }
+                else if (Properties.Settings.Default.sword_level == 5)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_legend;
+                }
+                else if (Properties.Settings.Default.sword_level == 6)
+                {
+                    Properties.Settings.Default.sword_level = 1;
+                    sword_box.Image = Properties.Resources.sword_sword;
+                }
+            }
+            else
+            {
+                Properties.Settings.Default.sword_level = 1;
+                sword_box.Image = Properties.Resources.sword_sword;
+            }
         }
     }
 }
