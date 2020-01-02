@@ -98,7 +98,7 @@ namespace TMoSRandomizerTracker
         {
             if (Properties.Settings.Default.got_pukin == true)
             {
-
+                pukin_box.Image = Properties.Resources.char_pukin_bw;
             }
             else
             {
