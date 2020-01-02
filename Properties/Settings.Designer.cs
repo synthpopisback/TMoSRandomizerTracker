@@ -178,5 +178,17 @@ namespace TMoSRandomizerTracker.Properties {
                 this["sword_level"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool commentary_mode {
+            get {
+                return ((bool)(this["commentary_mode"]));
+            }
+            set {
+                this["commentary_mode"] = value;
+            }
+        }
     }
 }

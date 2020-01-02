@@ -241,4 +241,40 @@
   <data name="map_ch5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ch5map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_cimaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_cimaron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_epin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_epin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_faruk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_faruk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_gubibi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_gubibi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_gunmeca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_gunmeca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_hassan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_hassan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_kebabu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_kebabu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_mustafa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_mustafa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_pukin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_pukin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_rainy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_rainy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_supica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_supica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_trooper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_trooper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

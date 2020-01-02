@@ -131,7 +131,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="TMoSRandomizerTracker_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -285,6 +284,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ch5map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_cimaron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_epin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_faruk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_gubibi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_gunmeca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_hassan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_kebabu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_mustafa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_pukin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_rainy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_supica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_trooper.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
