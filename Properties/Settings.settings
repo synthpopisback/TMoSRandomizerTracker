@@ -44,7 +44,10 @@
     <Setting Name="commentary_mode" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="location_tracker1_state" Type="System.Int32" Scope="User">
+    <Setting Name="ch1_tracker1_state" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="marker_default" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
   </Settings>

@@ -98,7 +98,7 @@ namespace TMoSRandomizerTracker
         {
             if (Properties.Settings.Default.got_pukin == true)
             {
-                epin_box.Image = Properties.Resources.char_epin_bw;
+                pukin_box.Image = Properties.Resources.char_pukin_bw;
             }
             else
             {
@@ -159,87 +159,111 @@ namespace TMoSRandomizerTracker
             Properties.Settings.Default.got_hassan = !Properties.Settings.Default.got_hassan;
         }
 
-        private void armor_box_Click(object sender, EventArgs e)
+        private void armor_box_MouseClick(object sender, MouseEventArgs e)
         {
-            if (Properties.Settings.Default.armor_level == 0)
+            if (e.Button == MouseButtons.Left)
             {
-                Properties.Settings.Default.armor_level++;
-                armor_box.Image = Properties.Resources.armor_rarmor;
+                if (Properties.Settings.Default.armor_level == 0)
+                {
+                    Properties.Settings.Default.armor_level++;
+                    armor_box.Image = Properties.Resources.armor_rarmor;
+                }
+                else if (Properties.Settings.Default.armor_level == 1)
+                {
+                    Properties.Settings.Default.armor_level++;
+                    armor_box.Image = Properties.Resources.armor_lightarmor;
+                }
+                else if (Properties.Settings.Default.armor_level == 2)
+                {
+                    Properties.Settings.Default.armor_level = 0;
+                    armor_box.Image = Properties.Resources.armor_base;
+                }
             }
-            else if (Properties.Settings.Default.armor_level == 1)
-            {
-                Properties.Settings.Default.armor_level++;
-                armor_box.Image = Properties.Resources.armor_lightarmor;
-            }
-            else if (Properties.Settings.Default.armor_level == 2)
+            else
             {
                 Properties.Settings.Default.armor_level = 0;
                 armor_box.Image = Properties.Resources.armor_base;
             }
         }
 
-        private void rod_box_Click(object sender, EventArgs e)
+        private void rod_box_MouseClick(object sender, MouseEventArgs e)
         {
-            if (Properties.Settings.Default.rod_level == 1)
+            if (e.Button == MouseButtons.Left)
             {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_flame;
+                if (Properties.Settings.Default.rod_level == 1)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_flame;
+                }
+                else if (Properties.Settings.Default.rod_level == 2)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_stardust;
+                }
+                else if (Properties.Settings.Default.rod_level == 3)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_cimaron;
+                }
+                else if (Properties.Settings.Default.rod_level == 4)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_crystal;
+                }
+                else if (Properties.Settings.Default.rod_level == 5)
+                {
+                    Properties.Settings.Default.rod_level++;
+                    rod_box.Image = Properties.Resources.rod_isfa;
+                }
+                else if (Properties.Settings.Default.rod_level == 6)
+                {
+                    Properties.Settings.Default.rod_level = 1;
+                    rod_box.Image = Properties.Resources.rod_rod;
+                }
             }
-            else if (Properties.Settings.Default.rod_level == 2)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_stardust;
-            }
-            else if (Properties.Settings.Default.rod_level == 3)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_cimaron;
-            }
-            else if (Properties.Settings.Default.rod_level == 4)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_crystal;
-            }
-            else if (Properties.Settings.Default.rod_level == 5)
-            {
-                Properties.Settings.Default.rod_level++;
-                rod_box.Image = Properties.Resources.rod_isfa;
-            }
-            else if (Properties.Settings.Default.rod_level == 6)
+            else
             {
                 Properties.Settings.Default.rod_level = 1;
                 rod_box.Image = Properties.Resources.rod_rod;
             }
         }
 
-        private void sword_box_Click(object sender, EventArgs e)
+        private void sword_box_MouseClick(object sender, MouseEventArgs e)
         {
-            if (Properties.Settings.Default.sword_level == 1)
+            if (e.Button == MouseButtons.Left)
             {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_simitar;
+                if (Properties.Settings.Default.sword_level == 1)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_simitar;
+                }
+                else if (Properties.Settings.Default.sword_level == 2)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_dragoon;
+                }
+                else if (Properties.Settings.Default.sword_level == 3)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_kashim;
+                }
+                else if (Properties.Settings.Default.sword_level == 4)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_rostam;
+                }
+                else if (Properties.Settings.Default.sword_level == 5)
+                {
+                    Properties.Settings.Default.sword_level++;
+                    sword_box.Image = Properties.Resources.sword_legend;
+                }
+                else if (Properties.Settings.Default.sword_level == 6)
+                {
+                    Properties.Settings.Default.sword_level = 1;
+                    sword_box.Image = Properties.Resources.sword_sword;
+                }
             }
-            else if (Properties.Settings.Default.sword_level == 2)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_dragoon;
-            }
-            else if (Properties.Settings.Default.sword_level == 3)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_kashim;
-            }
-            else if (Properties.Settings.Default.sword_level == 4)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_rostam;
-            }
-            else if (Properties.Settings.Default.sword_level == 5)
-            {
-                Properties.Settings.Default.sword_level++;
-                sword_box.Image = Properties.Resources.sword_legend;
-            }
-            else if (Properties.Settings.Default.sword_level == 6)
+            else
             {
                 Properties.Settings.Default.sword_level = 1;
                 sword_box.Image = Properties.Resources.sword_sword;
@@ -278,6 +302,60 @@ namespace TMoSRandomizerTracker
             Properties.Settings.Default.sword_level = 1;
             sword_box.Image = Properties.Resources.sword_sword;
 
+            ch1_marker1.Text = "0";
+            ch1_marker1.Image = Properties.Resources.icon_unchecked;
+
+            ch1_marker1.Text = "0";
+            ch1_marker1.Image = Properties.Resources.icon_unchecked;
+            ch1_marker2.Text = "0";
+            ch1_marker2.Image = Properties.Resources.icon_unchecked;
+            ch1_marker3.Text = "0";
+            ch1_marker3.Image = Properties.Resources.icon_unchecked;
+            ch1_marker4.Text = "0";
+            ch1_marker4.Image = Properties.Resources.icon_unchecked;
+            ch1_marker5.Text = "0";
+            ch1_marker5.Image = Properties.Resources.icon_unchecked;
+            ch1_marker6.Text = "0";
+            ch1_marker6.Image = Properties.Resources.icon_unchecked;
+            ch1_marker7.Text = "0";
+            ch1_marker7.Image = Properties.Resources.icon_unchecked;
+            ch1_marker8.Text = "0";
+            ch1_marker8.Image = Properties.Resources.icon_unchecked;
+            ch1_marker9.Text = "0";
+            ch1_marker9.Image = Properties.Resources.icon_unchecked;
+            ch1_marker10.Text = "0";
+            ch1_marker10.Image = Properties.Resources.icon_unchecked;
+            ch1_marker11.Text = "0";
+            ch1_marker11.Image = Properties.Resources.icon_unchecked;
+            ch1_marker12.Text = "0";
+            ch1_marker12.Image = Properties.Resources.icon_unchecked;
+            ch1_marker13.Text = "0";
+            ch1_marker13.Image = Properties.Resources.icon_unchecked;
+            ch1_marker14.Text = "0";
+            ch1_marker14.Image = Properties.Resources.icon_unchecked;
+            ch1_marker15.Text = "0";
+            ch1_marker15.Image = Properties.Resources.icon_unchecked;
+            ch1_marker16.Text = "0";
+            ch1_marker16.Image = Properties.Resources.icon_unchecked;
+            ch1_marker17.Text = "0";
+            ch1_marker17.Image = Properties.Resources.icon_unchecked;
+            ch1_marker18.Text = "0";
+            ch1_marker18.Image = Properties.Resources.icon_unchecked;
+            ch1_marker19.Text = "0";
+            ch1_marker19.Image = Properties.Resources.icon_unchecked;
+            ch1_marker20.Text = "0";
+            ch1_marker20.Image = Properties.Resources.icon_unchecked;
+            ch1_marker21.Text = "0";
+            ch1_marker21.Image = Properties.Resources.icon_unchecked;
+            ch1_marker22.Text = "0";
+            ch1_marker22.Image = Properties.Resources.icon_unchecked;
+            ch1_marker23.Text = "0";
+            ch1_marker23.Image = Properties.Resources.icon_unchecked;
+            ch1_marker24.Text = "0";
+            ch1_marker24.Image = Properties.Resources.icon_unchecked;
+            ch1_marker25.Text = "0";
+            ch1_marker25.Image = Properties.Resources.icon_unchecked;
+
             map_tabs.SelectedTab = ch1tab;
         }
 
@@ -287,25 +365,49 @@ namespace TMoSRandomizerTracker
             about_dialog.ShowDialog();
         }
 
-        private void ch1_marker1_MouseClick(object sender, MouseEventArgs e)
+        private void ch1_marker_MouseClick(object sender, MouseEventArgs e)
         {
-            Properties.Settings.Default.location_tracker1_state = (Properties.Settings.Default.location_tracker1_state + 1) % 4;
-            if (Properties.Settings.Default.location_tracker1_state == 1)
+            PictureBox send_box = sender as PictureBox;
+
+            if (e.Button == MouseButtons.Left)
             {
-                ch1_marker1.Image = Properties.Resources.icon_coronya;
+                if (send_box.Text == "0")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+                else if (send_box.Text == "1")
+                {
+                    send_box.Image = Properties.Resources.icon_coronya;
+                    send_box.Text = "2";
+                }
+                else if (send_box.Text == "2")
+                {
+                    send_box.Image = Properties.Resources.icon_faruk;
+                    send_box.Text = "3";
+                }
+                else if (send_box.Text == "3")
+                {
+                    send_box.Image = Properties.Resources.icon_kebabu;
+                    send_box.Text = "4";
+                }
+                else if (send_box.Text == "4")
+                {
+                    send_box.Image = Properties.Resources.icon_unchecked;
+                    send_box.Text = "0";
+                }
             }
-            else if (Properties.Settings.Default.location_tracker1_state == 2)
+            else
             {
-                ch1_marker1.Image = Properties.Resources.icon_faruk;
+                send_box.Image = Properties.Resources.icon_unchecked;
+                send_box.Text = "0";
             }
-            else if (Properties.Settings.Default.location_tracker1_state == 3)
-            {
-                ch1_marker1.Image = Properties.Resources.icon_kebabu;
-            }
-            else if (Properties.Settings.Default.location_tracker1_state == 0)
-            {
-                ch1_marker1.Image = Properties.Resources.icon_transparent;
-            }
+        }
+
+        private void marker_LoadCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        {
+            PictureBox send_box = sender as PictureBox;
+            send_box.Text = "0";
         }
     }
 }

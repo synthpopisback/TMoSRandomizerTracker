@@ -293,6 +293,16 @@ namespace TMoSRandomizerTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_checked {
+            get {
+                object obj = ResourceManager.GetObject("icon_checked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_cimaron {
             get {
                 object obj = ResourceManager.GetObject("icon_cimaron", resourceCulture);
@@ -426,6 +436,16 @@ namespace TMoSRandomizerTracker.Properties {
         internal static System.Drawing.Bitmap icon_trooper {
             get {
                 object obj = ResourceManager.GetObject("icon_trooper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_unchecked {
+            get {
+                object obj = ResourceManager.GetObject("icon_unchecked", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

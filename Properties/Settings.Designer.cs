@@ -194,12 +194,24 @@ namespace TMoSRandomizerTracker.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int location_tracker1_state {
+        public int ch1_tracker1_state {
             get {
-                return ((int)(this["location_tracker1_state"]));
+                return ((int)(this["ch1_tracker1_state"]));
             }
             set {
-                this["location_tracker1_state"] = value;
+                this["ch1_tracker1_state"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string marker_default {
+            get {
+                return ((string)(this["marker_default"]));
+            }
+            set {
+                this["marker_default"] = value;
             }
         }
     }
