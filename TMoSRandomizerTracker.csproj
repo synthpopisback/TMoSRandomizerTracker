@@ -335,5 +335,14 @@
   <ItemGroup>
     <None Include="Resources\icon_unchecked.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_imam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_hotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_shop.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

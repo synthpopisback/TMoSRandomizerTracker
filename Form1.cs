@@ -302,10 +302,6 @@ namespace TMoSRandomizerTracker
             Properties.Settings.Default.sword_level = 1;
             sword_box.Image = Properties.Resources.sword_sword;
 
-            ch1_marker1.Text = "0";
-            ch1_marker1.Image = Properties.Resources.icon_unchecked;
-
-            ch1_marker1.Text = "0";
             ch1_marker1.Image = Properties.Resources.icon_unchecked;
             ch1_marker2.Text = "0";
             ch1_marker2.Image = Properties.Resources.icon_unchecked;
@@ -356,6 +352,180 @@ namespace TMoSRandomizerTracker
             ch1_marker25.Text = "0";
             ch1_marker25.Image = Properties.Resources.icon_unchecked;
 
+            ch2_marker1.Text = "0";
+            ch2_marker1.Image = Properties.Resources.icon_unchecked;
+            ch2_marker2.Text = "0";
+            ch2_marker2.Image = Properties.Resources.icon_unchecked;
+            ch2_marker3.Text = "0";
+            ch2_marker3.Image = Properties.Resources.icon_unchecked;
+            ch2_marker4.Text = "0";
+            ch2_marker4.Image = Properties.Resources.icon_unchecked;
+            ch2_marker5.Text = "0";
+            ch2_marker5.Image = Properties.Resources.icon_unchecked;
+            ch2_marker6.Text = "0";
+            ch2_marker6.Image = Properties.Resources.icon_unchecked;
+            ch2_marker7.Text = "0";
+            ch2_marker7.Image = Properties.Resources.icon_unchecked;
+            ch2_marker8.Text = "0";
+            ch2_marker8.Image = Properties.Resources.icon_unchecked;
+            ch2_marker9.Text = "0";
+            ch2_marker9.Image = Properties.Resources.icon_unchecked;
+            ch2_marker10.Text = "0";
+            ch2_marker10.Image = Properties.Resources.icon_unchecked;
+            ch2_marker11.Text = "0";
+            ch2_marker11.Image = Properties.Resources.icon_unchecked;
+            ch2_marker12.Text = "0";
+            ch2_marker12.Image = Properties.Resources.icon_unchecked;
+            ch2_marker13.Text = "0";
+            ch2_marker13.Image = Properties.Resources.icon_unchecked;
+            ch2_marker14.Text = "0";
+            ch2_marker14.Image = Properties.Resources.icon_unchecked;
+            ch2_marker15.Text = "0";
+            ch2_marker15.Image = Properties.Resources.icon_unchecked;
+            ch2_marker16.Text = "0";
+            ch2_marker16.Image = Properties.Resources.icon_unchecked;
+            ch2_marker17.Text = "0";
+            ch2_marker17.Image = Properties.Resources.icon_unchecked;
+            ch2_marker18.Text = "0";
+            ch2_marker18.Image = Properties.Resources.icon_unchecked;
+            ch2_marker19.Text = "0";
+            ch2_marker19.Image = Properties.Resources.icon_unchecked;
+            ch2_marker20.Text = "0";
+            ch2_marker20.Image = Properties.Resources.icon_unchecked;
+            ch2_marker21.Text = "0";
+            ch2_marker21.Image = Properties.Resources.icon_unchecked;
+            ch2_marker22.Text = "0";
+            ch2_marker22.Image = Properties.Resources.icon_unchecked;
+            ch2_marker23.Text = "0";
+            ch2_marker23.Image = Properties.Resources.icon_unchecked;
+
+            ch3_marker1.Text = "0";
+            ch3_marker1.Image = Properties.Resources.icon_unchecked;
+            ch3_marker2.Text = "0";
+            ch3_marker2.Image = Properties.Resources.icon_unchecked;
+            ch3_marker3.Text = "0";
+            ch3_marker3.Image = Properties.Resources.icon_unchecked;
+            ch3_marker4.Text = "0";
+            ch3_marker4.Image = Properties.Resources.icon_unchecked;
+            ch3_marker5.Text = "0";
+            ch3_marker5.Image = Properties.Resources.icon_unchecked;
+            ch3_marker6.Text = "0";
+            ch3_marker6.Image = Properties.Resources.icon_unchecked;
+            ch3_marker7.Text = "0";
+            ch3_marker7.Image = Properties.Resources.icon_unchecked;
+            ch3_marker8.Text = "0";
+            ch3_marker8.Image = Properties.Resources.icon_unchecked;
+            ch3_marker9.Text = "0";
+            ch3_marker9.Image = Properties.Resources.icon_unchecked;
+            ch3_marker10.Text = "0";
+            ch3_marker10.Image = Properties.Resources.icon_unchecked;
+            ch3_marker11.Text = "0";
+            ch3_marker11.Image = Properties.Resources.icon_unchecked;
+            ch3_marker12.Text = "0";
+            ch3_marker12.Image = Properties.Resources.icon_unchecked;
+            ch3_marker13.Text = "0";
+            ch3_marker13.Image = Properties.Resources.icon_unchecked;
+            ch3_marker14.Text = "0";
+            ch3_marker14.Image = Properties.Resources.icon_unchecked;
+            ch3_marker15.Text = "0";
+            ch3_marker15.Image = Properties.Resources.icon_unchecked;
+            ch3_marker16.Text = "0";
+            ch3_marker16.Image = Properties.Resources.icon_unchecked;
+            ch3_marker17.Text = "0";
+            ch3_marker17.Image = Properties.Resources.icon_unchecked;
+            ch3_marker18.Text = "0";
+            ch3_marker18.Image = Properties.Resources.icon_unchecked;
+            ch3_marker19.Text = "0";
+            ch3_marker19.Image = Properties.Resources.icon_unchecked;
+            ch3_marker20.Text = "0";
+            ch3_marker20.Image = Properties.Resources.icon_unchecked;
+            ch3_marker21.Text = "0";
+            ch3_marker21.Image = Properties.Resources.icon_unchecked;
+            ch3_marker22.Text = "0";
+            ch3_marker22.Image = Properties.Resources.icon_unchecked;
+            ch3_marker23.Text = "0";
+            ch3_marker23.Image = Properties.Resources.icon_unchecked;
+            ch3_marker24.Text = "0";
+            ch3_marker24.Image = Properties.Resources.icon_unchecked;
+            ch3_marker25.Text = "0";
+            ch3_marker25.Image = Properties.Resources.icon_unchecked;
+            ch3_marker26.Text = "0";
+            ch3_marker26.Image = Properties.Resources.icon_unchecked;
+
+            ch4_marker1.Text = "0";
+            ch4_marker1.Image = Properties.Resources.icon_unchecked;
+            ch4_marker2.Text = "0";
+            ch4_marker2.Image = Properties.Resources.icon_unchecked;
+            ch4_marker3.Text = "0";
+            ch4_marker3.Image = Properties.Resources.icon_unchecked;
+            ch4_marker4.Text = "0";
+            ch4_marker4.Image = Properties.Resources.icon_unchecked;
+            ch4_marker5.Text = "0";
+            ch4_marker5.Image = Properties.Resources.icon_unchecked;
+            ch4_marker6.Text = "0";
+            ch4_marker6.Image = Properties.Resources.icon_unchecked;
+            ch4_marker7.Text = "0";
+            ch4_marker7.Image = Properties.Resources.icon_unchecked;
+            ch4_marker8.Text = "0";
+            ch4_marker8.Image = Properties.Resources.icon_unchecked;
+            ch4_marker9.Text = "0";
+            ch4_marker9.Image = Properties.Resources.icon_unchecked;
+            ch4_marker10.Text = "0";
+            ch4_marker10.Image = Properties.Resources.icon_unchecked;
+            ch4_marker11.Text = "0";
+            ch4_marker11.Image = Properties.Resources.icon_unchecked;
+            ch4_marker12.Text = "0";
+            ch4_marker12.Image = Properties.Resources.icon_unchecked;
+            ch4_marker13.Text = "0";
+            ch4_marker13.Image = Properties.Resources.icon_unchecked;
+            ch4_marker14.Text = "0";
+            ch4_marker14.Image = Properties.Resources.icon_unchecked;
+            ch4_marker15.Text = "0";
+            ch4_marker15.Image = Properties.Resources.icon_unchecked;
+            ch4_marker16.Text = "0";
+            ch4_marker16.Image = Properties.Resources.icon_unchecked;
+            ch4_marker17.Text = "0";
+            ch4_marker17.Image = Properties.Resources.icon_unchecked;
+            ch4_marker18.Text = "0";
+            ch4_marker18.Image = Properties.Resources.icon_unchecked;
+
+            ch5_marker1.Text = "0";
+            ch5_marker1.Image = Properties.Resources.icon_unchecked;
+            ch5_marker2.Text = "0";
+            ch5_marker2.Image = Properties.Resources.icon_unchecked;
+            ch5_marker3.Text = "0";
+            ch5_marker3.Image = Properties.Resources.icon_unchecked;
+            ch5_marker4.Text = "0";
+            ch5_marker4.Image = Properties.Resources.icon_unchecked;
+            ch5_marker5.Text = "0";
+            ch5_marker5.Image = Properties.Resources.icon_unchecked;
+            ch5_marker6.Text = "0";
+            ch5_marker6.Image = Properties.Resources.icon_unchecked;
+            ch5_marker7.Text = "0";
+            ch5_marker7.Image = Properties.Resources.icon_unchecked;
+            ch5_marker8.Text = "0";
+            ch5_marker8.Image = Properties.Resources.icon_unchecked;
+            ch5_marker9.Text = "0";
+            ch5_marker9.Image = Properties.Resources.icon_unchecked;
+            ch5_marker10.Text = "0";
+            ch5_marker10.Image = Properties.Resources.icon_unchecked;
+            ch5_marker11.Text = "0";
+            ch5_marker11.Image = Properties.Resources.icon_unchecked;
+            ch5_marker12.Text = "0";
+            ch5_marker12.Image = Properties.Resources.icon_unchecked;
+            ch5_marker13.Text = "0";
+            ch5_marker13.Image = Properties.Resources.icon_unchecked;
+            ch5_marker14.Text = "0";
+            ch5_marker14.Image = Properties.Resources.icon_unchecked;
+            ch5_marker15.Text = "0";
+            ch5_marker15.Image = Properties.Resources.icon_unchecked;
+            ch5_marker16.Text = "0";
+            ch5_marker16.Image = Properties.Resources.icon_unchecked;
+            ch5_marker17.Text = "0";
+            ch5_marker17.Image = Properties.Resources.icon_unchecked;
+            ch5_marker18.Text = "0";
+            ch5_marker18.Image = Properties.Resources.icon_unchecked;
+
             map_tabs.SelectedTab = ch1tab;
         }
 
@@ -365,7 +535,7 @@ namespace TMoSRandomizerTracker
             about_dialog.ShowDialog();
         }
 
-        private void ch1_marker_MouseClick(object sender, MouseEventArgs e)
+        private void ch1_marker_MouseClick(object sender, MouseEventArgs e) // Suffices for CH2 and CH5 because their lists are the same.
         {
             PictureBox send_box = sender as PictureBox;
 
@@ -383,18 +553,23 @@ namespace TMoSRandomizerTracker
                 }
                 else if (send_box.Text == "2")
                 {
-                    send_box.Image = Properties.Resources.icon_faruk;
+                    send_box.Image = Properties.Resources.icon_imam;
                     send_box.Text = "3";
                 }
                 else if (send_box.Text == "3")
                 {
-                    send_box.Image = Properties.Resources.icon_kebabu;
+                    send_box.Image = Properties.Resources.icon_hotel;
                     send_box.Text = "4";
                 }
                 else if (send_box.Text == "4")
                 {
-                    send_box.Image = Properties.Resources.icon_unchecked;
-                    send_box.Text = "0";
+                    send_box.Image = Properties.Resources.icon_shop;
+                    send_box.Text = "5";
+                }
+                else if (send_box.Text == "5")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
                 }
             }
             else
@@ -408,6 +583,110 @@ namespace TMoSRandomizerTracker
         {
             PictureBox send_box = sender as PictureBox;
             send_box.Text = "0";
+        }
+
+
+        private void ch3_marker_MouseClick(object sender, MouseEventArgs e)
+        {
+            PictureBox send_box = sender as PictureBox;
+
+            if (e.Button == MouseButtons.Left)
+            {
+                if (send_box.Text == "0")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+                else if (send_box.Text == "1")
+                {
+                    send_box.Image = Properties.Resources.icon_coronya;
+                    send_box.Text = "2";
+                }
+                else if (send_box.Text == "2")
+                {
+                    send_box.Image = Properties.Resources.icon_imam;
+                    send_box.Text = "3";
+                }
+                else if (send_box.Text == "3")
+                {
+                    send_box.Image = Properties.Resources.icon_hotel;
+                    send_box.Text = "4";
+                }
+                else if (send_box.Text == "4")
+                {
+                    send_box.Image = Properties.Resources.icon_shop;
+                    send_box.Text = "5";
+                }
+                else if (send_box.Text == "5")
+                {
+                    send_box.Image = Properties.Resources.icon_cimaron;
+                    send_box.Text = "6";
+                }
+                else if (send_box.Text == "6")
+                {
+                    send_box.Image = Properties.Resources.icon_pukin;
+                    send_box.Text = "7";
+                }
+                else if (send_box.Text == "7")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+            }
+            else
+            {
+                send_box.Image = Properties.Resources.icon_unchecked;
+                send_box.Text = "0";
+            }
+        }
+
+        private void ch4_marker_MouseClick(object sender, MouseEventArgs e)
+        {
+            PictureBox send_box = sender as PictureBox;
+
+            if (e.Button == MouseButtons.Left)
+            {
+                if (send_box.Text == "0")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+                else if (send_box.Text == "1")
+                {
+                    send_box.Image = Properties.Resources.icon_coronya;
+                    send_box.Text = "2";
+                }
+                else if (send_box.Text == "2")
+                {
+                    send_box.Image = Properties.Resources.icon_imam;
+                    send_box.Text = "3";
+                }
+                else if (send_box.Text == "3")
+                {
+                    send_box.Image = Properties.Resources.icon_hotel;
+                    send_box.Text = "4";
+                }
+                else if (send_box.Text == "4")
+                {
+                    send_box.Image = Properties.Resources.icon_shop;
+                    send_box.Text = "5";
+                }
+                else if (send_box.Text == "5")
+                {
+                    send_box.Image = Properties.Resources.icon_rainy;
+                    send_box.Text = "6";
+                }
+                else if (send_box.Text == "6")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+            }
+            else
+            {
+                send_box.Image = Properties.Resources.icon_unchecked;
+                send_box.Text = "0";
+            }
         }
     }
 }

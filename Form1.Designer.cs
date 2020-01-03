@@ -31,6 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainwindow));
             this.map_tabs = new System.Windows.Forms.TabControl();
             this.ch1tab = new System.Windows.Forms.TabPage();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker25 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker22 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker24 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker21 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker23 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker17 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker16 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker19 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker20 = new System.Windows.Forms.PictureBox();
+            this.ch1_marker18 = new System.Windows.Forms.PictureBox();
             this.ch1_marker14 = new System.Windows.Forms.PictureBox();
             this.ch1_marker15 = new System.Windows.Forms.PictureBox();
             this.ch1_marker13 = new System.Windows.Forms.PictureBox();
@@ -45,22 +57,57 @@
             this.ch1_marker4 = new System.Windows.Forms.PictureBox();
             this.ch1_marker2 = new System.Windows.Forms.PictureBox();
             this.ch1_marker3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ch1_marker1 = new System.Windows.Forms.PictureBox();
             this.ch1_map_picture_box = new System.Windows.Forms.PictureBox();
             this.ch2tab = new System.Windows.Forms.TabPage();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker23 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker22 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker19 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker18 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker21 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker20 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker17 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker16 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker15 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker10 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker14 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker11 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker12 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker13 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker9 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker8 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker7 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker6 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker5 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker4 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker3 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker2 = new System.Windows.Forms.PictureBox();
+            this.ch2_marker1 = new System.Windows.Forms.PictureBox();
             this.ch2_map_picture_box = new System.Windows.Forms.PictureBox();
             this.ch3tab = new System.Windows.Forms.TabPage();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker8 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker10 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker9 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker7 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker4 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker6 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker5 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker3 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker2 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.ch3_map_picture_box = new System.Windows.Forms.PictureBox();
             this.ch4tab = new System.Windows.Forms.TabPage();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker1 = new System.Windows.Forms.PictureBox();
             this.ch4_map_picture_box = new System.Windows.Forms.PictureBox();
             this.ch5tab = new System.Windows.Forms.TabPage();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker8 = new System.Windows.Forms.PictureBox();
             this.ch5_map_picture_box = new System.Windows.Forms.PictureBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.reset_button = new System.Windows.Forms.Button();
@@ -80,18 +127,86 @@
             this.sword_box = new System.Windows.Forms.PictureBox();
             this.rod_box = new System.Windows.Forms.PictureBox();
             this.armor_box = new System.Windows.Forms.PictureBox();
-            this.ch1_marker19 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker20 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker18 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker16 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker17 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker22 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker24 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker21 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker23 = new System.Windows.Forms.PictureBox();
-            this.ch1_marker25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker15 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker16 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker11 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker13 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker14 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker12 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker18 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker20 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker19 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker17 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker24 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker22 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker23 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker21 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker27 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker25 = new System.Windows.Forms.PictureBox();
+            this.ch3_marker26 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker4 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker3 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker2 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker6 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker5 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker7 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker8 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker10 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker11 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker9 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker12 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker14 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker15 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker17 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker16 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker13 = new System.Windows.Forms.PictureBox();
+            this.ch4_marker18 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker2 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker3 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker4 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker1 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker5 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker6 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker7 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker10 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker11 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker9 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker12 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker13 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker14 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker15 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker17 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker18 = new System.Windows.Forms.PictureBox();
+            this.ch5_marker16 = new System.Windows.Forms.PictureBox();
             this.map_tabs.SuspendLayout();
             this.ch1tab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker13)).BeginInit();
@@ -106,22 +221,57 @@
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_map_picture_box)).BeginInit();
             this.ch2tab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch2_map_picture_box)).BeginInit();
             this.ch3tab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_map_picture_box)).BeginInit();
             this.ch4tab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch4_map_picture_box)).BeginInit();
             this.ch5tab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch5_map_picture_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -140,16 +290,72 @@
             ((System.ComponentModel.ISupportInitialize)(this.sword_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rod_box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.armor_box)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker16)).BeginInit();
             this.SuspendLayout();
             // 
             // map_tabs
@@ -170,6 +376,8 @@
             // ch1tab
             // 
             this.ch1tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch1tab.Controls.Add(this.pictureBox23);
+            this.ch1tab.Controls.Add(this.pictureBox22);
             this.ch1tab.Controls.Add(this.ch1_marker25);
             this.ch1tab.Controls.Add(this.ch1_marker22);
             this.ch1tab.Controls.Add(this.ch1_marker24);
@@ -194,7 +402,6 @@
             this.ch1tab.Controls.Add(this.ch1_marker4);
             this.ch1tab.Controls.Add(this.ch1_marker2);
             this.ch1tab.Controls.Add(this.ch1_marker3);
-            this.ch1tab.Controls.Add(this.pictureBox4);
             this.ch1tab.Controls.Add(this.pictureBox2);
             this.ch1tab.Controls.Add(this.pictureBox1);
             this.ch1tab.Controls.Add(this.ch1_marker1);
@@ -206,13 +413,206 @@
             this.ch1tab.TabIndex = 0;
             this.ch1tab.Text = "Chapter 1";
             // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox23.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_shop;
+            this.pictureBox23.Location = new System.Drawing.Point(6, 63);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox23.TabIndex = 34;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_hotel;
+            this.pictureBox22.Location = new System.Drawing.Point(6, 44);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox22.TabIndex = 33;
+            this.pictureBox22.TabStop = false;
+            // 
+            // ch1_marker25
+            // 
+            this.ch1_marker25.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker25.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker25.Image")));
+            this.ch1_marker25.Location = new System.Drawing.Point(139, 569);
+            this.ch1_marker25.Name = "ch1_marker25";
+            this.ch1_marker25.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker25.TabIndex = 32;
+            this.ch1_marker25.TabStop = false;
+            this.ch1_marker25.Tag = "0";
+            this.ch1_marker25.Text = "0";
+            this.ch1_marker25.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker22
+            // 
+            this.ch1_marker22.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker22.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker22.Image")));
+            this.ch1_marker22.Location = new System.Drawing.Point(732, 208);
+            this.ch1_marker22.Name = "ch1_marker22";
+            this.ch1_marker22.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker22.TabIndex = 31;
+            this.ch1_marker22.TabStop = false;
+            this.ch1_marker22.Tag = "0";
+            this.ch1_marker22.Text = "0";
+            this.ch1_marker22.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker24
+            // 
+            this.ch1_marker24.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker24.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker24.Image")));
+            this.ch1_marker24.Location = new System.Drawing.Point(732, 227);
+            this.ch1_marker24.Name = "ch1_marker24";
+            this.ch1_marker24.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker24.TabIndex = 30;
+            this.ch1_marker24.TabStop = false;
+            this.ch1_marker24.Tag = "0";
+            this.ch1_marker24.Text = "0";
+            this.ch1_marker24.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker21
+            // 
+            this.ch1_marker21.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker21.Image")));
+            this.ch1_marker21.Location = new System.Drawing.Point(694, 208);
+            this.ch1_marker21.Name = "ch1_marker21";
+            this.ch1_marker21.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker21.TabIndex = 29;
+            this.ch1_marker21.TabStop = false;
+            this.ch1_marker21.Tag = "0";
+            this.ch1_marker21.Text = "0";
+            this.ch1_marker21.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker23
+            // 
+            this.ch1_marker23.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker23.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker23.Image")));
+            this.ch1_marker23.Location = new System.Drawing.Point(694, 227);
+            this.ch1_marker23.Name = "ch1_marker23";
+            this.ch1_marker23.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker23.TabIndex = 28;
+            this.ch1_marker23.TabStop = false;
+            this.ch1_marker23.Tag = "0";
+            this.ch1_marker23.Text = "0";
+            this.ch1_marker23.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker17
+            // 
+            this.ch1_marker17.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker17.Image")));
+            this.ch1_marker17.Location = new System.Drawing.Point(406, 227);
+            this.ch1_marker17.Name = "ch1_marker17";
+            this.ch1_marker17.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker17.TabIndex = 27;
+            this.ch1_marker17.TabStop = false;
+            this.ch1_marker17.Tag = "0";
+            this.ch1_marker17.Text = "0";
+            this.ch1_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker16
+            // 
+            this.ch1_marker16.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker16.Image")));
+            this.ch1_marker16.Location = new System.Drawing.Point(521, 227);
+            this.ch1_marker16.Name = "ch1_marker16";
+            this.ch1_marker16.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker16.TabIndex = 26;
+            this.ch1_marker16.TabStop = false;
+            this.ch1_marker16.Tag = "0";
+            this.ch1_marker16.Text = "0";
+            this.ch1_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker19
+            // 
+            this.ch1_marker19.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker19.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker19.Image")));
+            this.ch1_marker19.Location = new System.Drawing.Point(367, 227);
+            this.ch1_marker19.Name = "ch1_marker19";
+            this.ch1_marker19.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker19.TabIndex = 25;
+            this.ch1_marker19.TabStop = false;
+            this.ch1_marker19.Tag = "0";
+            this.ch1_marker19.Text = "0";
+            this.ch1_marker19.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker20
+            // 
+            this.ch1_marker20.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker20.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker20.Image")));
+            this.ch1_marker20.Location = new System.Drawing.Point(386, 227);
+            this.ch1_marker20.Name = "ch1_marker20";
+            this.ch1_marker20.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker20.TabIndex = 24;
+            this.ch1_marker20.TabStop = false;
+            this.ch1_marker20.Tag = "0";
+            this.ch1_marker20.Text = "0";
+            this.ch1_marker20.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch1_marker18
+            // 
+            this.ch1_marker18.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch1_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker18.Image")));
+            this.ch1_marker18.Location = new System.Drawing.Point(348, 227);
+            this.ch1_marker18.Name = "ch1_marker18";
+            this.ch1_marker18.Size = new System.Drawing.Size(20, 20);
+            this.ch1_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch1_marker18.TabIndex = 23;
+            this.ch1_marker18.TabStop = false;
+            this.ch1_marker18.Tag = "0";
+            this.ch1_marker18.Text = "0";
+            this.ch1_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch1_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
             // ch1_marker14
             // 
             this.ch1_marker14.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker14.Image")));
-            this.ch1_marker14.Location = new System.Drawing.Point(311, 26);
+            this.ch1_marker14.Location = new System.Drawing.Point(311, 25);
             this.ch1_marker14.Name = "ch1_marker14";
-            this.ch1_marker14.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker14.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker14.TabIndex = 22;
             this.ch1_marker14.TabStop = false;
@@ -225,10 +625,11 @@
             // ch1_marker15
             // 
             this.ch1_marker15.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker15.Image")));
-            this.ch1_marker15.Location = new System.Drawing.Point(330, 26);
+            this.ch1_marker15.Location = new System.Drawing.Point(330, 25);
             this.ch1_marker15.Name = "ch1_marker15";
-            this.ch1_marker15.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker15.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker15.TabIndex = 21;
             this.ch1_marker15.TabStop = false;
@@ -241,10 +642,11 @@
             // ch1_marker13
             // 
             this.ch1_marker13.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker13.Image")));
-            this.ch1_marker13.Location = new System.Drawing.Point(292, 26);
+            this.ch1_marker13.Location = new System.Drawing.Point(292, 25);
             this.ch1_marker13.Name = "ch1_marker13";
-            this.ch1_marker13.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker13.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker13.TabIndex = 20;
             this.ch1_marker13.TabStop = false;
@@ -257,10 +659,11 @@
             // ch1_marker11
             // 
             this.ch1_marker11.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker11.Image")));
-            this.ch1_marker11.Location = new System.Drawing.Point(196, 107);
+            this.ch1_marker11.Location = new System.Drawing.Point(195, 106);
             this.ch1_marker11.Name = "ch1_marker11";
-            this.ch1_marker11.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker11.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker11.TabIndex = 19;
             this.ch1_marker11.TabStop = false;
@@ -273,10 +676,11 @@
             // ch1_marker12
             // 
             this.ch1_marker12.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker12.Image")));
-            this.ch1_marker12.Location = new System.Drawing.Point(215, 107);
+            this.ch1_marker12.Location = new System.Drawing.Point(214, 106);
             this.ch1_marker12.Name = "ch1_marker12";
-            this.ch1_marker12.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker12.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker12.TabIndex = 18;
             this.ch1_marker12.TabStop = false;
@@ -289,10 +693,11 @@
             // ch1_marker10
             // 
             this.ch1_marker10.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker10.Image")));
-            this.ch1_marker10.Location = new System.Drawing.Point(177, 107);
+            this.ch1_marker10.Location = new System.Drawing.Point(176, 106);
             this.ch1_marker10.Name = "ch1_marker10";
-            this.ch1_marker10.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker10.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker10.TabIndex = 17;
             this.ch1_marker10.TabStop = false;
@@ -305,10 +710,11 @@
             // ch1_marker9
             // 
             this.ch1_marker9.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker9.Image")));
-            this.ch1_marker9.Location = new System.Drawing.Point(178, 228);
+            this.ch1_marker9.Location = new System.Drawing.Point(177, 227);
             this.ch1_marker9.Name = "ch1_marker9";
-            this.ch1_marker9.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker9.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker9.TabIndex = 16;
             this.ch1_marker9.TabStop = false;
@@ -321,10 +727,11 @@
             // ch1_marker8
             // 
             this.ch1_marker8.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker8.Image")));
-            this.ch1_marker8.Location = new System.Drawing.Point(63, 228);
+            this.ch1_marker8.Location = new System.Drawing.Point(62, 227);
             this.ch1_marker8.Name = "ch1_marker8";
-            this.ch1_marker8.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker8.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker8.TabIndex = 15;
             this.ch1_marker8.TabStop = false;
@@ -337,10 +744,11 @@
             // ch1_marker7
             // 
             this.ch1_marker7.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker7.Image")));
-            this.ch1_marker7.Location = new System.Drawing.Point(43, 209);
+            this.ch1_marker7.Location = new System.Drawing.Point(42, 208);
             this.ch1_marker7.Name = "ch1_marker7";
-            this.ch1_marker7.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker7.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker7.TabIndex = 14;
             this.ch1_marker7.TabStop = false;
@@ -353,10 +761,11 @@
             // ch1_marker5
             // 
             this.ch1_marker5.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker5.Image")));
-            this.ch1_marker5.Location = new System.Drawing.Point(43, 228);
+            this.ch1_marker5.Location = new System.Drawing.Point(42, 227);
             this.ch1_marker5.Name = "ch1_marker5";
-            this.ch1_marker5.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker5.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker5.TabIndex = 13;
             this.ch1_marker5.TabStop = false;
@@ -369,10 +778,11 @@
             // ch1_marker6
             // 
             this.ch1_marker6.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker6.Image")));
-            this.ch1_marker6.Location = new System.Drawing.Point(5, 209);
+            this.ch1_marker6.Location = new System.Drawing.Point(4, 208);
             this.ch1_marker6.Name = "ch1_marker6";
-            this.ch1_marker6.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker6.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker6.TabIndex = 12;
             this.ch1_marker6.TabStop = false;
@@ -385,10 +795,11 @@
             // ch1_marker4
             // 
             this.ch1_marker4.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker4.Image")));
-            this.ch1_marker4.Location = new System.Drawing.Point(5, 228);
+            this.ch1_marker4.Location = new System.Drawing.Point(4, 227);
             this.ch1_marker4.Name = "ch1_marker4";
-            this.ch1_marker4.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker4.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker4.TabIndex = 11;
             this.ch1_marker4.TabStop = false;
@@ -401,10 +812,11 @@
             // ch1_marker2
             // 
             this.ch1_marker2.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker2.Image")));
-            this.ch1_marker2.Location = new System.Drawing.Point(196, 511);
+            this.ch1_marker2.Location = new System.Drawing.Point(195, 510);
             this.ch1_marker2.Name = "ch1_marker2";
-            this.ch1_marker2.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker2.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker2.TabIndex = 10;
             this.ch1_marker2.TabStop = false;
@@ -417,10 +829,11 @@
             // ch1_marker3
             // 
             this.ch1_marker3.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker3.Image")));
-            this.ch1_marker3.Location = new System.Drawing.Point(215, 511);
+            this.ch1_marker3.Location = new System.Drawing.Point(214, 510);
             this.ch1_marker3.Name = "ch1_marker3";
-            this.ch1_marker3.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker3.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker3.TabIndex = 9;
             this.ch1_marker3.TabStop = false;
@@ -430,22 +843,11 @@
             this.ch1_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
             this.ch1_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_kebabu;
-            this.pictureBox4.Location = new System.Drawing.Point(6, 54);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(18, 19);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_faruk;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 30);
+            this.pictureBox2.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_imam;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 25);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(18, 18);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -466,10 +868,11 @@
             // ch1_marker1
             // 
             this.ch1_marker1.BackColor = System.Drawing.Color.Transparent;
+            this.ch1_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker1.Image")));
-            this.ch1_marker1.Location = new System.Drawing.Point(177, 511);
+            this.ch1_marker1.Location = new System.Drawing.Point(176, 510);
             this.ch1_marker1.Name = "ch1_marker1";
-            this.ch1_marker1.Size = new System.Drawing.Size(18, 18);
+            this.ch1_marker1.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.ch1_marker1.TabIndex = 4;
             this.ch1_marker1.TabStop = false;
@@ -495,7 +898,33 @@
             // ch2tab
             // 
             this.ch2tab.BackColor = System.Drawing.SystemColors.Control;
-            this.ch2tab.Controls.Add(this.pictureBox3);
+            this.ch2tab.Controls.Add(this.pictureBox24);
+            this.ch2tab.Controls.Add(this.pictureBox25);
+            this.ch2tab.Controls.Add(this.pictureBox26);
+            this.ch2tab.Controls.Add(this.pictureBox27);
+            this.ch2tab.Controls.Add(this.ch2_marker23);
+            this.ch2tab.Controls.Add(this.ch2_marker22);
+            this.ch2tab.Controls.Add(this.ch2_marker19);
+            this.ch2tab.Controls.Add(this.ch2_marker18);
+            this.ch2tab.Controls.Add(this.ch2_marker21);
+            this.ch2tab.Controls.Add(this.ch2_marker20);
+            this.ch2tab.Controls.Add(this.ch2_marker17);
+            this.ch2tab.Controls.Add(this.ch2_marker16);
+            this.ch2tab.Controls.Add(this.ch2_marker15);
+            this.ch2tab.Controls.Add(this.ch2_marker10);
+            this.ch2tab.Controls.Add(this.ch2_marker14);
+            this.ch2tab.Controls.Add(this.ch2_marker11);
+            this.ch2tab.Controls.Add(this.ch2_marker12);
+            this.ch2tab.Controls.Add(this.ch2_marker13);
+            this.ch2tab.Controls.Add(this.ch2_marker9);
+            this.ch2tab.Controls.Add(this.ch2_marker8);
+            this.ch2tab.Controls.Add(this.ch2_marker7);
+            this.ch2tab.Controls.Add(this.ch2_marker6);
+            this.ch2tab.Controls.Add(this.ch2_marker5);
+            this.ch2tab.Controls.Add(this.ch2_marker4);
+            this.ch2tab.Controls.Add(this.ch2_marker3);
+            this.ch2tab.Controls.Add(this.ch2_marker2);
+            this.ch2tab.Controls.Add(this.ch2_marker1);
             this.ch2tab.Controls.Add(this.ch2_map_picture_box);
             this.ch2tab.Location = new System.Drawing.Point(4, 22);
             this.ch2tab.Name = "ch2tab";
@@ -504,16 +933,396 @@
             this.ch2tab.TabIndex = 1;
             this.ch2tab.Text = "Chapter 2";
             // 
-            // pictureBox3
+            // ch2_marker23
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 6);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.ch2_marker23.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker23.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker23.Image")));
+            this.ch2_marker23.Location = new System.Drawing.Point(407, 105);
+            this.ch2_marker23.Name = "ch2_marker23";
+            this.ch2_marker23.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker23.TabIndex = 35;
+            this.ch2_marker23.TabStop = false;
+            this.ch2_marker23.Tag = "0";
+            this.ch2_marker23.Text = "0";
+            this.ch2_marker23.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker22
+            // 
+            this.ch2_marker22.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker22.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker22.Image")));
+            this.ch2_marker22.Location = new System.Drawing.Point(62, 186);
+            this.ch2_marker22.Name = "ch2_marker22";
+            this.ch2_marker22.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker22.TabIndex = 34;
+            this.ch2_marker22.TabStop = false;
+            this.ch2_marker22.Tag = "0";
+            this.ch2_marker22.Text = "0";
+            this.ch2_marker22.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker19
+            // 
+            this.ch2_marker19.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker19.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker19.Image")));
+            this.ch2_marker19.Location = new System.Drawing.Point(158, 207);
+            this.ch2_marker19.Name = "ch2_marker19";
+            this.ch2_marker19.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker19.TabIndex = 33;
+            this.ch2_marker19.TabStop = false;
+            this.ch2_marker19.Tag = "0";
+            this.ch2_marker19.Text = "0";
+            this.ch2_marker19.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker18
+            // 
+            this.ch2_marker18.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker18.Image")));
+            this.ch2_marker18.Location = new System.Drawing.Point(120, 207);
+            this.ch2_marker18.Name = "ch2_marker18";
+            this.ch2_marker18.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker18.TabIndex = 32;
+            this.ch2_marker18.TabStop = false;
+            this.ch2_marker18.Tag = "0";
+            this.ch2_marker18.Text = "0";
+            this.ch2_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker21
+            // 
+            this.ch2_marker21.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker21.Image")));
+            this.ch2_marker21.Location = new System.Drawing.Point(158, 226);
+            this.ch2_marker21.Name = "ch2_marker21";
+            this.ch2_marker21.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker21.TabIndex = 31;
+            this.ch2_marker21.TabStop = false;
+            this.ch2_marker21.Tag = "0";
+            this.ch2_marker21.Text = "0";
+            this.ch2_marker21.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker20
+            // 
+            this.ch2_marker20.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker20.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker20.Image")));
+            this.ch2_marker20.Location = new System.Drawing.Point(120, 226);
+            this.ch2_marker20.Name = "ch2_marker20";
+            this.ch2_marker20.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker20.TabIndex = 30;
+            this.ch2_marker20.TabStop = false;
+            this.ch2_marker20.Tag = "0";
+            this.ch2_marker20.Text = "0";
+            this.ch2_marker20.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker17
+            // 
+            this.ch2_marker17.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker17.Image")));
+            this.ch2_marker17.Location = new System.Drawing.Point(252, 528);
+            this.ch2_marker17.Name = "ch2_marker17";
+            this.ch2_marker17.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker17.TabIndex = 29;
+            this.ch2_marker17.TabStop = false;
+            this.ch2_marker17.Tag = "0";
+            this.ch2_marker17.Text = "0";
+            this.ch2_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker16
+            // 
+            this.ch2_marker16.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker16.Image")));
+            this.ch2_marker16.Location = new System.Drawing.Point(350, 670);
+            this.ch2_marker16.Name = "ch2_marker16";
+            this.ch2_marker16.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker16.TabIndex = 28;
+            this.ch2_marker16.TabStop = false;
+            this.ch2_marker16.Tag = "0";
+            this.ch2_marker16.Text = "0";
+            this.ch2_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker15
+            // 
+            this.ch2_marker15.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker15.Image")));
+            this.ch2_marker15.Location = new System.Drawing.Point(407, 710);
+            this.ch2_marker15.Name = "ch2_marker15";
+            this.ch2_marker15.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker15.TabIndex = 27;
+            this.ch2_marker15.TabStop = false;
+            this.ch2_marker15.Tag = "0";
+            this.ch2_marker15.Text = "0";
+            this.ch2_marker15.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker10
+            // 
+            this.ch2_marker10.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker10.Image")));
+            this.ch2_marker10.Location = new System.Drawing.Point(501, 489);
+            this.ch2_marker10.Name = "ch2_marker10";
+            this.ch2_marker10.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker10.TabIndex = 26;
+            this.ch2_marker10.TabStop = false;
+            this.ch2_marker10.Tag = "0";
+            this.ch2_marker10.Text = "0";
+            this.ch2_marker10.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker14
+            // 
+            this.ch2_marker14.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker14.Image")));
+            this.ch2_marker14.Location = new System.Drawing.Point(463, 489);
+            this.ch2_marker14.Name = "ch2_marker14";
+            this.ch2_marker14.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker14.TabIndex = 25;
+            this.ch2_marker14.TabStop = false;
+            this.ch2_marker14.Tag = "0";
+            this.ch2_marker14.Text = "0";
+            this.ch2_marker14.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker11
+            // 
+            this.ch2_marker11.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker11.Image")));
+            this.ch2_marker11.Location = new System.Drawing.Point(501, 508);
+            this.ch2_marker11.Name = "ch2_marker11";
+            this.ch2_marker11.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker11.TabIndex = 24;
+            this.ch2_marker11.TabStop = false;
+            this.ch2_marker11.Tag = "0";
+            this.ch2_marker11.Text = "0";
+            this.ch2_marker11.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker12
+            // 
+            this.ch2_marker12.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker12.Image")));
+            this.ch2_marker12.Location = new System.Drawing.Point(482, 508);
+            this.ch2_marker12.Name = "ch2_marker12";
+            this.ch2_marker12.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker12.TabIndex = 23;
+            this.ch2_marker12.TabStop = false;
+            this.ch2_marker12.Tag = "0";
+            this.ch2_marker12.Text = "0";
+            this.ch2_marker12.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker13
+            // 
+            this.ch2_marker13.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker13.Image")));
+            this.ch2_marker13.Location = new System.Drawing.Point(463, 508);
+            this.ch2_marker13.Name = "ch2_marker13";
+            this.ch2_marker13.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker13.TabIndex = 22;
+            this.ch2_marker13.TabStop = false;
+            this.ch2_marker13.Tag = "0";
+            this.ch2_marker13.Text = "0";
+            this.ch2_marker13.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker9
+            // 
+            this.ch2_marker9.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker9.Image")));
+            this.ch2_marker9.Location = new System.Drawing.Point(522, 508);
+            this.ch2_marker9.Name = "ch2_marker9";
+            this.ch2_marker9.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker9.TabIndex = 21;
+            this.ch2_marker9.TabStop = false;
+            this.ch2_marker9.Tag = "0";
+            this.ch2_marker9.Text = "0";
+            this.ch2_marker9.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker8
+            // 
+            this.ch2_marker8.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker8.Image")));
+            this.ch2_marker8.Location = new System.Drawing.Point(752, 509);
+            this.ch2_marker8.Name = "ch2_marker8";
+            this.ch2_marker8.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker8.TabIndex = 20;
+            this.ch2_marker8.TabStop = false;
+            this.ch2_marker8.Tag = "0";
+            this.ch2_marker8.Text = "0";
+            this.ch2_marker8.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker7
+            // 
+            this.ch2_marker7.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker7.Image")));
+            this.ch2_marker7.Location = new System.Drawing.Point(732, 226);
+            this.ch2_marker7.Name = "ch2_marker7";
+            this.ch2_marker7.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker7.TabIndex = 19;
+            this.ch2_marker7.TabStop = false;
+            this.ch2_marker7.Tag = "0";
+            this.ch2_marker7.Text = "0";
+            this.ch2_marker7.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker6
+            // 
+            this.ch2_marker6.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker6.Image")));
+            this.ch2_marker6.Location = new System.Drawing.Point(713, 226);
+            this.ch2_marker6.Name = "ch2_marker6";
+            this.ch2_marker6.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker6.TabIndex = 18;
+            this.ch2_marker6.TabStop = false;
+            this.ch2_marker6.Tag = "0";
+            this.ch2_marker6.Text = "0";
+            this.ch2_marker6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker5
+            // 
+            this.ch2_marker5.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker5.Image")));
+            this.ch2_marker5.Location = new System.Drawing.Point(694, 226);
+            this.ch2_marker5.Name = "ch2_marker5";
+            this.ch2_marker5.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker5.TabIndex = 17;
+            this.ch2_marker5.TabStop = false;
+            this.ch2_marker5.Tag = "0";
+            this.ch2_marker5.Text = "0";
+            this.ch2_marker5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker4
+            // 
+            this.ch2_marker4.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker4.Image")));
+            this.ch2_marker4.Location = new System.Drawing.Point(637, 348);
+            this.ch2_marker4.Name = "ch2_marker4";
+            this.ch2_marker4.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker4.TabIndex = 16;
+            this.ch2_marker4.TabStop = false;
+            this.ch2_marker4.Tag = "0";
+            this.ch2_marker4.Text = "0";
+            this.ch2_marker4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker3
+            // 
+            this.ch2_marker3.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker3.Image")));
+            this.ch2_marker3.Location = new System.Drawing.Point(464, 267);
+            this.ch2_marker3.Name = "ch2_marker3";
+            this.ch2_marker3.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker3.TabIndex = 15;
+            this.ch2_marker3.TabStop = false;
+            this.ch2_marker3.Tag = "0";
+            this.ch2_marker3.Text = "0";
+            this.ch2_marker3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker2
+            // 
+            this.ch2_marker2.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker2.Image")));
+            this.ch2_marker2.Location = new System.Drawing.Point(386, 388);
+            this.ch2_marker2.Name = "ch2_marker2";
+            this.ch2_marker2.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker2.TabIndex = 14;
+            this.ch2_marker2.TabStop = false;
+            this.ch2_marker2.Tag = "0";
+            this.ch2_marker2.Text = "0";
+            this.ch2_marker2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch2_marker1
+            // 
+            this.ch2_marker1.BackColor = System.Drawing.Color.Transparent;
+            this.ch2_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch2_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker1.Image")));
+            this.ch2_marker1.Location = new System.Drawing.Point(349, 388);
+            this.ch2_marker1.Name = "ch2_marker1";
+            this.ch2_marker1.Size = new System.Drawing.Size(20, 20);
+            this.ch2_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch2_marker1.TabIndex = 13;
+            this.ch2_marker1.TabStop = false;
+            this.ch2_marker1.Tag = "0";
+            this.ch2_marker1.Text = "0";
+            this.ch2_marker1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch2_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
             // 
             // ch2_map_picture_box
             // 
@@ -531,6 +1340,39 @@
             // ch3tab
             // 
             this.ch3tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch3tab.Controls.Add(this.ch3_marker26);
+            this.ch3tab.Controls.Add(this.ch3_marker25);
+            this.ch3tab.Controls.Add(this.ch3_marker27);
+            this.ch3tab.Controls.Add(this.ch3_marker22);
+            this.ch3tab.Controls.Add(this.ch3_marker23);
+            this.ch3tab.Controls.Add(this.ch3_marker21);
+            this.ch3tab.Controls.Add(this.ch3_marker24);
+            this.ch3tab.Controls.Add(this.ch3_marker18);
+            this.ch3tab.Controls.Add(this.ch3_marker20);
+            this.ch3tab.Controls.Add(this.ch3_marker19);
+            this.ch3tab.Controls.Add(this.ch3_marker17);
+            this.ch3tab.Controls.Add(this.ch3_marker13);
+            this.ch3tab.Controls.Add(this.ch3_marker14);
+            this.ch3tab.Controls.Add(this.ch3_marker12);
+            this.ch3tab.Controls.Add(this.ch3_marker11);
+            this.ch3tab.Controls.Add(this.ch3_marker16);
+            this.ch3tab.Controls.Add(this.ch3_marker15);
+            this.ch3tab.Controls.Add(this.pictureBox28);
+            this.ch3tab.Controls.Add(this.pictureBox3);
+            this.ch3tab.Controls.Add(this.pictureBox21);
+            this.ch3tab.Controls.Add(this.ch3_marker8);
+            this.ch3tab.Controls.Add(this.ch3_marker10);
+            this.ch3tab.Controls.Add(this.ch3_marker9);
+            this.ch3tab.Controls.Add(this.ch3_marker7);
+            this.ch3tab.Controls.Add(this.ch3_marker4);
+            this.ch3tab.Controls.Add(this.ch3_marker6);
+            this.ch3tab.Controls.Add(this.ch3_marker5);
+            this.ch3tab.Controls.Add(this.ch3_marker3);
+            this.ch3tab.Controls.Add(this.ch3_marker2);
+            this.ch3tab.Controls.Add(this.ch3_marker1);
+            this.ch3tab.Controls.Add(this.pictureBox9);
+            this.ch3tab.Controls.Add(this.pictureBox8);
+            this.ch3tab.Controls.Add(this.pictureBox4);
             this.ch3tab.Controls.Add(this.pictureBox5);
             this.ch3tab.Controls.Add(this.ch3_map_picture_box);
             this.ch3tab.Location = new System.Drawing.Point(4, 22);
@@ -539,11 +1381,231 @@
             this.ch3tab.TabIndex = 2;
             this.ch3tab.Text = "Chapter 3";
             // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(523, 47);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox21.TabIndex = 24;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Tag = "0";
+            this.pictureBox21.Text = "0";
+            this.pictureBox21.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.pictureBox21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.pictureBox21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker8
+            // 
+            this.ch3_marker8.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker8.Image")));
+            this.ch3_marker8.Location = new System.Drawing.Point(426, 14);
+            this.ch3_marker8.Name = "ch3_marker8";
+            this.ch3_marker8.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker8.TabIndex = 23;
+            this.ch3_marker8.TabStop = false;
+            this.ch3_marker8.Tag = "0";
+            this.ch3_marker8.Text = "0";
+            this.ch3_marker8.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker10
+            // 
+            this.ch3_marker10.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker10.Image")));
+            this.ch3_marker10.Location = new System.Drawing.Point(464, 14);
+            this.ch3_marker10.Name = "ch3_marker10";
+            this.ch3_marker10.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker10.TabIndex = 22;
+            this.ch3_marker10.TabStop = false;
+            this.ch3_marker10.Tag = "0";
+            this.ch3_marker10.Text = "0";
+            this.ch3_marker10.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker9
+            // 
+            this.ch3_marker9.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker9.Image")));
+            this.ch3_marker9.Location = new System.Drawing.Point(445, 14);
+            this.ch3_marker9.Name = "ch3_marker9";
+            this.ch3_marker9.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker9.TabIndex = 21;
+            this.ch3_marker9.TabStop = false;
+            this.ch3_marker9.Tag = "0";
+            this.ch3_marker9.Text = "0";
+            this.ch3_marker9.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker7
+            // 
+            this.ch3_marker7.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker7.Image")));
+            this.ch3_marker7.Location = new System.Drawing.Point(407, 14);
+            this.ch3_marker7.Name = "ch3_marker7";
+            this.ch3_marker7.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker7.TabIndex = 20;
+            this.ch3_marker7.TabStop = false;
+            this.ch3_marker7.Tag = "0";
+            this.ch3_marker7.Text = "0";
+            this.ch3_marker7.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker4
+            // 
+            this.ch3_marker4.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker4.Image")));
+            this.ch3_marker4.Location = new System.Drawing.Point(2, 81);
+            this.ch3_marker4.Name = "ch3_marker4";
+            this.ch3_marker4.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker4.TabIndex = 19;
+            this.ch3_marker4.TabStop = false;
+            this.ch3_marker4.Tag = "0";
+            this.ch3_marker4.Text = "0";
+            this.ch3_marker4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker6
+            // 
+            this.ch3_marker6.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker6.Image")));
+            this.ch3_marker6.Location = new System.Drawing.Point(118, 47);
+            this.ch3_marker6.Name = "ch3_marker6";
+            this.ch3_marker6.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker6.TabIndex = 18;
+            this.ch3_marker6.TabStop = false;
+            this.ch3_marker6.Tag = "0";
+            this.ch3_marker6.Text = "0";
+            this.ch3_marker6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker5
+            // 
+            this.ch3_marker5.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker5.Image")));
+            this.ch3_marker5.Location = new System.Drawing.Point(233, 114);
+            this.ch3_marker5.Name = "ch3_marker5";
+            this.ch3_marker5.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker5.TabIndex = 17;
+            this.ch3_marker5.TabStop = false;
+            this.ch3_marker5.Tag = "0";
+            this.ch3_marker5.Text = "0";
+            this.ch3_marker5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker3
+            // 
+            this.ch3_marker3.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker3.Image")));
+            this.ch3_marker3.Location = new System.Drawing.Point(176, 281);
+            this.ch3_marker3.Name = "ch3_marker3";
+            this.ch3_marker3.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker3.TabIndex = 16;
+            this.ch3_marker3.TabStop = false;
+            this.ch3_marker3.Tag = "0";
+            this.ch3_marker3.Text = "0";
+            this.ch3_marker3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker2
+            // 
+            this.ch3_marker2.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker2.Image")));
+            this.ch3_marker2.Location = new System.Drawing.Point(270, 348);
+            this.ch3_marker2.Name = "ch3_marker2";
+            this.ch3_marker2.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker2.TabIndex = 15;
+            this.ch3_marker2.TabStop = false;
+            this.ch3_marker2.Tag = "0";
+            this.ch3_marker2.Text = "0";
+            this.ch3_marker2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker1
+            // 
+            this.ch3_marker1.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker1.Image")));
+            this.ch3_marker1.Location = new System.Drawing.Point(233, 348);
+            this.ch3_marker1.Name = "ch3_marker1";
+            this.ch3_marker1.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker1.TabIndex = 14;
+            this.ch3_marker1.TabStop = false;
+            this.ch3_marker1.Tag = "0";
+            this.ch3_marker1.Text = "0";
+            this.ch3_marker1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(25, 44);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox9.TabIndex = 9;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(25, 25);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox8.TabIndex = 8;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_imam;
+            this.pictureBox4.Location = new System.Drawing.Point(6, 25);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabStop = false;
+            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Location = new System.Drawing.Point(6, 6);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(18, 18);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -566,7 +1628,29 @@
             // ch4tab
             // 
             this.ch4tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch4tab.Controls.Add(this.ch4_marker18);
+            this.ch4tab.Controls.Add(this.ch4_marker13);
+            this.ch4tab.Controls.Add(this.ch4_marker17);
+            this.ch4tab.Controls.Add(this.ch4_marker16);
+            this.ch4tab.Controls.Add(this.ch4_marker15);
+            this.ch4tab.Controls.Add(this.ch4_marker14);
+            this.ch4tab.Controls.Add(this.ch4_marker12);
+            this.ch4tab.Controls.Add(this.ch4_marker10);
+            this.ch4tab.Controls.Add(this.ch4_marker11);
+            this.ch4tab.Controls.Add(this.ch4_marker9);
+            this.ch4tab.Controls.Add(this.ch4_marker8);
+            this.ch4tab.Controls.Add(this.ch4_marker7);
+            this.ch4tab.Controls.Add(this.ch4_marker6);
+            this.ch4tab.Controls.Add(this.ch4_marker5);
+            this.ch4tab.Controls.Add(this.ch4_marker2);
+            this.ch4tab.Controls.Add(this.ch4_marker3);
+            this.ch4tab.Controls.Add(this.ch4_marker4);
             this.ch4tab.Controls.Add(this.pictureBox6);
+            this.ch4tab.Controls.Add(this.pictureBox10);
+            this.ch4tab.Controls.Add(this.pictureBox11);
+            this.ch4tab.Controls.Add(this.pictureBox32);
+            this.ch4tab.Controls.Add(this.pictureBox33);
+            this.ch4tab.Controls.Add(this.ch4_marker1);
             this.ch4tab.Controls.Add(this.ch4_map_picture_box);
             this.ch4tab.Location = new System.Drawing.Point(4, 22);
             this.ch4tab.Name = "ch4tab";
@@ -574,16 +1658,22 @@
             this.ch4tab.TabIndex = 3;
             this.ch4tab.Text = "Chapter 4";
             // 
-            // pictureBox6
+            // ch4_marker1
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
-            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.ch4_marker1.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker1.Image")));
+            this.ch4_marker1.Location = new System.Drawing.Point(523, 98);
+            this.ch4_marker1.Name = "ch4_marker1";
+            this.ch4_marker1.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker1.TabIndex = 14;
+            this.ch4_marker1.TabStop = false;
+            this.ch4_marker1.Tag = "0";
+            this.ch4_marker1.Text = "0";
+            this.ch4_marker1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
             // 
             // ch4_map_picture_box
             // 
@@ -601,7 +1691,28 @@
             // ch5tab
             // 
             this.ch5tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch5tab.Controls.Add(this.ch5_marker16);
+            this.ch5tab.Controls.Add(this.ch5_marker18);
+            this.ch5tab.Controls.Add(this.ch5_marker17);
+            this.ch5tab.Controls.Add(this.ch5_marker15);
+            this.ch5tab.Controls.Add(this.ch5_marker14);
+            this.ch5tab.Controls.Add(this.ch5_marker13);
+            this.ch5tab.Controls.Add(this.ch5_marker12);
+            this.ch5tab.Controls.Add(this.ch5_marker10);
+            this.ch5tab.Controls.Add(this.ch5_marker11);
+            this.ch5tab.Controls.Add(this.ch5_marker9);
+            this.ch5tab.Controls.Add(this.ch5_marker7);
+            this.ch5tab.Controls.Add(this.ch5_marker6);
+            this.ch5tab.Controls.Add(this.ch5_marker5);
+            this.ch5tab.Controls.Add(this.ch5_marker2);
+            this.ch5tab.Controls.Add(this.ch5_marker3);
+            this.ch5tab.Controls.Add(this.ch5_marker4);
+            this.ch5tab.Controls.Add(this.ch5_marker1);
             this.ch5tab.Controls.Add(this.pictureBox7);
+            this.ch5tab.Controls.Add(this.pictureBox29);
+            this.ch5tab.Controls.Add(this.pictureBox30);
+            this.ch5tab.Controls.Add(this.pictureBox31);
+            this.ch5tab.Controls.Add(this.ch5_marker8);
             this.ch5tab.Controls.Add(this.ch5_map_picture_box);
             this.ch5tab.Location = new System.Drawing.Point(4, 22);
             this.ch5tab.Name = "ch5tab";
@@ -609,16 +1720,22 @@
             this.ch5tab.TabIndex = 4;
             this.ch5tab.Text = "Chapter 5";
             // 
-            // pictureBox7
+            // ch5_marker8
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
-            this.pictureBox7.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.ch5_marker8.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker8.Image")));
+            this.ch5_marker8.Location = new System.Drawing.Point(233, 181);
+            this.ch5_marker8.Name = "ch5_marker8";
+            this.ch5_marker8.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker8.TabIndex = 14;
+            this.ch5_marker8.TabStop = false;
+            this.ch5_marker8.Tag = "0";
+            this.ch5_marker8.Text = "0";
+            this.ch5_marker8.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
             // 
             // ch5_map_picture_box
             // 
@@ -873,165 +1990,1034 @@
             this.armor_box.MouseClick += new System.Windows.Forms.MouseEventHandler(this.armor_box_MouseClick);
             this.armor_box.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.armor_box_MouseClick);
             // 
-            // ch1_marker19
+            // pictureBox24
             // 
-            this.ch1_marker19.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker19.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker19.Image")));
-            this.ch1_marker19.Location = new System.Drawing.Point(368, 228);
-            this.ch1_marker19.Name = "ch1_marker19";
-            this.ch1_marker19.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker19.TabIndex = 25;
-            this.ch1_marker19.TabStop = false;
-            this.ch1_marker19.Tag = "0";
-            this.ch1_marker19.Text = "0";
-            this.ch1_marker19.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_shop;
+            this.pictureBox24.Location = new System.Drawing.Point(6, 63);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox24.TabIndex = 39;
+            this.pictureBox24.TabStop = false;
             // 
-            // ch1_marker20
+            // pictureBox25
             // 
-            this.ch1_marker20.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker20.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker20.Image")));
-            this.ch1_marker20.Location = new System.Drawing.Point(387, 228);
-            this.ch1_marker20.Name = "ch1_marker20";
-            this.ch1_marker20.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker20.TabIndex = 24;
-            this.ch1_marker20.TabStop = false;
-            this.ch1_marker20.Tag = "0";
-            this.ch1_marker20.Text = "0";
-            this.ch1_marker20.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox25.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_hotel;
+            this.pictureBox25.Location = new System.Drawing.Point(6, 44);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox25.TabIndex = 38;
+            this.pictureBox25.TabStop = false;
             // 
-            // ch1_marker18
+            // pictureBox26
             // 
-            this.ch1_marker18.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker18.Image")));
-            this.ch1_marker18.Location = new System.Drawing.Point(349, 228);
-            this.ch1_marker18.Name = "ch1_marker18";
-            this.ch1_marker18.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker18.TabIndex = 23;
-            this.ch1_marker18.TabStop = false;
-            this.ch1_marker18.Tag = "0";
-            this.ch1_marker18.Text = "0";
-            this.ch1_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox26.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_imam;
+            this.pictureBox26.Location = new System.Drawing.Point(6, 25);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox26.TabIndex = 37;
+            this.pictureBox26.TabStop = false;
             // 
-            // ch1_marker16
+            // pictureBox27
             // 
-            this.ch1_marker16.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker16.Image")));
-            this.ch1_marker16.Location = new System.Drawing.Point(522, 228);
-            this.ch1_marker16.Name = "ch1_marker16";
-            this.ch1_marker16.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker16.TabIndex = 26;
-            this.ch1_marker16.TabStop = false;
-            this.ch1_marker16.Tag = "0";
-            this.ch1_marker16.Text = "0";
-            this.ch1_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox27.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox27.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox27.TabIndex = 36;
+            this.pictureBox27.TabStop = false;
             // 
-            // ch1_marker17
+            // pictureBox3
             // 
-            this.ch1_marker17.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker17.Image")));
-            this.ch1_marker17.Location = new System.Drawing.Point(407, 228);
-            this.ch1_marker17.Name = "ch1_marker17";
-            this.ch1_marker17.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker17.TabIndex = 27;
-            this.ch1_marker17.TabStop = false;
-            this.ch1_marker17.Tag = "0";
-            this.ch1_marker17.Text = "0";
-            this.ch1_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_hotel;
+            this.pictureBox3.Location = new System.Drawing.Point(6, 44);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 25;
+            this.pictureBox3.TabStop = false;
             // 
-            // ch1_marker22
+            // pictureBox28
             // 
-            this.ch1_marker22.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker22.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker22.Image")));
-            this.ch1_marker22.Location = new System.Drawing.Point(733, 209);
-            this.ch1_marker22.Name = "ch1_marker22";
-            this.ch1_marker22.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker22.TabIndex = 31;
-            this.ch1_marker22.TabStop = false;
-            this.ch1_marker22.Tag = "0";
-            this.ch1_marker22.Text = "0";
-            this.ch1_marker22.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox28.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_shop;
+            this.pictureBox28.Location = new System.Drawing.Point(25, 6);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox28.TabIndex = 26;
+            this.pictureBox28.TabStop = false;
             // 
-            // ch1_marker24
+            // pictureBox7
             // 
-            this.ch1_marker24.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker24.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker24.Image")));
-            this.ch1_marker24.Location = new System.Drawing.Point(733, 228);
-            this.ch1_marker24.Name = "ch1_marker24";
-            this.ch1_marker24.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker24.TabIndex = 30;
-            this.ch1_marker24.TabStop = false;
-            this.ch1_marker24.Tag = "0";
-            this.ch1_marker24.Text = "0";
-            this.ch1_marker24.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_shop;
+            this.pictureBox7.Location = new System.Drawing.Point(6, 63);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox7.TabIndex = 38;
+            this.pictureBox7.TabStop = false;
             // 
-            // ch1_marker21
+            // pictureBox29
             // 
-            this.ch1_marker21.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker21.Image")));
-            this.ch1_marker21.Location = new System.Drawing.Point(695, 209);
-            this.ch1_marker21.Name = "ch1_marker21";
-            this.ch1_marker21.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker21.TabIndex = 29;
-            this.ch1_marker21.TabStop = false;
-            this.ch1_marker21.Tag = "0";
-            this.ch1_marker21.Text = "0";
-            this.ch1_marker21.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox29.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_hotel;
+            this.pictureBox29.Location = new System.Drawing.Point(6, 44);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox29.TabIndex = 37;
+            this.pictureBox29.TabStop = false;
             // 
-            // ch1_marker23
+            // pictureBox30
             // 
-            this.ch1_marker23.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker23.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker23.Image")));
-            this.ch1_marker23.Location = new System.Drawing.Point(695, 228);
-            this.ch1_marker23.Name = "ch1_marker23";
-            this.ch1_marker23.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker23.TabIndex = 28;
-            this.ch1_marker23.TabStop = false;
-            this.ch1_marker23.Tag = "0";
-            this.ch1_marker23.Text = "0";
-            this.ch1_marker23.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox30.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_imam;
+            this.pictureBox30.Location = new System.Drawing.Point(6, 25);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox30.TabIndex = 36;
+            this.pictureBox30.TabStop = false;
             // 
-            // ch1_marker25
+            // pictureBox31
             // 
-            this.ch1_marker25.BackColor = System.Drawing.Color.Transparent;
-            this.ch1_marker25.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker25.Image")));
-            this.ch1_marker25.Location = new System.Drawing.Point(140, 570);
-            this.ch1_marker25.Name = "ch1_marker25";
-            this.ch1_marker25.Size = new System.Drawing.Size(18, 18);
-            this.ch1_marker25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.ch1_marker25.TabIndex = 32;
-            this.ch1_marker25.TabStop = false;
-            this.ch1_marker25.Tag = "0";
-            this.ch1_marker25.Text = "0";
-            this.ch1_marker25.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.pictureBox31.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox31.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox31.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox31.TabIndex = 35;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_shop;
+            this.pictureBox6.Location = new System.Drawing.Point(25, 6);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox6.TabIndex = 31;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_hotel;
+            this.pictureBox10.Location = new System.Drawing.Point(6, 44);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox10.TabIndex = 30;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox11.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_rainy;
+            this.pictureBox11.Location = new System.Drawing.Point(25, 25);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox11.TabIndex = 29;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox32.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_imam;
+            this.pictureBox32.Location = new System.Drawing.Point(6, 25);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox32.TabIndex = 28;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox33.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_coronya;
+            this.pictureBox33.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox33.TabIndex = 27;
+            this.pictureBox33.TabStop = false;
+            // 
+            // ch3_marker15
+            // 
+            this.ch3_marker15.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker15.Image")));
+            this.ch3_marker15.Location = new System.Drawing.Point(581, 181);
+            this.ch3_marker15.Name = "ch3_marker15";
+            this.ch3_marker15.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker15.TabIndex = 27;
+            this.ch3_marker15.TabStop = false;
+            this.ch3_marker15.Tag = "0";
+            this.ch3_marker15.Text = "0";
+            // 
+            // ch3_marker16
+            // 
+            this.ch3_marker16.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker16.Image")));
+            this.ch3_marker16.Location = new System.Drawing.Point(523, 281);
+            this.ch3_marker16.Name = "ch3_marker16";
+            this.ch3_marker16.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker16.TabIndex = 28;
+            this.ch3_marker16.TabStop = false;
+            this.ch3_marker16.Tag = "0";
+            this.ch3_marker16.Text = "0";
+            this.ch3_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker11
+            // 
+            this.ch3_marker11.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker11.Image")));
+            this.ch3_marker11.Location = new System.Drawing.Point(696, 14);
+            this.ch3_marker11.Name = "ch3_marker11";
+            this.ch3_marker11.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker11.TabIndex = 29;
+            this.ch3_marker11.TabStop = false;
+            this.ch3_marker11.Tag = "0";
+            this.ch3_marker11.Text = "0";
+            this.ch3_marker11.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker13
+            // 
+            this.ch3_marker13.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker13.Image")));
+            this.ch3_marker13.Location = new System.Drawing.Point(773, 14);
+            this.ch3_marker13.Name = "ch3_marker13";
+            this.ch3_marker13.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker13.TabIndex = 32;
+            this.ch3_marker13.TabStop = false;
+            this.ch3_marker13.Tag = "0";
+            this.ch3_marker13.Text = "0";
+            this.ch3_marker13.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker14
+            // 
+            this.ch3_marker14.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker14.Image")));
+            this.ch3_marker14.Location = new System.Drawing.Point(792, 14);
+            this.ch3_marker14.Name = "ch3_marker14";
+            this.ch3_marker14.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker14.TabIndex = 31;
+            this.ch3_marker14.TabStop = false;
+            this.ch3_marker14.Tag = "0";
+            this.ch3_marker14.Text = "0";
+            this.ch3_marker14.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker12
+            // 
+            this.ch3_marker12.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker12.Image")));
+            this.ch3_marker12.Location = new System.Drawing.Point(754, 14);
+            this.ch3_marker12.Name = "ch3_marker12";
+            this.ch3_marker12.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker12.TabIndex = 30;
+            this.ch3_marker12.TabStop = false;
+            this.ch3_marker12.Tag = "0";
+            this.ch3_marker12.Text = "0";
+            this.ch3_marker12.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker18
+            // 
+            this.ch3_marker18.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker18.Image")));
+            this.ch3_marker18.Location = new System.Drawing.Point(600, 348);
+            this.ch3_marker18.Name = "ch3_marker18";
+            this.ch3_marker18.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker18.TabIndex = 36;
+            this.ch3_marker18.TabStop = false;
+            this.ch3_marker18.Tag = "0";
+            this.ch3_marker18.Text = "0";
+            this.ch3_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker20
+            // 
+            this.ch3_marker20.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker20.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker20.Image")));
+            this.ch3_marker20.Location = new System.Drawing.Point(638, 348);
+            this.ch3_marker20.Name = "ch3_marker20";
+            this.ch3_marker20.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker20.TabIndex = 35;
+            this.ch3_marker20.TabStop = false;
+            this.ch3_marker20.Tag = "0";
+            this.ch3_marker20.Text = "0";
+            this.ch3_marker20.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker19
+            // 
+            this.ch3_marker19.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker19.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker19.Image")));
+            this.ch3_marker19.Location = new System.Drawing.Point(619, 348);
+            this.ch3_marker19.Name = "ch3_marker19";
+            this.ch3_marker19.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker19.TabIndex = 34;
+            this.ch3_marker19.TabStop = false;
+            this.ch3_marker19.Tag = "0";
+            this.ch3_marker19.Text = "0";
+            this.ch3_marker19.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker17
+            // 
+            this.ch3_marker17.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker17.Image")));
+            this.ch3_marker17.Location = new System.Drawing.Point(581, 348);
+            this.ch3_marker17.Name = "ch3_marker17";
+            this.ch3_marker17.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker17.TabIndex = 33;
+            this.ch3_marker17.TabStop = false;
+            this.ch3_marker17.Tag = "0";
+            this.ch3_marker17.Text = "0";
+            this.ch3_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker24
+            // 
+            this.ch3_marker24.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker24.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker24.Image")));
+            this.ch3_marker24.Location = new System.Drawing.Point(523, 447);
+            this.ch3_marker24.Name = "ch3_marker24";
+            this.ch3_marker24.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker24.TabIndex = 37;
+            this.ch3_marker24.TabStop = false;
+            this.ch3_marker24.Tag = "0";
+            this.ch3_marker24.Text = "0";
+            this.ch3_marker24.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker22
+            // 
+            this.ch3_marker22.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker22.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker22.Image")));
+            this.ch3_marker22.Location = new System.Drawing.Point(599, 448);
+            this.ch3_marker22.Name = "ch3_marker22";
+            this.ch3_marker22.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker22.TabIndex = 40;
+            this.ch3_marker22.TabStop = false;
+            this.ch3_marker22.Tag = "0";
+            this.ch3_marker22.Text = "0";
+            this.ch3_marker22.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker23
+            // 
+            this.ch3_marker23.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker23.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker23.Image")));
+            this.ch3_marker23.Location = new System.Drawing.Point(618, 448);
+            this.ch3_marker23.Name = "ch3_marker23";
+            this.ch3_marker23.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker23.TabIndex = 39;
+            this.ch3_marker23.TabStop = false;
+            this.ch3_marker23.Tag = "0";
+            this.ch3_marker23.Text = "0";
+            this.ch3_marker23.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker21
+            // 
+            this.ch3_marker21.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker21.Image")));
+            this.ch3_marker21.Location = new System.Drawing.Point(580, 448);
+            this.ch3_marker21.Name = "ch3_marker21";
+            this.ch3_marker21.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker21.TabIndex = 38;
+            this.ch3_marker21.TabStop = false;
+            this.ch3_marker21.Tag = "0";
+            this.ch3_marker21.Text = "0";
+            this.ch3_marker21.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker27
+            // 
+            this.ch3_marker27.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker27.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker27.Image")));
+            this.ch3_marker27.Location = new System.Drawing.Point(60, 481);
+            this.ch3_marker27.Name = "ch3_marker27";
+            this.ch3_marker27.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker27.TabIndex = 41;
+            this.ch3_marker27.TabStop = false;
+            this.ch3_marker27.Tag = "0";
+            this.ch3_marker27.Text = "0";
+            this.ch3_marker27.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker27.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker27.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker25
+            // 
+            this.ch3_marker25.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker25.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker25.Image")));
+            this.ch3_marker25.Location = new System.Drawing.Point(291, 415);
+            this.ch3_marker25.Name = "ch3_marker25";
+            this.ch3_marker25.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker25.TabIndex = 42;
+            this.ch3_marker25.TabStop = false;
+            this.ch3_marker25.Tag = "0";
+            this.ch3_marker25.Text = "0";
+            this.ch3_marker25.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch3_marker26
+            // 
+            this.ch3_marker26.BackColor = System.Drawing.Color.Transparent;
+            this.ch3_marker26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch3_marker26.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker26.Image")));
+            this.ch3_marker26.Location = new System.Drawing.Point(176, 714);
+            this.ch3_marker26.Name = "ch3_marker26";
+            this.ch3_marker26.Size = new System.Drawing.Size(20, 20);
+            this.ch3_marker26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch3_marker26.TabIndex = 43;
+            this.ch3_marker26.TabStop = false;
+            this.ch3_marker26.Tag = "0";
+            this.ch3_marker26.Text = "0";
+            this.ch3_marker26.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch3_marker26.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            this.ch3_marker26.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch3_marker_MouseClick);
+            // 
+            // ch4_marker4
+            // 
+            this.ch4_marker4.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker4.Image")));
+            this.ch4_marker4.Location = new System.Drawing.Point(580, 98);
+            this.ch4_marker4.Name = "ch4_marker4";
+            this.ch4_marker4.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker4.TabIndex = 32;
+            this.ch4_marker4.TabStop = false;
+            this.ch4_marker4.Tag = "0";
+            this.ch4_marker4.Text = "0";
+            this.ch4_marker4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker3
+            // 
+            this.ch4_marker3.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker3.Image")));
+            this.ch4_marker3.Location = new System.Drawing.Point(561, 98);
+            this.ch4_marker3.Name = "ch4_marker3";
+            this.ch4_marker3.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker3.TabIndex = 33;
+            this.ch4_marker3.TabStop = false;
+            this.ch4_marker3.Tag = "0";
+            this.ch4_marker3.Text = "0";
+            this.ch4_marker3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker2
+            // 
+            this.ch4_marker2.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker2.Image")));
+            this.ch4_marker2.Location = new System.Drawing.Point(542, 98);
+            this.ch4_marker2.Name = "ch4_marker2";
+            this.ch4_marker2.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker2.TabIndex = 34;
+            this.ch4_marker2.TabStop = false;
+            this.ch4_marker2.Tag = "0";
+            this.ch4_marker2.Text = "0";
+            this.ch4_marker2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker6
+            // 
+            this.ch4_marker6.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker6.Image")));
+            this.ch4_marker6.Location = new System.Drawing.Point(328, 69);
+            this.ch4_marker6.Name = "ch4_marker6";
+            this.ch4_marker6.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker6.TabIndex = 36;
+            this.ch4_marker6.TabStop = false;
+            this.ch4_marker6.Tag = "0";
+            this.ch4_marker6.Text = "0";
+            this.ch4_marker6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker5
+            // 
+            this.ch4_marker5.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker5.Image")));
+            this.ch4_marker5.Location = new System.Drawing.Point(290, 69);
+            this.ch4_marker5.Name = "ch4_marker5";
+            this.ch4_marker5.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker5.TabIndex = 35;
+            this.ch4_marker5.TabStop = false;
+            this.ch4_marker5.Tag = "0";
+            this.ch4_marker5.Text = "0";
+            this.ch4_marker5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker7
+            // 
+            this.ch4_marker7.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker7.Image")));
+            this.ch4_marker7.Location = new System.Drawing.Point(233, 157);
+            this.ch4_marker7.Name = "ch4_marker7";
+            this.ch4_marker7.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker7.TabIndex = 37;
+            this.ch4_marker7.TabStop = false;
+            this.ch4_marker7.Tag = "0";
+            this.ch4_marker7.Text = "0";
+            this.ch4_marker7.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker8
+            // 
+            this.ch4_marker8.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker8.Image")));
+            this.ch4_marker8.Location = new System.Drawing.Point(60, 158);
+            this.ch4_marker8.Name = "ch4_marker8";
+            this.ch4_marker8.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker8.TabIndex = 38;
+            this.ch4_marker8.TabStop = false;
+            this.ch4_marker8.Tag = "0";
+            this.ch4_marker8.Text = "0";
+            this.ch4_marker8.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker10
+            // 
+            this.ch4_marker10.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker10.Image")));
+            this.ch4_marker10.Location = new System.Drawing.Point(252, 215);
+            this.ch4_marker10.Name = "ch4_marker10";
+            this.ch4_marker10.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker10.TabIndex = 41;
+            this.ch4_marker10.TabStop = false;
+            this.ch4_marker10.Tag = "0";
+            this.ch4_marker10.Text = "0";
+            this.ch4_marker10.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker11
+            // 
+            this.ch4_marker11.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker11.Image")));
+            this.ch4_marker11.Location = new System.Drawing.Point(271, 215);
+            this.ch4_marker11.Name = "ch4_marker11";
+            this.ch4_marker11.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker11.TabIndex = 40;
+            this.ch4_marker11.TabStop = false;
+            this.ch4_marker11.Tag = "0";
+            this.ch4_marker11.Text = "0";
+            this.ch4_marker11.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker9
+            // 
+            this.ch4_marker9.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker9.Image")));
+            this.ch4_marker9.Location = new System.Drawing.Point(233, 215);
+            this.ch4_marker9.Name = "ch4_marker9";
+            this.ch4_marker9.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker9.TabIndex = 39;
+            this.ch4_marker9.TabStop = false;
+            this.ch4_marker9.Tag = "0";
+            this.ch4_marker9.Text = "0";
+            this.ch4_marker9.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker12
+            // 
+            this.ch4_marker12.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker12.Image")));
+            this.ch4_marker12.Location = new System.Drawing.Point(349, 245);
+            this.ch4_marker12.Name = "ch4_marker12";
+            this.ch4_marker12.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker12.TabIndex = 42;
+            this.ch4_marker12.TabStop = false;
+            this.ch4_marker12.Tag = "0";
+            this.ch4_marker12.Text = "0";
+            this.ch4_marker12.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker14
+            // 
+            this.ch4_marker14.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker14.Image")));
+            this.ch4_marker14.Location = new System.Drawing.Point(1, 392);
+            this.ch4_marker14.Name = "ch4_marker14";
+            this.ch4_marker14.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker14.TabIndex = 43;
+            this.ch4_marker14.TabStop = false;
+            this.ch4_marker14.Tag = "0";
+            this.ch4_marker14.Text = "0";
+            this.ch4_marker14.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker15
+            // 
+            this.ch4_marker15.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker15.Image")));
+            this.ch4_marker15.Location = new System.Drawing.Point(175, 450);
+            this.ch4_marker15.Name = "ch4_marker15";
+            this.ch4_marker15.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker15.TabIndex = 44;
+            this.ch4_marker15.TabStop = false;
+            this.ch4_marker15.Tag = "0";
+            this.ch4_marker15.Text = "0";
+            this.ch4_marker15.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker17
+            // 
+            this.ch4_marker17.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker17.Image")));
+            this.ch4_marker17.Location = new System.Drawing.Point(328, 538);
+            this.ch4_marker17.Name = "ch4_marker17";
+            this.ch4_marker17.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker17.TabIndex = 46;
+            this.ch4_marker17.TabStop = false;
+            this.ch4_marker17.Tag = "0";
+            this.ch4_marker17.Text = "0";
+            this.ch4_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker16
+            // 
+            this.ch4_marker16.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker16.Image")));
+            this.ch4_marker16.Location = new System.Drawing.Point(290, 538);
+            this.ch4_marker16.Name = "ch4_marker16";
+            this.ch4_marker16.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker16.TabIndex = 45;
+            this.ch4_marker16.TabStop = false;
+            this.ch4_marker16.Tag = "0";
+            this.ch4_marker16.Text = "0";
+            this.ch4_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker13
+            // 
+            this.ch4_marker13.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker13.Image")));
+            this.ch4_marker13.Location = new System.Drawing.Point(580, 188);
+            this.ch4_marker13.Name = "ch4_marker13";
+            this.ch4_marker13.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker13.TabIndex = 47;
+            this.ch4_marker13.TabStop = false;
+            this.ch4_marker13.Tag = "0";
+            this.ch4_marker13.Text = "0";
+            this.ch4_marker13.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch4_marker18
+            // 
+            this.ch4_marker18.BackColor = System.Drawing.Color.Transparent;
+            this.ch4_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch4_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker18.Image")));
+            this.ch4_marker18.Location = new System.Drawing.Point(580, 628);
+            this.ch4_marker18.Name = "ch4_marker18";
+            this.ch4_marker18.Size = new System.Drawing.Size(20, 20);
+            this.ch4_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch4_marker18.TabIndex = 48;
+            this.ch4_marker18.TabStop = false;
+            this.ch4_marker18.Tag = "0";
+            this.ch4_marker18.Text = "0";
+            this.ch4_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch4_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            this.ch4_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch4_marker_MouseClick);
+            // 
+            // ch5_marker2
+            // 
+            this.ch5_marker2.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker2.Image")));
+            this.ch5_marker2.Location = new System.Drawing.Point(310, 48);
+            this.ch5_marker2.Name = "ch5_marker2";
+            this.ch5_marker2.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker2.TabIndex = 42;
+            this.ch5_marker2.TabStop = false;
+            this.ch5_marker2.Tag = "0";
+            this.ch5_marker2.Text = "0";
+            this.ch5_marker2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker3
+            // 
+            this.ch5_marker3.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker3.Image")));
+            this.ch5_marker3.Location = new System.Drawing.Point(329, 48);
+            this.ch5_marker3.Name = "ch5_marker3";
+            this.ch5_marker3.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker3.TabIndex = 41;
+            this.ch5_marker3.TabStop = false;
+            this.ch5_marker3.Tag = "0";
+            this.ch5_marker3.Text = "0";
+            this.ch5_marker3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker4
+            // 
+            this.ch5_marker4.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker4.Image")));
+            this.ch5_marker4.Location = new System.Drawing.Point(348, 48);
+            this.ch5_marker4.Name = "ch5_marker4";
+            this.ch5_marker4.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker4.TabIndex = 40;
+            this.ch5_marker4.TabStop = false;
+            this.ch5_marker4.Tag = "0";
+            this.ch5_marker4.Text = "0";
+            this.ch5_marker4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker1
+            // 
+            this.ch5_marker1.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker1.Image")));
+            this.ch5_marker1.Location = new System.Drawing.Point(291, 48);
+            this.ch5_marker1.Name = "ch5_marker1";
+            this.ch5_marker1.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker1.TabIndex = 39;
+            this.ch5_marker1.TabStop = false;
+            this.ch5_marker1.Tag = "0";
+            this.ch5_marker1.Text = "0";
+            this.ch5_marker1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker5
+            // 
+            this.ch5_marker5.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker5.Image")));
+            this.ch5_marker5.Location = new System.Drawing.Point(233, 81);
+            this.ch5_marker5.Name = "ch5_marker5";
+            this.ch5_marker5.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker5.TabIndex = 43;
+            this.ch5_marker5.TabStop = false;
+            this.ch5_marker5.Tag = "0";
+            this.ch5_marker5.Text = "0";
+            this.ch5_marker5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker6
+            // 
+            this.ch5_marker6.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker6.Image")));
+            this.ch5_marker6.Location = new System.Drawing.Point(270, 81);
+            this.ch5_marker6.Name = "ch5_marker6";
+            this.ch5_marker6.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker6.TabIndex = 44;
+            this.ch5_marker6.TabStop = false;
+            this.ch5_marker6.Tag = "0";
+            this.ch5_marker6.Text = "0";
+            this.ch5_marker6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker7
+            // 
+            this.ch5_marker7.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker7.Image")));
+            this.ch5_marker7.Location = new System.Drawing.Point(60, 180);
+            this.ch5_marker7.Name = "ch5_marker7";
+            this.ch5_marker7.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker7.TabIndex = 45;
+            this.ch5_marker7.TabStop = false;
+            this.ch5_marker7.Tag = "0";
+            this.ch5_marker7.Text = "0";
+            this.ch5_marker7.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker10
+            // 
+            this.ch5_marker10.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker10.Image")));
+            this.ch5_marker10.Location = new System.Drawing.Point(136, 248);
+            this.ch5_marker10.Name = "ch5_marker10";
+            this.ch5_marker10.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker10.TabIndex = 48;
+            this.ch5_marker10.TabStop = false;
+            this.ch5_marker10.Tag = "0";
+            this.ch5_marker10.Text = "0";
+            this.ch5_marker10.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker11
+            // 
+            this.ch5_marker11.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker11.Image")));
+            this.ch5_marker11.Location = new System.Drawing.Point(155, 248);
+            this.ch5_marker11.Name = "ch5_marker11";
+            this.ch5_marker11.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker11.TabIndex = 47;
+            this.ch5_marker11.TabStop = false;
+            this.ch5_marker11.Tag = "0";
+            this.ch5_marker11.Text = "0";
+            this.ch5_marker11.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker9
+            // 
+            this.ch5_marker9.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker9.Image")));
+            this.ch5_marker9.Location = new System.Drawing.Point(117, 248);
+            this.ch5_marker9.Name = "ch5_marker9";
+            this.ch5_marker9.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker9.TabIndex = 46;
+            this.ch5_marker9.TabStop = false;
+            this.ch5_marker9.Tag = "0";
+            this.ch5_marker9.Text = "0";
+            this.ch5_marker9.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker12
+            // 
+            this.ch5_marker12.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker12.Image")));
+            this.ch5_marker12.Location = new System.Drawing.Point(233, 281);
+            this.ch5_marker12.Name = "ch5_marker12";
+            this.ch5_marker12.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker12.TabIndex = 49;
+            this.ch5_marker12.TabStop = false;
+            this.ch5_marker12.Tag = "0";
+            this.ch5_marker12.Text = "0";
+            this.ch5_marker12.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker13
+            // 
+            this.ch5_marker13.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker13.Image")));
+            this.ch5_marker13.Location = new System.Drawing.Point(310, 368);
+            this.ch5_marker13.Name = "ch5_marker13";
+            this.ch5_marker13.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker13.TabIndex = 50;
+            this.ch5_marker13.TabStop = false;
+            this.ch5_marker13.Tag = "0";
+            this.ch5_marker13.Text = "0";
+            this.ch5_marker13.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker14
+            // 
+            this.ch5_marker14.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker14.Image")));
+            this.ch5_marker14.Location = new System.Drawing.Point(155, 368);
+            this.ch5_marker14.Name = "ch5_marker14";
+            this.ch5_marker14.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker14.TabIndex = 51;
+            this.ch5_marker14.TabStop = false;
+            this.ch5_marker14.Tag = "0";
+            this.ch5_marker14.Text = "0";
+            this.ch5_marker14.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker15
+            // 
+            this.ch5_marker15.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker15.Image")));
+            this.ch5_marker15.Location = new System.Drawing.Point(78, 435);
+            this.ch5_marker15.Name = "ch5_marker15";
+            this.ch5_marker15.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker15.TabIndex = 52;
+            this.ch5_marker15.TabStop = false;
+            this.ch5_marker15.Tag = "0";
+            this.ch5_marker15.Text = "0";
+            this.ch5_marker15.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker17
+            // 
+            this.ch5_marker17.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker17.Image")));
+            this.ch5_marker17.Location = new System.Drawing.Point(117, 681);
+            this.ch5_marker17.Name = "ch5_marker17";
+            this.ch5_marker17.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker17.TabIndex = 53;
+            this.ch5_marker17.TabStop = false;
+            this.ch5_marker17.Tag = "0";
+            this.ch5_marker17.Text = "0";
+            this.ch5_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker18
+            // 
+            this.ch5_marker18.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker18.Image")));
+            this.ch5_marker18.Location = new System.Drawing.Point(310, 634);
+            this.ch5_marker18.Name = "ch5_marker18";
+            this.ch5_marker18.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker18.TabIndex = 54;
+            this.ch5_marker18.TabStop = false;
+            this.ch5_marker18.Tag = "0";
+            this.ch5_marker18.Text = "0";
+            this.ch5_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            // 
+            // ch5_marker16
+            // 
+            this.ch5_marker16.BackColor = System.Drawing.Color.Transparent;
+            this.ch5_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ch5_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker16.Image")));
+            this.ch5_marker16.Location = new System.Drawing.Point(1, 681);
+            this.ch5_marker16.Name = "ch5_marker16";
+            this.ch5_marker16.Size = new System.Drawing.Size(20, 20);
+            this.ch5_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.ch5_marker16.TabIndex = 55;
+            this.ch5_marker16.TabStop = false;
+            this.ch5_marker16.Tag = "0";
+            this.ch5_marker16.Text = "0";
+            this.ch5_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
+            this.ch5_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
             // 
             // mainwindow
             // 
@@ -1049,6 +3035,18 @@
             this.map_tabs.ResumeLayout(false);
             this.ch1tab.ResumeLayout(false);
             this.ch1tab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker13)).EndInit();
@@ -1063,26 +3061,61 @@
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_marker1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch1_map_picture_box)).EndInit();
             this.ch2tab.ResumeLayout(false);
             this.ch2tab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch2_marker1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch2_map_picture_box)).EndInit();
             this.ch3tab.ResumeLayout(false);
             this.ch3tab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_map_picture_box)).EndInit();
             this.ch4tab.ResumeLayout(false);
             this.ch4tab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch4_map_picture_box)).EndInit();
             this.ch5tab.ResumeLayout(false);
             this.ch5tab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch5_map_picture_box)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -1103,16 +3136,72 @@
             ((System.ComponentModel.ISupportInitialize)(this.sword_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rod_box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.armor_box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ch1_marker25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch3_marker26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch4_marker18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ch5_marker16)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1149,13 +3238,9 @@
         private System.Windows.Forms.Button reset_button;
         private System.Windows.Forms.Button about_button;
         private System.Windows.Forms.PictureBox ch1_marker1;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox ch1_marker2;
         private System.Windows.Forms.PictureBox ch1_marker3;
         private System.Windows.Forms.PictureBox ch1_marker7;
@@ -1180,6 +3265,113 @@
         private System.Windows.Forms.PictureBox ch1_marker19;
         private System.Windows.Forms.PictureBox ch1_marker20;
         private System.Windows.Forms.PictureBox ch1_marker18;
+        private System.Windows.Forms.PictureBox ch2_marker1;
+        private System.Windows.Forms.PictureBox ch2_marker8;
+        private System.Windows.Forms.PictureBox ch2_marker7;
+        private System.Windows.Forms.PictureBox ch2_marker6;
+        private System.Windows.Forms.PictureBox ch2_marker5;
+        private System.Windows.Forms.PictureBox ch2_marker4;
+        private System.Windows.Forms.PictureBox ch2_marker3;
+        private System.Windows.Forms.PictureBox ch2_marker2;
+        private System.Windows.Forms.PictureBox ch2_marker10;
+        private System.Windows.Forms.PictureBox ch2_marker14;
+        private System.Windows.Forms.PictureBox ch2_marker11;
+        private System.Windows.Forms.PictureBox ch2_marker12;
+        private System.Windows.Forms.PictureBox ch2_marker13;
+        private System.Windows.Forms.PictureBox ch2_marker9;
+        private System.Windows.Forms.PictureBox ch2_marker15;
+        private System.Windows.Forms.PictureBox ch2_marker16;
+        private System.Windows.Forms.PictureBox ch2_marker22;
+        private System.Windows.Forms.PictureBox ch2_marker19;
+        private System.Windows.Forms.PictureBox ch2_marker18;
+        private System.Windows.Forms.PictureBox ch2_marker21;
+        private System.Windows.Forms.PictureBox ch2_marker20;
+        private System.Windows.Forms.PictureBox ch2_marker17;
+        private System.Windows.Forms.PictureBox ch2_marker23;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox ch3_marker1;
+        private System.Windows.Forms.PictureBox ch4_marker1;
+        private System.Windows.Forms.PictureBox ch5_marker8;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox ch3_marker8;
+        private System.Windows.Forms.PictureBox ch3_marker10;
+        private System.Windows.Forms.PictureBox ch3_marker9;
+        private System.Windows.Forms.PictureBox ch3_marker7;
+        private System.Windows.Forms.PictureBox ch3_marker4;
+        private System.Windows.Forms.PictureBox ch3_marker6;
+        private System.Windows.Forms.PictureBox ch3_marker5;
+        private System.Windows.Forms.PictureBox ch3_marker3;
+        private System.Windows.Forms.PictureBox ch3_marker2;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.PictureBox ch3_marker26;
+        private System.Windows.Forms.PictureBox ch3_marker25;
+        private System.Windows.Forms.PictureBox ch3_marker27;
+        private System.Windows.Forms.PictureBox ch3_marker22;
+        private System.Windows.Forms.PictureBox ch3_marker23;
+        private System.Windows.Forms.PictureBox ch3_marker21;
+        private System.Windows.Forms.PictureBox ch3_marker24;
+        private System.Windows.Forms.PictureBox ch3_marker18;
+        private System.Windows.Forms.PictureBox ch3_marker20;
+        private System.Windows.Forms.PictureBox ch3_marker19;
+        private System.Windows.Forms.PictureBox ch3_marker17;
+        private System.Windows.Forms.PictureBox ch3_marker13;
+        private System.Windows.Forms.PictureBox ch3_marker14;
+        private System.Windows.Forms.PictureBox ch3_marker12;
+        private System.Windows.Forms.PictureBox ch3_marker11;
+        private System.Windows.Forms.PictureBox ch3_marker16;
+        private System.Windows.Forms.PictureBox ch3_marker15;
+        private System.Windows.Forms.PictureBox ch4_marker18;
+        private System.Windows.Forms.PictureBox ch4_marker13;
+        private System.Windows.Forms.PictureBox ch4_marker17;
+        private System.Windows.Forms.PictureBox ch4_marker16;
+        private System.Windows.Forms.PictureBox ch4_marker15;
+        private System.Windows.Forms.PictureBox ch4_marker14;
+        private System.Windows.Forms.PictureBox ch4_marker12;
+        private System.Windows.Forms.PictureBox ch4_marker10;
+        private System.Windows.Forms.PictureBox ch4_marker11;
+        private System.Windows.Forms.PictureBox ch4_marker9;
+        private System.Windows.Forms.PictureBox ch4_marker8;
+        private System.Windows.Forms.PictureBox ch4_marker7;
+        private System.Windows.Forms.PictureBox ch4_marker6;
+        private System.Windows.Forms.PictureBox ch4_marker5;
+        private System.Windows.Forms.PictureBox ch4_marker2;
+        private System.Windows.Forms.PictureBox ch4_marker3;
+        private System.Windows.Forms.PictureBox ch4_marker4;
+        private System.Windows.Forms.PictureBox ch5_marker16;
+        private System.Windows.Forms.PictureBox ch5_marker18;
+        private System.Windows.Forms.PictureBox ch5_marker17;
+        private System.Windows.Forms.PictureBox ch5_marker15;
+        private System.Windows.Forms.PictureBox ch5_marker14;
+        private System.Windows.Forms.PictureBox ch5_marker13;
+        private System.Windows.Forms.PictureBox ch5_marker12;
+        private System.Windows.Forms.PictureBox ch5_marker10;
+        private System.Windows.Forms.PictureBox ch5_marker11;
+        private System.Windows.Forms.PictureBox ch5_marker9;
+        private System.Windows.Forms.PictureBox ch5_marker7;
+        private System.Windows.Forms.PictureBox ch5_marker6;
+        private System.Windows.Forms.PictureBox ch5_marker5;
+        private System.Windows.Forms.PictureBox ch5_marker2;
+        private System.Windows.Forms.PictureBox ch5_marker3;
+        private System.Windows.Forms.PictureBox ch5_marker4;
+        private System.Windows.Forms.PictureBox ch5_marker1;
     }
 }
 

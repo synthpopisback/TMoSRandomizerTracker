@@ -373,6 +373,26 @@ namespace TMoSRandomizerTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_hotel {
+            get {
+                object obj = ResourceManager.GetObject("icon_hotel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_imam {
+            get {
+                object obj = ResourceManager.GetObject("icon_imam", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_kebabu {
             get {
                 object obj = ResourceManager.GetObject("icon_kebabu", resourceCulture);
@@ -406,6 +426,16 @@ namespace TMoSRandomizerTracker.Properties {
         internal static System.Drawing.Bitmap icon_rainy {
             get {
                 object obj = ResourceManager.GetObject("icon_rainy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_shop {
+            get {
+                object obj = ResourceManager.GetObject("icon_shop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
