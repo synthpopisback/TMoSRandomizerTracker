@@ -124,9 +124,6 @@
   <data name="icon_checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_checked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="rod_isfa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rod_isfa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,9 +135,6 @@
   </data>
   <data name="char_pukin_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_pukin_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="map_ch3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch3map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sword_rostam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sword_rostam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,9 +181,6 @@
   <data name="icon_epin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_epin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map_ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch2map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_imam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_imam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -207,9 +198,6 @@
   </data>
   <data name="char_epin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_epin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="map_ch5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch5map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_coronya" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_coronya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,9 +235,6 @@
   <data name="armor_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\armor_base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map_ch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch1map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_gubibi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_gubibi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -267,9 +252,6 @@
   </data>
   <data name="char_epin_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_epin_bw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="map_ch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ch4map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="armor_lightarmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\armor_lightarmor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -297,5 +279,20 @@
   </data>
   <data name="icon_shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_shop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_ch1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_ch2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_ch3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_ch4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_ch5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_ch5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

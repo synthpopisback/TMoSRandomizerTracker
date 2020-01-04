@@ -453,16 +453,6 @@ namespace TMoSRandomizerTracker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_transparent {
-            get {
-                object obj = ResourceManager.GetObject("icon_transparent", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icon_trooper {
             get {
                 object obj = ResourceManager.GetObject("icon_trooper", resourceCulture);
