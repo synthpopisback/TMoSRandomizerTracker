@@ -27,5 +27,20 @@ namespace TMoSRandomizerTracker
         {
             System.Diagnostics.Process.Start("https://www.github.com/synthpopisback/TMoSRandomizerTracker/releases");
         }
+
+        private void tracker_link_label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://twitch.tv/synthpopisback");
+        }
+
+        private void maps_link_label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://twitch.tv/rbarbaloot");
+        }
+
+        private void rando_link_label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://twitch.tv/ct187");
+        }
     }
 }

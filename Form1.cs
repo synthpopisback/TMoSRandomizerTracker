@@ -405,8 +405,6 @@ namespace TMoSRandomizerTracker
             ch3_marker2.Image = Properties.Resources.icon_unchecked;
             ch3_marker3.Text = "0";
             ch3_marker3.Image = Properties.Resources.icon_unchecked;
-            ch3_marker4.Text = "0";
-            ch3_marker4.Image = Properties.Resources.icon_unchecked;
             ch3_marker5.Text = "0";
             ch3_marker5.Image = Properties.Resources.icon_unchecked;
             ch3_marker6.Text = "0";
@@ -488,6 +486,10 @@ namespace TMoSRandomizerTracker
             ch4_marker17.Image = Properties.Resources.icon_unchecked;
             ch4_marker18.Text = "0";
             ch4_marker18.Image = Properties.Resources.icon_unchecked;
+            ch4_marker19.Text = "0";
+            ch4_marker19.Image = Properties.Resources.icon_unchecked;
+            ch4_marker20.Text = "0";
+            ch4_marker20.Image = Properties.Resources.icon_unchecked;
 
             ch5_marker1.Text = "0";
             ch5_marker1.Image = Properties.Resources.icon_unchecked;

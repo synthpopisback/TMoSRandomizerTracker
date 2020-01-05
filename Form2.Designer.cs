@@ -31,11 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.title_label = new System.Windows.Forms.Label();
             this.version_label = new System.Windows.Forms.Label();
-            this.tracker_label = new System.Windows.Forms.Label();
+            this.tracker_link_label = new System.Windows.Forms.LinkLabel();
             this.copyright_label = new System.Windows.Forms.Label();
-            this.maps_label = new System.Windows.Forms.Label();
-            this.rando_label = new System.Windows.Forms.Label();
+            this.maps_link_label = new System.Windows.Forms.LinkLabel();
+            this.rando_link_label = new System.Windows.Forms.LinkLabel();
             this.website_link_label = new System.Windows.Forms.LinkLabel();
+            this.tracker_label1 = new System.Windows.Forms.Label();
+            this.maps_label1 = new System.Windows.Forms.Label();
+            this.rando_label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // title_label
@@ -58,15 +61,16 @@
             this.version_label.Text = "Version: ";
             this.version_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tracker_label
+            // tracker_link_label
             // 
-            this.tracker_label.AutoSize = true;
-            this.tracker_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tracker_label.Location = new System.Drawing.Point(0, 13);
-            this.tracker_label.Name = "tracker_label";
-            this.tracker_label.Size = new System.Drawing.Size(124, 13);
-            this.tracker_label.TabIndex = 2;
-            this.tracker_label.Text = "Tracker: synthpopisback";
+            this.tracker_link_label.AutoSize = true;
+            this.tracker_link_label.Location = new System.Drawing.Point(45, 13);
+            this.tracker_link_label.Name = "tracker_link_label";
+            this.tracker_link_label.Size = new System.Drawing.Size(81, 13);
+            this.tracker_link_label.TabIndex = 2;
+            this.tracker_link_label.TabStop = true;
+            this.tracker_link_label.Text = "synthpopisback";
+            this.tracker_link_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.tracker_link_label_LinkClicked);
             // 
             // copyright_label
             // 
@@ -78,25 +82,27 @@
             this.copyright_label.Text = "Copyright ©2020";
             this.copyright_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // maps_label
+            // maps_link_label
             // 
-            this.maps_label.AutoSize = true;
-            this.maps_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.maps_label.Location = new System.Drawing.Point(0, 26);
-            this.maps_label.Name = "maps_label";
-            this.maps_label.Size = new System.Drawing.Size(87, 13);
-            this.maps_label.TabIndex = 4;
-            this.maps_label.Text = "Maps: rBarbaloot";
+            this.maps_link_label.AutoSize = true;
+            this.maps_link_label.Location = new System.Drawing.Point(45, 26);
+            this.maps_link_label.Name = "maps_link_label";
+            this.maps_link_label.Size = new System.Drawing.Size(55, 13);
+            this.maps_link_label.TabIndex = 4;
+            this.maps_link_label.TabStop = true;
+            this.maps_link_label.Text = "rBarbaloot";
+            this.maps_link_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.maps_link_label_LinkClicked);
             // 
-            // rando_label
+            // rando_link_label
             // 
-            this.rando_label.AutoSize = true;
-            this.rando_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rando_label.Location = new System.Drawing.Point(0, 39);
-            this.rando_label.Name = "rando_label";
-            this.rando_label.Size = new System.Drawing.Size(96, 13);
-            this.rando_label.TabIndex = 5;
-            this.rando_label.Text = "Randomizer: ct187";
+            this.rando_link_label.AutoSize = true;
+            this.rando_link_label.Location = new System.Drawing.Point(45, 39);
+            this.rando_link_label.Name = "rando_link_label";
+            this.rando_link_label.Size = new System.Drawing.Size(34, 13);
+            this.rando_link_label.TabIndex = 5;
+            this.rando_link_label.TabStop = true;
+            this.rando_link_label.Text = "ct187";
+            this.rando_link_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.rando_link_label_LinkClicked);
             // 
             // website_link_label
             // 
@@ -110,18 +116,51 @@
             this.website_link_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.website_link_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.website_link_label_LinkClicked);
             // 
+            // tracker_label1
+            // 
+            this.tracker_label1.AutoSize = true;
+            this.tracker_label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tracker_label1.Location = new System.Drawing.Point(0, 13);
+            this.tracker_label1.Name = "tracker_label1";
+            this.tracker_label1.Size = new System.Drawing.Size(50, 13);
+            this.tracker_label1.TabIndex = 7;
+            this.tracker_label1.Text = "Tracker: ";
+            // 
+            // maps_label1
+            // 
+            this.maps_label1.AutoSize = true;
+            this.maps_label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.maps_label1.Location = new System.Drawing.Point(0, 26);
+            this.maps_label1.Name = "maps_label1";
+            this.maps_label1.Size = new System.Drawing.Size(39, 13);
+            this.maps_label1.TabIndex = 8;
+            this.maps_label1.Text = "Maps: ";
+            // 
+            // rando_label1
+            // 
+            this.rando_label1.AutoSize = true;
+            this.rando_label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rando_label1.Location = new System.Drawing.Point(0, 39);
+            this.rando_label1.Name = "rando_label1";
+            this.rando_label1.Size = new System.Drawing.Size(45, 13);
+            this.rando_label1.TabIndex = 9;
+            this.rando_label1.Text = "Rando: ";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(270, 104);
+            this.Controls.Add(this.rando_label1);
+            this.Controls.Add(this.maps_label1);
             this.Controls.Add(this.website_link_label);
-            this.Controls.Add(this.rando_label);
+            this.Controls.Add(this.rando_link_label);
             this.Controls.Add(this.version_label);
-            this.Controls.Add(this.maps_label);
-            this.Controls.Add(this.tracker_label);
-            this.Controls.Add(this.title_label);
+            this.Controls.Add(this.maps_link_label);
+            this.Controls.Add(this.tracker_link_label);
             this.Controls.Add(this.copyright_label);
+            this.Controls.Add(this.tracker_label1);
+            this.Controls.Add(this.title_label);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -140,10 +179,13 @@
 
         private System.Windows.Forms.Label title_label;
         private System.Windows.Forms.Label version_label;
-        private System.Windows.Forms.Label tracker_label;
         private System.Windows.Forms.Label copyright_label;
-        private System.Windows.Forms.Label maps_label;
-        private System.Windows.Forms.Label rando_label;
         private System.Windows.Forms.LinkLabel website_link_label;
+        private System.Windows.Forms.Label tracker_label1;
+        private System.Windows.Forms.Label maps_label1;
+        private System.Windows.Forms.Label rando_label1;
+        private System.Windows.Forms.LinkLabel tracker_link_label;
+        private System.Windows.Forms.LinkLabel maps_link_label;
+        private System.Windows.Forms.LinkLabel rando_link_label;
     }
 }
