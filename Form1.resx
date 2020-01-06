@@ -270,7 +270,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox16.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ch4_marker21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAABTSURBVDhPzc4xCgAgDARB///pSAQlykLiYWExzUoOm5k9
@@ -951,14 +951,6 @@
 </value>
   </data>
   <data name="ch3_marker15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAABTSURBVDhPzc4xCgAgDARB///pSAQlykLiYWExzUoOm5k9
-        gVGBUYFRgVGBUYFx8edodoBxOI+TMYzDs6EoGXEYN4URh1GBcfPfj4owKjAqMN6z1gEx3bZ0tq10CgAA
-        AABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="pictureBox21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAABTSURBVDhPzc4xCgAgDARB///pSAQlykLiYWExzUoOm5k9
