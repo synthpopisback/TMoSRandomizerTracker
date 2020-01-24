@@ -195,6 +195,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -360,6 +361,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -648,8 +650,8 @@
             this.ch5_marker16.Tag = "0";
             this.ch5_marker16.Text = "0";
             this.ch5_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker18
             // 
@@ -665,8 +667,8 @@
             this.ch5_marker18.Tag = "0";
             this.ch5_marker18.Text = "0";
             this.ch5_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker17
             // 
@@ -682,8 +684,8 @@
             this.ch5_marker17.Tag = "0";
             this.ch5_marker17.Text = "0";
             this.ch5_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker15
             // 
@@ -699,8 +701,8 @@
             this.ch5_marker15.Tag = "0";
             this.ch5_marker15.Text = "0";
             this.ch5_marker15.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker14
             // 
@@ -716,8 +718,8 @@
             this.ch5_marker14.Tag = "0";
             this.ch5_marker14.Text = "0";
             this.ch5_marker14.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker13
             // 
@@ -733,8 +735,8 @@
             this.ch5_marker13.Tag = "0";
             this.ch5_marker13.Text = "0";
             this.ch5_marker13.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker12
             // 
@@ -750,8 +752,8 @@
             this.ch5_marker12.Tag = "0";
             this.ch5_marker12.Text = "0";
             this.ch5_marker12.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker10
             // 
@@ -767,8 +769,8 @@
             this.ch5_marker10.Tag = "0";
             this.ch5_marker10.Text = "0";
             this.ch5_marker10.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker11
             // 
@@ -784,8 +786,8 @@
             this.ch5_marker11.Tag = "0";
             this.ch5_marker11.Text = "0";
             this.ch5_marker11.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker9
             // 
@@ -801,8 +803,8 @@
             this.ch5_marker9.Tag = "0";
             this.ch5_marker9.Text = "0";
             this.ch5_marker9.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker7
             // 
@@ -818,8 +820,8 @@
             this.ch5_marker7.Tag = "0";
             this.ch5_marker7.Text = "0";
             this.ch5_marker7.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker6
             // 
@@ -835,8 +837,8 @@
             this.ch5_marker6.Tag = "0";
             this.ch5_marker6.Text = "0";
             this.ch5_marker6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker5
             // 
@@ -852,8 +854,8 @@
             this.ch5_marker5.Tag = "0";
             this.ch5_marker5.Text = "0";
             this.ch5_marker5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker2
             // 
@@ -869,8 +871,8 @@
             this.ch5_marker2.Tag = "0";
             this.ch5_marker2.Text = "0";
             this.ch5_marker2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker3
             // 
@@ -886,8 +888,8 @@
             this.ch5_marker3.Tag = "0";
             this.ch5_marker3.Text = "0";
             this.ch5_marker3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker4
             // 
@@ -903,8 +905,8 @@
             this.ch5_marker4.Tag = "0";
             this.ch5_marker4.Text = "0";
             this.ch5_marker4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch5_marker1
             // 
@@ -920,8 +922,8 @@
             this.ch5_marker1.Tag = "0";
             this.ch5_marker1.Text = "0";
             this.ch5_marker1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // pictureBox7
             // 
@@ -981,8 +983,8 @@
             this.ch5_marker8.Tag = "0";
             this.ch5_marker8.Text = "0";
             this.ch5_marker8.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch5_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch5_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch5_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch5_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // pictureBox15
             // 
@@ -1395,7 +1397,7 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_shop;
-            this.pictureBox6.Location = new System.Drawing.Point(25, 6);
+            this.pictureBox6.Location = new System.Drawing.Point(6, 63);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(18, 18);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1417,7 +1419,7 @@
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_rainy;
-            this.pictureBox11.Location = new System.Drawing.Point(25, 25);
+            this.pictureBox11.Location = new System.Drawing.Point(25, 6);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(18, 18);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1572,8 +1574,8 @@
             this.ch2_marker23.Tag = "0";
             this.ch2_marker23.Text = "0";
             this.ch2_marker23.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker22
             // 
@@ -1589,8 +1591,8 @@
             this.ch2_marker22.Tag = "0";
             this.ch2_marker22.Text = "0";
             this.ch2_marker22.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker19
             // 
@@ -1606,8 +1608,8 @@
             this.ch2_marker19.Tag = "0";
             this.ch2_marker19.Text = "0";
             this.ch2_marker19.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker18
             // 
@@ -1623,8 +1625,8 @@
             this.ch2_marker18.Tag = "0";
             this.ch2_marker18.Text = "0";
             this.ch2_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker21
             // 
@@ -1640,8 +1642,8 @@
             this.ch2_marker21.Tag = "0";
             this.ch2_marker21.Text = "0";
             this.ch2_marker21.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker20
             // 
@@ -1657,8 +1659,8 @@
             this.ch2_marker20.Tag = "0";
             this.ch2_marker20.Text = "0";
             this.ch2_marker20.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker17
             // 
@@ -1674,8 +1676,8 @@
             this.ch2_marker17.Tag = "0";
             this.ch2_marker17.Text = "0";
             this.ch2_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker16
             // 
@@ -1691,8 +1693,8 @@
             this.ch2_marker16.Tag = "0";
             this.ch2_marker16.Text = "0";
             this.ch2_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker15
             // 
@@ -1708,8 +1710,8 @@
             this.ch2_marker15.Tag = "0";
             this.ch2_marker15.Text = "0";
             this.ch2_marker15.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker10
             // 
@@ -1725,8 +1727,8 @@
             this.ch2_marker10.Tag = "0";
             this.ch2_marker10.Text = "0";
             this.ch2_marker10.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker14
             // 
@@ -1742,8 +1744,8 @@
             this.ch2_marker14.Tag = "0";
             this.ch2_marker14.Text = "0";
             this.ch2_marker14.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker11
             // 
@@ -1759,8 +1761,8 @@
             this.ch2_marker11.Tag = "0";
             this.ch2_marker11.Text = "0";
             this.ch2_marker11.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker12
             // 
@@ -1776,8 +1778,8 @@
             this.ch2_marker12.Tag = "0";
             this.ch2_marker12.Text = "0";
             this.ch2_marker12.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker13
             // 
@@ -1793,8 +1795,8 @@
             this.ch2_marker13.Tag = "0";
             this.ch2_marker13.Text = "0";
             this.ch2_marker13.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker9
             // 
@@ -1810,8 +1812,8 @@
             this.ch2_marker9.Tag = "0";
             this.ch2_marker9.Text = "0";
             this.ch2_marker9.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker8
             // 
@@ -1827,8 +1829,8 @@
             this.ch2_marker8.Tag = "0";
             this.ch2_marker8.Text = "0";
             this.ch2_marker8.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker7
             // 
@@ -1844,8 +1846,8 @@
             this.ch2_marker7.Tag = "0";
             this.ch2_marker7.Text = "0";
             this.ch2_marker7.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker6
             // 
@@ -1861,8 +1863,8 @@
             this.ch2_marker6.Tag = "0";
             this.ch2_marker6.Text = "0";
             this.ch2_marker6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker5
             // 
@@ -1878,8 +1880,8 @@
             this.ch2_marker5.Tag = "0";
             this.ch2_marker5.Text = "0";
             this.ch2_marker5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker4
             // 
@@ -1895,8 +1897,8 @@
             this.ch2_marker4.Tag = "0";
             this.ch2_marker4.Text = "0";
             this.ch2_marker4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker3
             // 
@@ -1912,8 +1914,8 @@
             this.ch2_marker3.Tag = "0";
             this.ch2_marker3.Text = "0";
             this.ch2_marker3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker2
             // 
@@ -1929,8 +1931,8 @@
             this.ch2_marker2.Tag = "0";
             this.ch2_marker2.Text = "0";
             this.ch2_marker2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_marker1
             // 
@@ -1946,8 +1948,8 @@
             this.ch2_marker1.Tag = "0";
             this.ch2_marker1.Text = "0";
             this.ch2_marker1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch2_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch2_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch2_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch2_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch2_map_picture_box
             // 
@@ -2038,8 +2040,8 @@
             this.ch1_marker25.Tag = "0";
             this.ch1_marker25.Text = "0";
             this.ch1_marker25.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker25.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker25.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker22
             // 
@@ -2055,8 +2057,8 @@
             this.ch1_marker22.Tag = "0";
             this.ch1_marker22.Text = "0";
             this.ch1_marker22.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker22.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker22.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker24
             // 
@@ -2072,8 +2074,8 @@
             this.ch1_marker24.Tag = "0";
             this.ch1_marker24.Text = "0";
             this.ch1_marker24.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker24.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker24.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker21
             // 
@@ -2089,8 +2091,8 @@
             this.ch1_marker21.Tag = "0";
             this.ch1_marker21.Text = "0";
             this.ch1_marker21.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker21.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker21.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker23
             // 
@@ -2106,8 +2108,8 @@
             this.ch1_marker23.Tag = "0";
             this.ch1_marker23.Text = "0";
             this.ch1_marker23.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker23.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker23.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker17
             // 
@@ -2123,8 +2125,8 @@
             this.ch1_marker17.Tag = "0";
             this.ch1_marker17.Text = "0";
             this.ch1_marker17.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker17.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker17.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker16
             // 
@@ -2140,8 +2142,8 @@
             this.ch1_marker16.Tag = "0";
             this.ch1_marker16.Text = "0";
             this.ch1_marker16.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker16.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker19
             // 
@@ -2157,8 +2159,8 @@
             this.ch1_marker19.Tag = "0";
             this.ch1_marker19.Text = "0";
             this.ch1_marker19.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker19.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker20
             // 
@@ -2174,8 +2176,8 @@
             this.ch1_marker20.Tag = "0";
             this.ch1_marker20.Text = "0";
             this.ch1_marker20.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker20.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker18
             // 
@@ -2191,8 +2193,8 @@
             this.ch1_marker18.Tag = "0";
             this.ch1_marker18.Text = "0";
             this.ch1_marker18.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker18.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker18.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker14
             // 
@@ -2208,8 +2210,8 @@
             this.ch1_marker14.Tag = "0";
             this.ch1_marker14.Text = "0";
             this.ch1_marker14.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker14.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker15
             // 
@@ -2225,8 +2227,8 @@
             this.ch1_marker15.Tag = "0";
             this.ch1_marker15.Text = "0";
             this.ch1_marker15.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker15.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker13
             // 
@@ -2242,8 +2244,8 @@
             this.ch1_marker13.Tag = "0";
             this.ch1_marker13.Text = "0";
             this.ch1_marker13.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker13.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker11
             // 
@@ -2259,8 +2261,8 @@
             this.ch1_marker11.Tag = "0";
             this.ch1_marker11.Text = "0";
             this.ch1_marker11.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker11.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker12
             // 
@@ -2276,8 +2278,8 @@
             this.ch1_marker12.Tag = "0";
             this.ch1_marker12.Text = "0";
             this.ch1_marker12.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker12.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker10
             // 
@@ -2293,8 +2295,8 @@
             this.ch1_marker10.Tag = "0";
             this.ch1_marker10.Text = "0";
             this.ch1_marker10.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker10.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker9
             // 
@@ -2310,8 +2312,8 @@
             this.ch1_marker9.Tag = "0";
             this.ch1_marker9.Text = "0";
             this.ch1_marker9.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker9.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker8
             // 
@@ -2327,8 +2329,8 @@
             this.ch1_marker8.Tag = "0";
             this.ch1_marker8.Text = "0";
             this.ch1_marker8.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker8.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker7
             // 
@@ -2344,8 +2346,8 @@
             this.ch1_marker7.Tag = "0";
             this.ch1_marker7.Text = "0";
             this.ch1_marker7.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker7.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker5
             // 
@@ -2361,8 +2363,8 @@
             this.ch1_marker5.Tag = "0";
             this.ch1_marker5.Text = "0";
             this.ch1_marker5.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker5.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker6
             // 
@@ -2378,8 +2380,8 @@
             this.ch1_marker6.Tag = "0";
             this.ch1_marker6.Text = "0";
             this.ch1_marker6.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker6.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker4
             // 
@@ -2395,8 +2397,8 @@
             this.ch1_marker4.Tag = "0";
             this.ch1_marker4.Text = "0";
             this.ch1_marker4.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker4.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker2
             // 
@@ -2412,8 +2414,8 @@
             this.ch1_marker2.Tag = "0";
             this.ch1_marker2.Text = "0";
             this.ch1_marker2.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // ch1_marker3
             // 
@@ -2429,8 +2431,8 @@
             this.ch1_marker3.Tag = "0";
             this.ch1_marker3.Text = "0";
             this.ch1_marker3.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker3.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // pictureBox2
             // 
@@ -2468,8 +2470,8 @@
             this.ch1_marker1.Tag = "0";
             this.ch1_marker1.Text = "0";
             this.ch1_marker1.LoadCompleted += new System.ComponentModel.AsyncCompletedEventHandler(this.marker_LoadCompleted);
-            this.ch1_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
-            this.ch1_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_marker_MouseClick);
+            this.ch1_marker1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
+            this.ch1_marker1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ch1_2_5_marker_MouseClick);
             // 
             // pictureBox12
             // 
@@ -2502,6 +2504,7 @@
             // ch3tab
             // 
             this.ch3tab.BackColor = System.Drawing.SystemColors.Control;
+            this.ch3tab.Controls.Add(this.pictureBox16);
             this.ch3tab.Controls.Add(this.ch3_marker26);
             this.ch3tab.Controls.Add(this.ch3_marker25);
             this.ch3tab.Controls.Add(this.ch3_marker27);
@@ -2817,7 +2820,7 @@
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox28.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_shop;
-            this.pictureBox28.Location = new System.Drawing.Point(25, 6);
+            this.pictureBox28.Location = new System.Drawing.Point(6, 63);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(18, 18);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -3009,7 +3012,7 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(25, 44);
+            this.pictureBox9.Location = new System.Drawing.Point(25, 25);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(18, 18);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -3020,7 +3023,7 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(25, 25);
+            this.pictureBox8.Location = new System.Drawing.Point(25, 6);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(18, 18);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -3061,6 +3064,17 @@
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 44;
             this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_mustafa;
+            this.pictureBox16.Location = new System.Drawing.Point(25, 44);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox16.TabIndex = 45;
+            this.pictureBox16.TabStop = false;
             // 
             // mainwindow
             // 
@@ -3247,6 +3261,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3418,6 +3433,7 @@
         private System.Windows.Forms.PictureBox ch4_marker19;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox ch4_marker21;
+        private System.Windows.Forms.PictureBox pictureBox16;
     }
 }
 

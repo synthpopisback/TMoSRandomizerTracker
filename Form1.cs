@@ -541,7 +541,7 @@ namespace TMoSRandomizerTracker
             about_dialog.ShowDialog();
         }
 
-        private void ch1_marker_MouseClick(object sender, MouseEventArgs e) // Suffices for CH2 and CH5 because their lists are the same.
+        private void ch1_2_5_marker_MouseClick(object sender, MouseEventArgs e) // Suffices for CH2 and CH5 because their lists are the same.
         {
             PictureBox send_box = sender as PictureBox;
 
@@ -574,14 +574,42 @@ namespace TMoSRandomizerTracker
                 }
                 else if (send_box.Text == "5")
                 {
-                    send_box.Image = Properties.Resources.icon_checked;
-                    send_box.Text = "1";
+                    send_box.Image = Properties.Resources.icon_unchecked;
+                    send_box.Text = "0";
                 }
             }
             else
             {
-                send_box.Image = Properties.Resources.icon_unchecked;
-                send_box.Text = "0";
+                if (send_box.Text == "0")
+                {
+                    send_box.Image = Properties.Resources.icon_shop;
+                    send_box.Text = "5";
+                }
+                else if (send_box.Text == "1")
+                {
+                    send_box.Image = Properties.Resources.icon_unchecked;
+                    send_box.Text = "0";
+                }
+                else if (send_box.Text == "2")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+                else if (send_box.Text == "3")
+                {
+                    send_box.Image = Properties.Resources.icon_coronya;
+                    send_box.Text = "2";
+                }
+                else if (send_box.Text == "4")
+                {
+                    send_box.Image = Properties.Resources.icon_imam;
+                    send_box.Text = "3";
+                }
+                else if (send_box.Text == "5")
+                {
+                    send_box.Image = Properties.Resources.icon_hotel;
+                    send_box.Text = "4";
+                }
             }
         }
 
@@ -635,14 +663,62 @@ namespace TMoSRandomizerTracker
                 }
                 else if (send_box.Text == "7")
                 {
-                    send_box.Image = Properties.Resources.icon_checked;
-                    send_box.Text = "1";
+                    send_box.Image = Properties.Resources.icon_mustafa;
+                    send_box.Text = "8";
+                }
+                else if (send_box.Text == "8")
+                {
+                    send_box.Image = Properties.Resources.icon_unchecked;
+                    send_box.Text = "0";
                 }
             }
             else
             {
-                send_box.Image = Properties.Resources.icon_unchecked;
-                send_box.Text = "0";
+                if (send_box.Text == "2")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+                else if (send_box.Text == "3")
+                {
+                    send_box.Image = Properties.Resources.icon_coronya;
+                    send_box.Text = "2";
+                }
+                else if (send_box.Text == "4")
+                {
+                    send_box.Image = Properties.Resources.icon_imam;
+                    send_box.Text = "3";
+                }
+                else if (send_box.Text == "5")
+                {
+                    send_box.Image = Properties.Resources.icon_hotel;
+                    send_box.Text = "4";
+                }
+                else if (send_box.Text == "6")
+                {
+                    send_box.Image = Properties.Resources.icon_shop;
+                    send_box.Text = "5";
+                }
+                else if (send_box.Text == "7")
+                {
+                    send_box.Image = Properties.Resources.icon_cimaron;
+                    send_box.Text = "6";
+                }
+                else if (send_box.Text == "8")
+                {
+                    send_box.Image = Properties.Resources.icon_pukin;
+                    send_box.Text = "7";
+                }
+                else if (send_box.Text == "0")
+                {
+                    send_box.Image = Properties.Resources.icon_mustafa;
+                    send_box.Text = "8";
+                }
+                else if (send_box.Text == "1")
+                {
+                    send_box.Image = Properties.Resources.icon_unchecked;
+                    send_box.Text = "0";
+                }
             }
         }
 
@@ -684,14 +760,47 @@ namespace TMoSRandomizerTracker
                 }
                 else if (send_box.Text == "6")
                 {
-                    send_box.Image = Properties.Resources.icon_checked;
-                    send_box.Text = "1";
+                    send_box.Image = Properties.Resources.icon_unchecked;
+                    send_box.Text = "0";
                 }
             }
             else
             {
-                send_box.Image = Properties.Resources.icon_unchecked;
-                send_box.Text = "0";
+                if (send_box.Text == "0")
+                {
+                    send_box.Image = Properties.Resources.icon_rainy;
+                    send_box.Text = "6";
+                }
+                else if (send_box.Text == "1")
+                {
+                    send_box.Image = Properties.Resources.icon_unchecked;
+                    send_box.Text = "0";
+                }
+                else if (send_box.Text == "2")
+                {
+                    send_box.Image = Properties.Resources.icon_checked;
+                    send_box.Text = "1";
+                }
+                else if (send_box.Text == "3")
+                {
+                    send_box.Image = Properties.Resources.icon_coronya;
+                    send_box.Text = "2";
+                }
+                else if (send_box.Text == "4")
+                {
+                    send_box.Image = Properties.Resources.icon_imam;
+                    send_box.Text = "3";
+                }
+                else if (send_box.Text == "5")
+                {
+                    send_box.Image = Properties.Resources.icon_hotel;
+                    send_box.Text = "4";
+                }
+                else if (send_box.Text == "6")
+                {
+                    send_box.Image = Properties.Resources.icon_shop;
+                    send_box.Text = "5";
+                }
             }
         }
     }
