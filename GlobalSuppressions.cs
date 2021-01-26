@@ -4,7 +4,7 @@
 // a specific target and scoped to a namespace, type, member, etc.
 
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "<Pending>", Scope = "member", Target = "~M:TMoSRandomizerTracker.mainwindow.kebabu_box_Click(System.Object,System.EventArgs)")]
-[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "<Pending>", Scope = "member", Target = "~M:TMoSRandomizerTracker.Form2.website_link_label_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "<Pending>", Scope = "member", Target = "~M:TMoSRandomizerTracker.About.website_link_label_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "<Pending>", Scope = "member", Target = "~M:TMoSRandomizerTracker.mainwindow.about_button_Click(System.Object,System.EventArgs)")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "<Pending>", Scope = "member", Target = "~M:TMoSRandomizerTracker.mainwindow.armor_box_Click(System.Object,System.EventArgs)")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "<Pending>", Scope = "member", Target = "~M:TMoSRandomizerTracker.mainwindow.epin_box_Click(System.Object,System.EventArgs)")]

@@ -606,7 +606,7 @@ namespace TMoSRandomizerTracker
 
         private void about_button_Click(object sender, EventArgs e)
         {
-            Form2 about_dialog = new Form2();
+            About about_dialog = new About();
             about_dialog.ShowDialog();
         }
 
