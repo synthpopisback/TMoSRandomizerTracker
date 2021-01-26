@@ -181,8 +181,21 @@ namespace TMoSRandomizerTracker
             }
             else
             {
-                Properties.Settings.Default.armor_level = 0;
-                armor_box.Image = Properties.Resources.armor_base;
+                if (Properties.Settings.Default.armor_level == 0)
+                {
+                    Properties.Settings.Default.armor_level = 2;
+                    armor_box.Image = Properties.Resources.armor_lightarmor;
+                }
+                else if (Properties.Settings.Default.armor_level == 1)
+                {
+                    Properties.Settings.Default.armor_level = 0;
+                    armor_box.Image = Properties.Resources.armor_base;
+                }
+                else if (Properties.Settings.Default.armor_level == 2)
+                {
+                    Properties.Settings.Default.armor_level = 1;
+                    armor_box.Image = Properties.Resources.armor_rarmor;
+                }
             }
         }
 
@@ -223,8 +236,36 @@ namespace TMoSRandomizerTracker
             }
             else
             {
-                Properties.Settings.Default.rod_level = 1;
-                rod_box.Image = Properties.Resources.rod_rod;
+                if (Properties.Settings.Default.rod_level == 1)
+                {
+                    Properties.Settings.Default.rod_level = 6;
+                    rod_box.Image = Properties.Resources.rod_isfa;
+                }
+                else if (Properties.Settings.Default.rod_level == 2)
+                {
+                    Properties.Settings.Default.rod_level = 1;
+                    rod_box.Image = Properties.Resources.rod_rod;
+                }
+                else if (Properties.Settings.Default.rod_level == 3)
+                {
+                    Properties.Settings.Default.rod_level = 2;
+                    rod_box.Image = Properties.Resources.rod_flame;
+                }
+                else if (Properties.Settings.Default.rod_level == 4)
+                {
+                    Properties.Settings.Default.rod_level = 3;
+                    rod_box.Image = Properties.Resources.rod_stardust;
+                }
+                else if (Properties.Settings.Default.rod_level == 5)
+                {
+                    Properties.Settings.Default.rod_level = 4;
+                    rod_box.Image = Properties.Resources.rod_cimaron;
+                }
+                else if (Properties.Settings.Default.rod_level == 6)
+                {
+                    Properties.Settings.Default.rod_level = 5;
+                    rod_box.Image = Properties.Resources.rod_crystal;
+                }
             }
         }
 
@@ -265,8 +306,36 @@ namespace TMoSRandomizerTracker
             }
             else
             {
-                Properties.Settings.Default.sword_level = 1;
-                sword_box.Image = Properties.Resources.sword_sword;
+                if (Properties.Settings.Default.sword_level == 1)
+                {
+                    Properties.Settings.Default.sword_level = 6;
+                    sword_box.Image = Properties.Resources.sword_legend;
+                }
+                else if (Properties.Settings.Default.sword_level == 2)
+                {
+                    Properties.Settings.Default.sword_level = 1;
+                    sword_box.Image = Properties.Resources.sword_sword;
+                }
+                else if (Properties.Settings.Default.sword_level == 3)
+                {
+                    Properties.Settings.Default.sword_level = 2;
+                    sword_box.Image = Properties.Resources.sword_simitar;
+                }
+                else if (Properties.Settings.Default.sword_level == 4)
+                {
+                    Properties.Settings.Default.sword_level = 3;
+                    sword_box.Image = Properties.Resources.sword_dragoon;
+                }
+                else if (Properties.Settings.Default.sword_level == 5)
+                {
+                    Properties.Settings.Default.sword_level = 4;
+                    sword_box.Image = Properties.Resources.sword_kashim;
+                }
+                else if (Properties.Settings.Default.sword_level == 6)
+                {
+                    Properties.Settings.Default.sword_level = 5;
+                    sword_box.Image = Properties.Resources.sword_rostam;
+                }
             }
         }
 

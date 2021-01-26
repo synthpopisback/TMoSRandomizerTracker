@@ -39,6 +39,8 @@
             this.tracker_label1 = new System.Windows.Forms.Label();
             this.maps_label1 = new System.Windows.Forms.Label();
             this.rando_label1 = new System.Windows.Forms.Label();
+            this.icon_label1 = new System.Windows.Forms.Label();
+            this.icon_link_label = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // title_label
@@ -54,7 +56,7 @@
             // version_label
             // 
             this.version_label.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.version_label.Location = new System.Drawing.Point(0, 78);
+            this.version_label.Location = new System.Drawing.Point(0, 81);
             this.version_label.Name = "version_label";
             this.version_label.Size = new System.Drawing.Size(270, 13);
             this.version_label.TabIndex = 1;
@@ -75,7 +77,7 @@
             // copyright_label
             // 
             this.copyright_label.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.copyright_label.Location = new System.Drawing.Point(0, 91);
+            this.copyright_label.Location = new System.Drawing.Point(0, 94);
             this.copyright_label.Name = "copyright_label";
             this.copyright_label.Size = new System.Drawing.Size(270, 13);
             this.copyright_label.TabIndex = 3;
@@ -107,9 +109,9 @@
             // website_link_label
             // 
             this.website_link_label.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.website_link_label.Location = new System.Drawing.Point(0, 55);
+            this.website_link_label.Location = new System.Drawing.Point(0, 68);
             this.website_link_label.Name = "website_link_label";
-            this.website_link_label.Size = new System.Drawing.Size(270, 23);
+            this.website_link_label.Size = new System.Drawing.Size(270, 13);
             this.website_link_label.TabIndex = 6;
             this.website_link_label.TabStop = true;
             this.website_link_label.Text = "https://bit.ly/tmosrt";
@@ -146,11 +148,34 @@
             this.rando_label1.TabIndex = 9;
             this.rando_label1.Text = "Rando: ";
             // 
+            // icon_label1
+            // 
+            this.icon_label1.AutoSize = true;
+            this.icon_label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.icon_label1.Location = new System.Drawing.Point(0, 52);
+            this.icon_label1.Name = "icon_label1";
+            this.icon_label1.Size = new System.Drawing.Size(39, 13);
+            this.icon_label1.TabIndex = 10;
+            this.icon_label1.Text = "Icons: ";
+            // 
+            // icon_link_label
+            // 
+            this.icon_link_label.AutoSize = true;
+            this.icon_link_label.Location = new System.Drawing.Point(45, 52);
+            this.icon_link_label.Name = "icon_link_label";
+            this.icon_link_label.Size = new System.Drawing.Size(53, 13);
+            this.icon_link_label.TabIndex = 11;
+            this.icon_link_label.TabStop = true;
+            this.icon_link_label.Text = "LittleAnari";
+            this.icon_link_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.icon_link_label_LinkClicked);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(270, 104);
+            this.ClientSize = new System.Drawing.Size(270, 107);
+            this.Controls.Add(this.icon_link_label);
+            this.Controls.Add(this.icon_label1);
             this.Controls.Add(this.rando_label1);
             this.Controls.Add(this.maps_label1);
             this.Controls.Add(this.website_link_label);
@@ -187,5 +212,7 @@
         private System.Windows.Forms.LinkLabel tracker_link_label;
         private System.Windows.Forms.LinkLabel maps_link_label;
         private System.Windows.Forms.LinkLabel rando_link_label;
+        private System.Windows.Forms.Label icon_label1;
+        private System.Windows.Forms.LinkLabel icon_link_label;
     }
 }

@@ -42,5 +42,10 @@ namespace TMoSRandomizerTracker
         {
             System.Diagnostics.Process.Start("https://twitch.tv/ct187");
         }
+
+        private void icon_link_label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://twitch.tv/littleanari");
+        }
     }
 }

@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainwindow));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.reset_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.about_button = new System.Windows.Forms.Button();
             this.pukin_box = new System.Windows.Forms.PictureBox();
             this.gubibi_box = new System.Windows.Forms.PictureBox();
             this.epin_box = new System.Windows.Forms.PictureBox();
@@ -42,7 +42,7 @@
             this.mustafa_box = new System.Windows.Forms.PictureBox();
             this.kebabu_box = new System.Windows.Forms.PictureBox();
             this.faruk_box = new System.Windows.Forms.PictureBox();
-            this.about_button = new System.Windows.Forms.Button();
+            this.reset_button = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.sword_box = new System.Windows.Forms.PictureBox();
             this.rod_box = new System.Windows.Forms.PictureBox();
@@ -162,6 +162,7 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.map_tabs = new System.Windows.Forms.TabControl();
             this.ch3tab = new System.Windows.Forms.TabPage();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.ch3_marker26 = new System.Windows.Forms.PictureBox();
             this.ch3_marker25 = new System.Windows.Forms.PictureBox();
             this.ch3_marker27 = new System.Windows.Forms.PictureBox();
@@ -195,7 +196,6 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -328,6 +328,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.map_tabs.SuspendLayout();
             this.ch3tab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_marker26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_marker25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_marker27)).BeginInit();
@@ -361,13 +362,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Left;
             this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
@@ -375,8 +375,8 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.reset_button);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
+            this.splitContainer1.Panel1.Controls.Add(this.about_button);
             this.splitContainer1.Panel1.Controls.Add(this.pukin_box);
             this.splitContainer1.Panel1.Controls.Add(this.gubibi_box);
             this.splitContainer1.Panel1.Controls.Add(this.epin_box);
@@ -390,46 +390,48 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.about_button);
+            this.splitContainer1.Panel2.Controls.Add(this.reset_button);
             this.splitContainer1.Panel2.Controls.Add(this.label3);
             this.splitContainer1.Panel2.Controls.Add(this.sword_box);
             this.splitContainer1.Panel2.Controls.Add(this.rod_box);
             this.splitContainer1.Panel2.Controls.Add(this.armor_box);
-            this.splitContainer1.Size = new System.Drawing.Size(454, 762);
+            this.splitContainer1.Size = new System.Drawing.Size(441, 762);
             this.splitContainer1.SplitterDistance = 555;
             this.splitContainer1.TabIndex = 3;
             this.splitContainer1.TabStop = false;
             // 
-            // reset_button
-            // 
-            this.reset_button.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.reset_button.Location = new System.Drawing.Point(368, 11);
-            this.reset_button.Name = "reset_button";
-            this.reset_button.Size = new System.Drawing.Size(75, 23);
-            this.reset_button.TabIndex = 11;
-            this.reset_button.TabStop = false;
-            this.reset_button.Text = "RESET";
-            this.reset_button.UseVisualStyleBackColor = true;
-            this.reset_button.MouseClick += new System.Windows.Forms.MouseEventHandler(this.reset_button_MouseClick);
-            // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Press Start 2P", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(132, 13);
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(230, 21);
+            this.label1.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.label1.Size = new System.Drawing.Size(439, 21);
             this.label1.TabIndex = 10;
             this.label1.Text = "COMPANIONS";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // about_button
+            // 
+            this.about_button.AutoSize = true;
+            this.about_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.about_button.Font = new System.Drawing.Font("Press Start 2P", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.about_button.Location = new System.Drawing.Point(412, 532);
+            this.about_button.Name = "about_button";
+            this.about_button.Size = new System.Drawing.Size(27, 21);
+            this.about_button.TabIndex = 12;
+            this.about_button.TabStop = false;
+            this.about_button.Text = "?";
+            this.about_button.UseVisualStyleBackColor = true;
+            this.about_button.Click += new System.EventHandler(this.about_button_Click);
             // 
             // pukin_box
             // 
             this.pukin_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_pukin_bw;
-            this.pukin_box.Location = new System.Drawing.Point(11, 309);
+            this.pukin_box.Location = new System.Drawing.Point(3, 279);
             this.pukin_box.Name = "pukin_box";
             this.pukin_box.Size = new System.Drawing.Size(140, 115);
-            this.pukin_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pukin_box.TabIndex = 9;
             this.pukin_box.TabStop = false;
             this.pukin_box.Click += new System.EventHandler(this.pukin_box_Click);
@@ -438,10 +440,9 @@
             // gubibi_box
             // 
             this.gubibi_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_gubibi_bw;
-            this.gubibi_box.Location = new System.Drawing.Point(11, 430);
+            this.gubibi_box.Location = new System.Drawing.Point(3, 400);
             this.gubibi_box.Name = "gubibi_box";
             this.gubibi_box.Size = new System.Drawing.Size(140, 115);
-            this.gubibi_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gubibi_box.TabIndex = 8;
             this.gubibi_box.TabStop = false;
             this.gubibi_box.Click += new System.EventHandler(this.gubibi_box_Click);
@@ -450,10 +451,9 @@
             // epin_box
             // 
             this.epin_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_epin_bw;
-            this.epin_box.Location = new System.Drawing.Point(303, 188);
+            this.epin_box.Location = new System.Drawing.Point(295, 158);
             this.epin_box.Name = "epin_box";
             this.epin_box.Size = new System.Drawing.Size(140, 115);
-            this.epin_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.epin_box.TabIndex = 7;
             this.epin_box.TabStop = false;
             this.epin_box.Click += new System.EventHandler(this.epin_box_Click);
@@ -462,10 +462,9 @@
             // gunmeca_box
             // 
             this.gunmeca_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_gunmeca_bw;
-            this.gunmeca_box.Location = new System.Drawing.Point(11, 188);
+            this.gunmeca_box.Location = new System.Drawing.Point(3, 158);
             this.gunmeca_box.Name = "gunmeca_box";
             this.gunmeca_box.Size = new System.Drawing.Size(140, 115);
-            this.gunmeca_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunmeca_box.TabIndex = 6;
             this.gunmeca_box.TabStop = false;
             this.gunmeca_box.Click += new System.EventHandler(this.gunmeca_box_Click);
@@ -474,10 +473,9 @@
             // rainy_box
             // 
             this.rainy_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_rainy_bw;
-            this.rainy_box.Location = new System.Drawing.Point(157, 430);
+            this.rainy_box.Location = new System.Drawing.Point(149, 400);
             this.rainy_box.Name = "rainy_box";
             this.rainy_box.Size = new System.Drawing.Size(140, 115);
-            this.rainy_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rainy_box.TabIndex = 5;
             this.rainy_box.TabStop = false;
             this.rainy_box.Click += new System.EventHandler(this.rainy_box_Click);
@@ -486,10 +484,9 @@
             // hassan_box
             // 
             this.hassan_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_hassan_bw;
-            this.hassan_box.Location = new System.Drawing.Point(303, 430);
+            this.hassan_box.Location = new System.Drawing.Point(295, 400);
             this.hassan_box.Name = "hassan_box";
             this.hassan_box.Size = new System.Drawing.Size(140, 115);
-            this.hassan_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.hassan_box.TabIndex = 4;
             this.hassan_box.TabStop = false;
             this.hassan_box.Click += new System.EventHandler(this.hassan_box_Click);
@@ -498,10 +495,9 @@
             // supica_box
             // 
             this.supica_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_supica_bw;
-            this.supica_box.Location = new System.Drawing.Point(157, 188);
+            this.supica_box.Location = new System.Drawing.Point(149, 158);
             this.supica_box.Name = "supica_box";
             this.supica_box.Size = new System.Drawing.Size(140, 115);
-            this.supica_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.supica_box.TabIndex = 3;
             this.supica_box.TabStop = false;
             this.supica_box.Click += new System.EventHandler(this.supica_box_Click);
@@ -510,10 +506,9 @@
             // mustafa_box
             // 
             this.mustafa_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_mustafa_bw;
-            this.mustafa_box.Location = new System.Drawing.Point(157, 309);
+            this.mustafa_box.Location = new System.Drawing.Point(149, 279);
             this.mustafa_box.Name = "mustafa_box";
             this.mustafa_box.Size = new System.Drawing.Size(140, 115);
-            this.mustafa_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mustafa_box.TabIndex = 2;
             this.mustafa_box.TabStop = false;
             this.mustafa_box.Click += new System.EventHandler(this.mustafa_box_Click);
@@ -522,10 +517,9 @@
             // kebabu_box
             // 
             this.kebabu_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_kebabu_bw;
-            this.kebabu_box.Location = new System.Drawing.Point(157, 67);
+            this.kebabu_box.Location = new System.Drawing.Point(149, 37);
             this.kebabu_box.Name = "kebabu_box";
             this.kebabu_box.Size = new System.Drawing.Size(140, 115);
-            this.kebabu_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.kebabu_box.TabIndex = 1;
             this.kebabu_box.TabStop = false;
             this.kebabu_box.Click += new System.EventHandler(this.kebabu_box_Click);
@@ -534,47 +528,45 @@
             // faruk_box
             // 
             this.faruk_box.Image = global::TMoSRandomizerTracker.Properties.Resources.char_faruk_bw;
-            this.faruk_box.Location = new System.Drawing.Point(11, 67);
+            this.faruk_box.Location = new System.Drawing.Point(3, 37);
             this.faruk_box.Name = "faruk_box";
             this.faruk_box.Size = new System.Drawing.Size(140, 115);
-            this.faruk_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.faruk_box.TabIndex = 0;
             this.faruk_box.TabStop = false;
             this.faruk_box.Click += new System.EventHandler(this.faruk_box_Click);
             this.faruk_box.DoubleClick += new System.EventHandler(this.faruk_box_Click);
             // 
-            // about_button
+            // reset_button
             // 
-            this.about_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.about_button.AutoSize = true;
-            this.about_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.about_button.Location = new System.Drawing.Point(420, 172);
-            this.about_button.Name = "about_button";
-            this.about_button.Size = new System.Drawing.Size(23, 23);
-            this.about_button.TabIndex = 12;
-            this.about_button.TabStop = false;
-            this.about_button.Text = "?";
-            this.about_button.UseVisualStyleBackColor = true;
-            this.about_button.Click += new System.EventHandler(this.about_button_Click);
+            this.reset_button.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.reset_button.Font = new System.Drawing.Font("Press Start 2P", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reset_button.Location = new System.Drawing.Point(0, 178);
+            this.reset_button.Name = "reset_button";
+            this.reset_button.Size = new System.Drawing.Size(439, 23);
+            this.reset_button.TabIndex = 11;
+            this.reset_button.TabStop = false;
+            this.reset_button.Text = "RESET";
+            this.reset_button.UseVisualStyleBackColor = true;
+            this.reset_button.MouseClick += new System.Windows.Forms.MouseEventHandler(this.reset_button_MouseClick);
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
             this.label3.Font = new System.Drawing.Font("Press Start 2P", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(128, 10);
+            this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(208, 21);
+            this.label3.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.label3.Size = new System.Drawing.Size(439, 21);
             this.label3.TabIndex = 11;
             this.label3.Text = "EQUIPMENT";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sword_box
             // 
             this.sword_box.Image = global::TMoSRandomizerTracker.Properties.Resources.sword_sword;
-            this.sword_box.Location = new System.Drawing.Point(303, 39);
+            this.sword_box.Location = new System.Drawing.Point(295, 43);
             this.sword_box.Name = "sword_box";
             this.sword_box.Size = new System.Drawing.Size(140, 115);
-            this.sword_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.sword_box.TabIndex = 11;
             this.sword_box.TabStop = false;
             this.sword_box.MouseClick += new System.Windows.Forms.MouseEventHandler(this.sword_box_MouseClick);
@@ -583,10 +575,9 @@
             // rod_box
             // 
             this.rod_box.Image = global::TMoSRandomizerTracker.Properties.Resources.rod_rod;
-            this.rod_box.Location = new System.Drawing.Point(157, 39);
+            this.rod_box.Location = new System.Drawing.Point(149, 43);
             this.rod_box.Name = "rod_box";
             this.rod_box.Size = new System.Drawing.Size(140, 115);
-            this.rod_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rod_box.TabIndex = 10;
             this.rod_box.TabStop = false;
             this.rod_box.MouseClick += new System.Windows.Forms.MouseEventHandler(this.rod_box_MouseClick);
@@ -595,10 +586,9 @@
             // armor_box
             // 
             this.armor_box.Image = global::TMoSRandomizerTracker.Properties.Resources.armor_base;
-            this.armor_box.Location = new System.Drawing.Point(11, 39);
+            this.armor_box.Location = new System.Drawing.Point(3, 43);
             this.armor_box.Name = "armor_box";
             this.armor_box.Size = new System.Drawing.Size(140, 115);
-            this.armor_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.armor_box.TabIndex = 9;
             this.armor_box.TabStop = false;
             this.armor_box.MouseClick += new System.Windows.Forms.MouseEventHandler(this.armor_box_MouseClick);
@@ -641,7 +631,7 @@
             this.ch5_marker16.BackColor = System.Drawing.Color.Transparent;
             this.ch5_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker16.Image")));
-            this.ch5_marker16.Location = new System.Drawing.Point(2, 637);
+            this.ch5_marker16.Location = new System.Drawing.Point(1, 638);
             this.ch5_marker16.Name = "ch5_marker16";
             this.ch5_marker16.Size = new System.Drawing.Size(20, 20);
             this.ch5_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -658,7 +648,7 @@
             this.ch5_marker18.BackColor = System.Drawing.Color.Transparent;
             this.ch5_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker18.Image")));
-            this.ch5_marker18.Location = new System.Drawing.Point(310, 583);
+            this.ch5_marker18.Location = new System.Drawing.Point(310, 584);
             this.ch5_marker18.Name = "ch5_marker18";
             this.ch5_marker18.Size = new System.Drawing.Size(20, 20);
             this.ch5_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -675,7 +665,7 @@
             this.ch5_marker17.BackColor = System.Drawing.Color.Transparent;
             this.ch5_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker17.Image")));
-            this.ch5_marker17.Location = new System.Drawing.Point(118, 637);
+            this.ch5_marker17.Location = new System.Drawing.Point(117, 638);
             this.ch5_marker17.Name = "ch5_marker17";
             this.ch5_marker17.Size = new System.Drawing.Size(20, 20);
             this.ch5_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -726,7 +716,7 @@
             this.ch5_marker13.BackColor = System.Drawing.Color.Transparent;
             this.ch5_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker13.Image")));
-            this.ch5_marker13.Location = new System.Drawing.Point(714, 233);
+            this.ch5_marker13.Location = new System.Drawing.Point(715, 233);
             this.ch5_marker13.Name = "ch5_marker13";
             this.ch5_marker13.Size = new System.Drawing.Size(20, 20);
             this.ch5_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -811,7 +801,7 @@
             this.ch5_marker7.BackColor = System.Drawing.Color.Transparent;
             this.ch5_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker7.Image")));
-            this.ch5_marker7.Location = new System.Drawing.Point(60, 211);
+            this.ch5_marker7.Location = new System.Drawing.Point(59, 211);
             this.ch5_marker7.Name = "ch5_marker7";
             this.ch5_marker7.Size = new System.Drawing.Size(20, 20);
             this.ch5_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -862,7 +852,7 @@
             this.ch5_marker2.BackColor = System.Drawing.Color.Transparent;
             this.ch5_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker2.Image")));
-            this.ch5_marker2.Location = new System.Drawing.Point(310, 58);
+            this.ch5_marker2.Location = new System.Drawing.Point(291, 39);
             this.ch5_marker2.Name = "ch5_marker2";
             this.ch5_marker2.Size = new System.Drawing.Size(20, 20);
             this.ch5_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -896,7 +886,7 @@
             this.ch5_marker4.BackColor = System.Drawing.Color.Transparent;
             this.ch5_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch5_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch5_marker4.Image")));
-            this.ch5_marker4.Location = new System.Drawing.Point(348, 58);
+            this.ch5_marker4.Location = new System.Drawing.Point(329, 39);
             this.ch5_marker4.Name = "ch5_marker4";
             this.ch5_marker4.Size = new System.Drawing.Size(20, 20);
             this.ch5_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -989,7 +979,6 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox15.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch5;
             this.pictureBox15.Location = new System.Drawing.Point(0, 0);
@@ -1041,7 +1030,7 @@
             this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(291, 677);
+            this.pictureBox17.Location = new System.Drawing.Point(291, 678);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(20, 20);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1058,7 +1047,7 @@
             this.ch4_marker21.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker21.Image")));
-            this.ch4_marker21.Location = new System.Drawing.Point(2, 383);
+            this.ch4_marker21.Location = new System.Drawing.Point(1, 383);
             this.ch4_marker21.Name = "ch4_marker21";
             this.ch4_marker21.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1075,7 +1064,7 @@
             this.ch4_marker20.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker20.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker20.Image")));
-            this.ch4_marker20.Location = new System.Drawing.Point(642, 567);
+            this.ch4_marker20.Location = new System.Drawing.Point(639, 568);
             this.ch4_marker20.Name = "ch4_marker20";
             this.ch4_marker20.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1092,7 +1081,7 @@
             this.ch4_marker19.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker19.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker19.Image")));
-            this.ch4_marker19.Location = new System.Drawing.Point(696, 603);
+            this.ch4_marker19.Location = new System.Drawing.Point(697, 604);
             this.ch4_marker19.Name = "ch4_marker19";
             this.ch4_marker19.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1109,7 +1098,7 @@
             this.ch4_marker18.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker18.Image")));
-            this.ch4_marker18.Location = new System.Drawing.Point(696, 423);
+            this.ch4_marker18.Location = new System.Drawing.Point(697, 423);
             this.ch4_marker18.Name = "ch4_marker18";
             this.ch4_marker18.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1143,7 +1132,7 @@
             this.ch4_marker17.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker17.Image")));
-            this.ch4_marker17.Location = new System.Drawing.Point(328, 641);
+            this.ch4_marker17.Location = new System.Drawing.Point(328, 642);
             this.ch4_marker17.Name = "ch4_marker17";
             this.ch4_marker17.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1160,7 +1149,7 @@
             this.ch4_marker16.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker16.Image")));
-            this.ch4_marker16.Location = new System.Drawing.Point(290, 641);
+            this.ch4_marker16.Location = new System.Drawing.Point(291, 642);
             this.ch4_marker16.Name = "ch4_marker16";
             this.ch4_marker16.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1177,7 +1166,7 @@
             this.ch4_marker15.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker15.Image")));
-            this.ch4_marker15.Location = new System.Drawing.Point(175, 567);
+            this.ch4_marker15.Location = new System.Drawing.Point(175, 568);
             this.ch4_marker15.Name = "ch4_marker15";
             this.ch4_marker15.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1194,7 +1183,7 @@
             this.ch4_marker14.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker14.Image")));
-            this.ch4_marker14.Location = new System.Drawing.Point(1, 494);
+            this.ch4_marker14.Location = new System.Drawing.Point(1, 495);
             this.ch4_marker14.Name = "ch4_marker14";
             this.ch4_marker14.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1279,7 +1268,7 @@
             this.ch4_marker8.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker8.Image")));
-            this.ch4_marker8.Location = new System.Drawing.Point(60, 201);
+            this.ch4_marker8.Location = new System.Drawing.Point(59, 202);
             this.ch4_marker8.Name = "ch4_marker8";
             this.ch4_marker8.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1347,7 +1336,7 @@
             this.ch4_marker2.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker2.Image")));
-            this.ch4_marker2.Location = new System.Drawing.Point(542, 127);
+            this.ch4_marker2.Location = new System.Drawing.Point(523, 109);
             this.ch4_marker2.Name = "ch4_marker2";
             this.ch4_marker2.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1364,7 +1353,7 @@
             this.ch4_marker3.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker3.Image")));
-            this.ch4_marker3.Location = new System.Drawing.Point(561, 127);
+            this.ch4_marker3.Location = new System.Drawing.Point(561, 128);
             this.ch4_marker3.Name = "ch4_marker3";
             this.ch4_marker3.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1381,7 +1370,7 @@
             this.ch4_marker4.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker4.Image")));
-            this.ch4_marker4.Location = new System.Drawing.Point(580, 127);
+            this.ch4_marker4.Location = new System.Drawing.Point(561, 109);
             this.ch4_marker4.Name = "ch4_marker4";
             this.ch4_marker4.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1453,7 +1442,7 @@
             this.ch4_marker1.BackColor = System.Drawing.Color.Transparent;
             this.ch4_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch4_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch4_marker1.Image")));
-            this.ch4_marker1.Location = new System.Drawing.Point(523, 127);
+            this.ch4_marker1.Location = new System.Drawing.Point(523, 128);
             this.ch4_marker1.Name = "ch4_marker1";
             this.ch4_marker1.Size = new System.Drawing.Size(20, 20);
             this.ch4_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1468,7 +1457,6 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox14.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch4;
             this.pictureBox14.Location = new System.Drawing.Point(0, 0);
@@ -1565,7 +1553,7 @@
             this.ch2_marker23.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker23.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker23.Image")));
-            this.ch2_marker23.Location = new System.Drawing.Point(350, 63);
+            this.ch2_marker23.Location = new System.Drawing.Point(349, 64);
             this.ch2_marker23.Name = "ch2_marker23";
             this.ch2_marker23.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1582,7 +1570,7 @@
             this.ch2_marker22.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker22.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker22.Image")));
-            this.ch2_marker22.Location = new System.Drawing.Point(62, 186);
+            this.ch2_marker22.Location = new System.Drawing.Point(59, 184);
             this.ch2_marker22.Name = "ch2_marker22";
             this.ch2_marker22.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1599,7 +1587,7 @@
             this.ch2_marker19.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker19.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker19.Image")));
-            this.ch2_marker19.Location = new System.Drawing.Point(158, 207);
+            this.ch2_marker19.Location = new System.Drawing.Point(155, 206);
             this.ch2_marker19.Name = "ch2_marker19";
             this.ch2_marker19.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1616,7 +1604,7 @@
             this.ch2_marker18.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker18.Image")));
-            this.ch2_marker18.Location = new System.Drawing.Point(120, 207);
+            this.ch2_marker18.Location = new System.Drawing.Point(117, 206);
             this.ch2_marker18.Name = "ch2_marker18";
             this.ch2_marker18.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1633,7 +1621,7 @@
             this.ch2_marker21.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker21.Image")));
-            this.ch2_marker21.Location = new System.Drawing.Point(158, 226);
+            this.ch2_marker21.Location = new System.Drawing.Point(155, 225);
             this.ch2_marker21.Name = "ch2_marker21";
             this.ch2_marker21.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1650,7 +1638,7 @@
             this.ch2_marker20.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker20.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker20.Image")));
-            this.ch2_marker20.Location = new System.Drawing.Point(120, 226);
+            this.ch2_marker20.Location = new System.Drawing.Point(117, 225);
             this.ch2_marker20.Name = "ch2_marker20";
             this.ch2_marker20.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1667,7 +1655,7 @@
             this.ch2_marker17.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker17.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker17.Image")));
-            this.ch2_marker17.Location = new System.Drawing.Point(252, 530);
+            this.ch2_marker17.Location = new System.Drawing.Point(252, 532);
             this.ch2_marker17.Name = "ch2_marker17";
             this.ch2_marker17.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1684,7 +1672,7 @@
             this.ch2_marker16.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker16.Image")));
-            this.ch2_marker16.Location = new System.Drawing.Point(139, 226);
+            this.ch2_marker16.Location = new System.Drawing.Point(136, 225);
             this.ch2_marker16.Name = "ch2_marker16";
             this.ch2_marker16.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1701,7 +1689,7 @@
             this.ch2_marker15.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker15.Image")));
-            this.ch2_marker15.Location = new System.Drawing.Point(407, 710);
+            this.ch2_marker15.Location = new System.Drawing.Point(406, 716);
             this.ch2_marker15.Name = "ch2_marker15";
             this.ch2_marker15.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1718,7 +1706,7 @@
             this.ch2_marker10.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker10.Image")));
-            this.ch2_marker10.Location = new System.Drawing.Point(501, 489);
+            this.ch2_marker10.Location = new System.Drawing.Point(503, 491);
             this.ch2_marker10.Name = "ch2_marker10";
             this.ch2_marker10.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1735,7 +1723,7 @@
             this.ch2_marker14.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker14.Image")));
-            this.ch2_marker14.Location = new System.Drawing.Point(463, 489);
+            this.ch2_marker14.Location = new System.Drawing.Point(465, 491);
             this.ch2_marker14.Name = "ch2_marker14";
             this.ch2_marker14.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1752,7 +1740,7 @@
             this.ch2_marker11.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker11.Image")));
-            this.ch2_marker11.Location = new System.Drawing.Point(501, 508);
+            this.ch2_marker11.Location = new System.Drawing.Point(503, 510);
             this.ch2_marker11.Name = "ch2_marker11";
             this.ch2_marker11.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1769,7 +1757,7 @@
             this.ch2_marker12.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker12.Image")));
-            this.ch2_marker12.Location = new System.Drawing.Point(482, 508);
+            this.ch2_marker12.Location = new System.Drawing.Point(484, 510);
             this.ch2_marker12.Name = "ch2_marker12";
             this.ch2_marker12.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1786,7 +1774,7 @@
             this.ch2_marker13.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker13.Image")));
-            this.ch2_marker13.Location = new System.Drawing.Point(463, 508);
+            this.ch2_marker13.Location = new System.Drawing.Point(465, 510);
             this.ch2_marker13.Name = "ch2_marker13";
             this.ch2_marker13.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1803,7 +1791,7 @@
             this.ch2_marker9.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker9.Image")));
-            this.ch2_marker9.Location = new System.Drawing.Point(522, 508);
+            this.ch2_marker9.Location = new System.Drawing.Point(523, 510);
             this.ch2_marker9.Name = "ch2_marker9";
             this.ch2_marker9.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1820,7 +1808,7 @@
             this.ch2_marker8.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker8.Image")));
-            this.ch2_marker8.Location = new System.Drawing.Point(752, 509);
+            this.ch2_marker8.Location = new System.Drawing.Point(755, 511);
             this.ch2_marker8.Name = "ch2_marker8";
             this.ch2_marker8.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1837,7 +1825,7 @@
             this.ch2_marker7.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker7.Image")));
-            this.ch2_marker7.Location = new System.Drawing.Point(732, 226);
+            this.ch2_marker7.Location = new System.Drawing.Point(735, 226);
             this.ch2_marker7.Name = "ch2_marker7";
             this.ch2_marker7.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1854,7 +1842,7 @@
             this.ch2_marker6.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker6.Image")));
-            this.ch2_marker6.Location = new System.Drawing.Point(713, 226);
+            this.ch2_marker6.Location = new System.Drawing.Point(716, 226);
             this.ch2_marker6.Name = "ch2_marker6";
             this.ch2_marker6.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1871,7 +1859,7 @@
             this.ch2_marker5.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker5.Image")));
-            this.ch2_marker5.Location = new System.Drawing.Point(694, 226);
+            this.ch2_marker5.Location = new System.Drawing.Point(697, 226);
             this.ch2_marker5.Name = "ch2_marker5";
             this.ch2_marker5.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1888,7 +1876,7 @@
             this.ch2_marker4.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker4.Image")));
-            this.ch2_marker4.Location = new System.Drawing.Point(637, 348);
+            this.ch2_marker4.Location = new System.Drawing.Point(639, 347);
             this.ch2_marker4.Name = "ch2_marker4";
             this.ch2_marker4.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1905,7 +1893,7 @@
             this.ch2_marker3.BackColor = System.Drawing.Color.Transparent;
             this.ch2_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch2_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch2_marker3.Image")));
-            this.ch2_marker3.Location = new System.Drawing.Point(464, 267);
+            this.ch2_marker3.Location = new System.Drawing.Point(465, 266);
             this.ch2_marker3.Name = "ch2_marker3";
             this.ch2_marker3.Size = new System.Drawing.Size(20, 20);
             this.ch2_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1954,12 +1942,10 @@
             // ch2_map_picture_box
             // 
             this.ch2_map_picture_box.BackColor = System.Drawing.SystemColors.Control;
-            this.ch2_map_picture_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ch2_map_picture_box.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ch2_map_picture_box.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch2;
-            this.ch2_map_picture_box.Location = new System.Drawing.Point(3, 3);
+            this.ch2_map_picture_box.Location = new System.Drawing.Point(0, 0);
             this.ch2_map_picture_box.Name = "ch2_map_picture_box";
-            this.ch2_map_picture_box.Size = new System.Drawing.Size(807, 730);
+            this.ch2_map_picture_box.Size = new System.Drawing.Size(813, 736);
             this.ch2_map_picture_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ch2_map_picture_box.TabIndex = 1;
             this.ch2_map_picture_box.TabStop = false;
@@ -2031,7 +2017,7 @@
             this.ch1_marker25.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker25.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker25.Image")));
-            this.ch1_marker25.Location = new System.Drawing.Point(138, 604);
+            this.ch1_marker25.Location = new System.Drawing.Point(135, 605);
             this.ch1_marker25.Name = "ch1_marker25";
             this.ch1_marker25.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2048,7 +2034,7 @@
             this.ch1_marker22.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker22.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker22.Image")));
-            this.ch1_marker22.Location = new System.Drawing.Point(731, 436);
+            this.ch1_marker22.Location = new System.Drawing.Point(734, 437);
             this.ch1_marker22.Name = "ch1_marker22";
             this.ch1_marker22.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2065,7 +2051,7 @@
             this.ch1_marker24.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker24.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker24.Image")));
-            this.ch1_marker24.Location = new System.Drawing.Point(731, 455);
+            this.ch1_marker24.Location = new System.Drawing.Point(734, 456);
             this.ch1_marker24.Name = "ch1_marker24";
             this.ch1_marker24.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2082,7 +2068,7 @@
             this.ch1_marker21.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker21.Image")));
-            this.ch1_marker21.Location = new System.Drawing.Point(694, 436);
+            this.ch1_marker21.Location = new System.Drawing.Point(697, 437);
             this.ch1_marker21.Name = "ch1_marker21";
             this.ch1_marker21.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2099,7 +2085,7 @@
             this.ch1_marker23.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker23.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker23.Image")));
-            this.ch1_marker23.Location = new System.Drawing.Point(694, 455);
+            this.ch1_marker23.Location = new System.Drawing.Point(697, 456);
             this.ch1_marker23.Name = "ch1_marker23";
             this.ch1_marker23.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2133,7 +2119,7 @@
             this.ch1_marker16.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker16.Image")));
-            this.ch1_marker16.Location = new System.Drawing.Point(522, 455);
+            this.ch1_marker16.Location = new System.Drawing.Point(523, 457);
             this.ch1_marker16.Name = "ch1_marker16";
             this.ch1_marker16.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2201,7 +2187,7 @@
             this.ch1_marker14.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker14.Image")));
-            this.ch1_marker14.Location = new System.Drawing.Point(655, 69);
+            this.ch1_marker14.Location = new System.Drawing.Point(658, 67);
             this.ch1_marker14.Name = "ch1_marker14";
             this.ch1_marker14.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2218,7 +2204,7 @@
             this.ch1_marker15.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker15.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker15.Image")));
-            this.ch1_marker15.Location = new System.Drawing.Point(674, 69);
+            this.ch1_marker15.Location = new System.Drawing.Point(677, 67);
             this.ch1_marker15.Name = "ch1_marker15";
             this.ch1_marker15.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2235,7 +2221,7 @@
             this.ch1_marker13.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker13.Image")));
-            this.ch1_marker13.Location = new System.Drawing.Point(636, 69);
+            this.ch1_marker13.Location = new System.Drawing.Point(639, 67);
             this.ch1_marker13.Name = "ch1_marker13";
             this.ch1_marker13.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2252,7 +2238,7 @@
             this.ch1_marker11.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker11.Image")));
-            this.ch1_marker11.Location = new System.Drawing.Point(195, 112);
+            this.ch1_marker11.Location = new System.Drawing.Point(194, 110);
             this.ch1_marker11.Name = "ch1_marker11";
             this.ch1_marker11.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2269,7 +2255,7 @@
             this.ch1_marker12.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker12.Image")));
-            this.ch1_marker12.Location = new System.Drawing.Point(214, 112);
+            this.ch1_marker12.Location = new System.Drawing.Point(213, 110);
             this.ch1_marker12.Name = "ch1_marker12";
             this.ch1_marker12.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2286,7 +2272,7 @@
             this.ch1_marker10.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker10.Image")));
-            this.ch1_marker10.Location = new System.Drawing.Point(176, 112);
+            this.ch1_marker10.Location = new System.Drawing.Point(175, 110);
             this.ch1_marker10.Name = "ch1_marker10";
             this.ch1_marker10.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2303,7 +2289,7 @@
             this.ch1_marker9.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker9.Image")));
-            this.ch1_marker9.Location = new System.Drawing.Point(177, 241);
+            this.ch1_marker9.Location = new System.Drawing.Point(175, 240);
             this.ch1_marker9.Name = "ch1_marker9";
             this.ch1_marker9.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2320,7 +2306,7 @@
             this.ch1_marker8.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker8.Image")));
-            this.ch1_marker8.Location = new System.Drawing.Point(62, 241);
+            this.ch1_marker8.Location = new System.Drawing.Point(59, 240);
             this.ch1_marker8.Name = "ch1_marker8";
             this.ch1_marker8.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2337,7 +2323,7 @@
             this.ch1_marker7.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker7.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker7.Image")));
-            this.ch1_marker7.Location = new System.Drawing.Point(42, 222);
+            this.ch1_marker7.Location = new System.Drawing.Point(38, 221);
             this.ch1_marker7.Name = "ch1_marker7";
             this.ch1_marker7.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2354,7 +2340,7 @@
             this.ch1_marker5.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker5.Image")));
-            this.ch1_marker5.Location = new System.Drawing.Point(42, 241);
+            this.ch1_marker5.Location = new System.Drawing.Point(38, 240);
             this.ch1_marker5.Name = "ch1_marker5";
             this.ch1_marker5.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2371,7 +2357,7 @@
             this.ch1_marker6.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker6.Image")));
-            this.ch1_marker6.Location = new System.Drawing.Point(4, 222);
+            this.ch1_marker6.Location = new System.Drawing.Point(0, 221);
             this.ch1_marker6.Name = "ch1_marker6";
             this.ch1_marker6.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2388,7 +2374,7 @@
             this.ch1_marker4.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker4.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker4.Image")));
-            this.ch1_marker4.Location = new System.Drawing.Point(4, 241);
+            this.ch1_marker4.Location = new System.Drawing.Point(0, 240);
             this.ch1_marker4.Name = "ch1_marker4";
             this.ch1_marker4.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2405,7 +2391,7 @@
             this.ch1_marker2.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker2.Image")));
-            this.ch1_marker2.Location = new System.Drawing.Point(195, 540);
+            this.ch1_marker2.Location = new System.Drawing.Point(194, 542);
             this.ch1_marker2.Name = "ch1_marker2";
             this.ch1_marker2.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2422,7 +2408,7 @@
             this.ch1_marker3.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker3.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker3.Image")));
-            this.ch1_marker3.Location = new System.Drawing.Point(214, 540);
+            this.ch1_marker3.Location = new System.Drawing.Point(213, 542);
             this.ch1_marker3.Name = "ch1_marker3";
             this.ch1_marker3.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2461,7 +2447,7 @@
             this.ch1_marker1.BackColor = System.Drawing.Color.Transparent;
             this.ch1_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch1_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch1_marker1.Image")));
-            this.ch1_marker1.Location = new System.Drawing.Point(176, 540);
+            this.ch1_marker1.Location = new System.Drawing.Point(175, 542);
             this.ch1_marker1.Name = "ch1_marker1";
             this.ch1_marker1.Size = new System.Drawing.Size(20, 20);
             this.ch1_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2476,12 +2462,10 @@
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox12.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch1;
-            this.pictureBox12.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox12.Location = new System.Drawing.Point(0, 0);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(807, 730);
+            this.pictureBox12.Size = new System.Drawing.Size(813, 736);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 35;
             this.pictureBox12.TabStop = false;
@@ -2494,7 +2478,7 @@
             this.map_tabs.Controls.Add(this.ch4tab);
             this.map_tabs.Controls.Add(this.ch5tab);
             this.map_tabs.Dock = System.Windows.Forms.DockStyle.Right;
-            this.map_tabs.Location = new System.Drawing.Point(460, 0);
+            this.map_tabs.Location = new System.Drawing.Point(444, 0);
             this.map_tabs.Name = "map_tabs";
             this.map_tabs.SelectedIndex = 0;
             this.map_tabs.Size = new System.Drawing.Size(821, 762);
@@ -2544,12 +2528,23 @@
             this.ch3tab.TabIndex = 2;
             this.ch3tab.Text = "Chapter 3";
             // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_mustafa;
+            this.pictureBox16.Location = new System.Drawing.Point(25, 44);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(18, 19);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox16.TabIndex = 45;
+            this.pictureBox16.TabStop = false;
+            // 
             // ch3_marker26
             // 
             this.ch3_marker26.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker26.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker26.Image")));
-            this.ch3_marker26.Location = new System.Drawing.Point(176, 641);
+            this.ch3_marker26.Location = new System.Drawing.Point(175, 642);
             this.ch3_marker26.Name = "ch3_marker26";
             this.ch3_marker26.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2566,7 +2561,7 @@
             this.ch3_marker25.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker25.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker25.Image")));
-            this.ch3_marker25.Location = new System.Drawing.Point(233, 456);
+            this.ch3_marker25.Location = new System.Drawing.Point(233, 457);
             this.ch3_marker25.Name = "ch3_marker25";
             this.ch3_marker25.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2600,7 +2595,7 @@
             this.ch3_marker22.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker22.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker22.Image")));
-            this.ch3_marker22.Location = new System.Drawing.Point(136, 238);
+            this.ch3_marker22.Location = new System.Drawing.Point(135, 238);
             this.ch3_marker22.Name = "ch3_marker22";
             this.ch3_marker22.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2617,7 +2612,7 @@
             this.ch3_marker23.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker23.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker23.Image")));
-            this.ch3_marker23.Location = new System.Drawing.Point(155, 238);
+            this.ch3_marker23.Location = new System.Drawing.Point(154, 238);
             this.ch3_marker23.Name = "ch3_marker23";
             this.ch3_marker23.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2634,7 +2629,7 @@
             this.ch3_marker21.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker21.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker21.Image")));
-            this.ch3_marker21.Location = new System.Drawing.Point(117, 238);
+            this.ch3_marker21.Location = new System.Drawing.Point(116, 238);
             this.ch3_marker21.Name = "ch3_marker21";
             this.ch3_marker21.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2651,7 +2646,7 @@
             this.ch3_marker24.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker24.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker24.Image")));
-            this.ch3_marker24.Location = new System.Drawing.Point(60, 273);
+            this.ch3_marker24.Location = new System.Drawing.Point(59, 274);
             this.ch3_marker24.Name = "ch3_marker24";
             this.ch3_marker24.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2668,7 +2663,7 @@
             this.ch3_marker18.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker18.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker18.Image")));
-            this.ch3_marker18.Location = new System.Drawing.Point(600, 715);
+            this.ch3_marker18.Location = new System.Drawing.Point(581, 696);
             this.ch3_marker18.Name = "ch3_marker18";
             this.ch3_marker18.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2685,7 +2680,7 @@
             this.ch3_marker20.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker20.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker20.Image")));
-            this.ch3_marker20.Location = new System.Drawing.Point(638, 715);
+            this.ch3_marker20.Location = new System.Drawing.Point(618, 696);
             this.ch3_marker20.Name = "ch3_marker20";
             this.ch3_marker20.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2702,7 +2697,7 @@
             this.ch3_marker19.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker19.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker19.Image")));
-            this.ch3_marker19.Location = new System.Drawing.Point(619, 715);
+            this.ch3_marker19.Location = new System.Drawing.Point(618, 715);
             this.ch3_marker19.Name = "ch3_marker19";
             this.ch3_marker19.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2736,7 +2731,7 @@
             this.ch3_marker13.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker13.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker13.Image")));
-            this.ch3_marker13.Location = new System.Drawing.Point(773, 348);
+            this.ch3_marker13.Location = new System.Drawing.Point(774, 348);
             this.ch3_marker13.Name = "ch3_marker13";
             this.ch3_marker13.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2753,7 +2748,7 @@
             this.ch3_marker14.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker14.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker14.Image")));
-            this.ch3_marker14.Location = new System.Drawing.Point(792, 348);
+            this.ch3_marker14.Location = new System.Drawing.Point(793, 348);
             this.ch3_marker14.Name = "ch3_marker14";
             this.ch3_marker14.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2770,7 +2765,7 @@
             this.ch3_marker12.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker12.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker12.Image")));
-            this.ch3_marker12.Location = new System.Drawing.Point(754, 348);
+            this.ch3_marker12.Location = new System.Drawing.Point(755, 348);
             this.ch3_marker12.Name = "ch3_marker12";
             this.ch3_marker12.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2787,7 +2782,7 @@
             this.ch3_marker11.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker11.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker11.Image")));
-            this.ch3_marker11.Location = new System.Drawing.Point(696, 348);
+            this.ch3_marker11.Location = new System.Drawing.Point(697, 348);
             this.ch3_marker11.Name = "ch3_marker11";
             this.ch3_marker11.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2804,7 +2799,7 @@
             this.ch3_marker16.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker16.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker16.Image")));
-            this.ch3_marker16.Location = new System.Drawing.Point(367, 222);
+            this.ch3_marker16.Location = new System.Drawing.Point(368, 221);
             this.ch3_marker16.Name = "ch3_marker16";
             this.ch3_marker16.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2860,7 +2855,7 @@
             this.ch3_marker8.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker8.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker8.Image")));
-            this.ch3_marker8.Location = new System.Drawing.Point(426, 348);
+            this.ch3_marker8.Location = new System.Drawing.Point(407, 329);
             this.ch3_marker8.Name = "ch3_marker8";
             this.ch3_marker8.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2877,7 +2872,7 @@
             this.ch3_marker10.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker10.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker10.Image")));
-            this.ch3_marker10.Location = new System.Drawing.Point(464, 348);
+            this.ch3_marker10.Location = new System.Drawing.Point(444, 329);
             this.ch3_marker10.Name = "ch3_marker10";
             this.ch3_marker10.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2894,7 +2889,7 @@
             this.ch3_marker9.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker9.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker9.Image")));
-            this.ch3_marker9.Location = new System.Drawing.Point(445, 348);
+            this.ch3_marker9.Location = new System.Drawing.Point(444, 348);
             this.ch3_marker9.Name = "ch3_marker9";
             this.ch3_marker9.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2928,7 +2923,7 @@
             this.ch3_marker6.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker6.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker6.Image")));
-            this.ch3_marker6.Location = new System.Drawing.Point(118, 384);
+            this.ch3_marker6.Location = new System.Drawing.Point(117, 384);
             this.ch3_marker6.Name = "ch3_marker6";
             this.ch3_marker6.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2945,7 +2940,7 @@
             this.ch3_marker5.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker5.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker5.Image")));
-            this.ch3_marker5.Location = new System.Drawing.Point(176, 164);
+            this.ch3_marker5.Location = new System.Drawing.Point(175, 164);
             this.ch3_marker5.Name = "ch3_marker5";
             this.ch3_marker5.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2979,7 +2974,7 @@
             this.ch3_marker2.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker2.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker2.Image")));
-            this.ch3_marker2.Location = new System.Drawing.Point(270, 714);
+            this.ch3_marker2.Location = new System.Drawing.Point(270, 715);
             this.ch3_marker2.Name = "ch3_marker2";
             this.ch3_marker2.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2996,7 +2991,7 @@
             this.ch3_marker1.BackColor = System.Drawing.Color.Transparent;
             this.ch3_marker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ch3_marker1.Image = ((System.Drawing.Image)(resources.GetObject("ch3_marker1.Image")));
-            this.ch3_marker1.Location = new System.Drawing.Point(233, 714);
+            this.ch3_marker1.Location = new System.Drawing.Point(233, 715);
             this.ch3_marker1.Name = "ch3_marker1";
             this.ch3_marker1.Size = new System.Drawing.Size(20, 20);
             this.ch3_marker1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -3055,8 +3050,6 @@
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox13.Image = global::TMoSRandomizerTracker.Properties.Resources.map_ch3;
             this.pictureBox13.Location = new System.Drawing.Point(0, 0);
             this.pictureBox13.Name = "pictureBox13";
@@ -3065,22 +3058,11 @@
             this.pictureBox13.TabIndex = 44;
             this.pictureBox13.TabStop = false;
             // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.Image = global::TMoSRandomizerTracker.Properties.Resources.icon_mustafa;
-            this.pictureBox16.Location = new System.Drawing.Point(25, 44);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(18, 19);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox16.TabIndex = 45;
-            this.pictureBox16.TabStop = false;
-            // 
             // mainwindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1281, 762);
+            this.ClientSize = new System.Drawing.Size(1265, 762);
             this.Controls.Add(this.map_tabs);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -3092,7 +3074,6 @@
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
-            this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pukin_box)).EndInit();
@@ -3228,6 +3209,7 @@
             this.map_tabs.ResumeLayout(false);
             this.ch3tab.ResumeLayout(false);
             this.ch3tab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_marker26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_marker25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ch3_marker27)).EndInit();
@@ -3261,7 +3243,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
 
         }
