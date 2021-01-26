@@ -81,7 +81,7 @@
             this.copyright_label.Name = "copyright_label";
             this.copyright_label.Size = new System.Drawing.Size(270, 13);
             this.copyright_label.TabIndex = 3;
-            this.copyright_label.Text = "Copyright ©2020";
+            this.copyright_label.Text = "Copyright ©2021";
             this.copyright_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // maps_link_label
@@ -169,7 +169,7 @@
             this.icon_link_label.Text = "LittleAnari";
             this.icon_link_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.icon_link_label_LinkClicked);
             // 
-            // Form2
+            // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -190,7 +190,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form2";
+            this.Name = "About";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "About";
             this.TopMost = true;
